@@ -5,6 +5,7 @@ write=0
 
 echo '' > /home/kau/jwbang/200320/out_mod8.txt
 echo '' > $filepath
+echo ${filepath} >> log.iostat
 
 while true
 do
@@ -23,6 +24,7 @@ do
     fi
   elif [[ $str =~ ^D ]]; then
     echo "profiling DONE  --- Shutting DOWN"
+    cat ${filepath} >> log.iostat
     sudo kill -9 `pidof sadc`
     exit 0
   else

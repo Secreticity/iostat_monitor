@@ -11,12 +11,16 @@ path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
 #------------------------------
 
 echo "Saved File will be recorded as : "$filepath
+echo "NPB - bt-io"
 echo "mymodule path: "$path
+echo "Saved File will be recorded as : "$filepath >> log
+echo "NPB - bt-io" >> log
+echo "mymodule path: "$path >> log
 
 #----- mount and unmount pm963
 #sh /home/kau/jwbang/mkfs.sh xfs
 source ~/.bash_profile
-sh /home/kau/jwbang/drop-cache.sh
+sh /home/kau/jwbang/drop-cache.sh >> log
 sleep 3
 #-----------------------------
 
@@ -43,6 +47,7 @@ do
   done
 done
 
+cat ${filepath} >> log
 echo "DONE"
 echo "DONE" >> ${filepath}
 exit 0
