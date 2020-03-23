@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_org.txt'
+filepath='/home/kau/jwbang/200320/out_mod8.txt'
 
-annot="ORIGINAL"
-path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
+#annot="ORIGINAL"
+#path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
-#annot="MODIFIED-1"  #1,2,4,8,16
-#path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
+annot="MODIFIED8"  #1,2,4,8,16
+path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
 #------------------------------
 
 echo "Saved File will be recorded as : "$filepath

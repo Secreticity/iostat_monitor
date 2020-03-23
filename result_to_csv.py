@@ -4,11 +4,11 @@ import pandas as pd
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-#save_name = "org_ior_r"
-save_name = "org_npb"
+save_name = "mod8_ior_w"
+#save_name = "org_npb"
 
 # File name of the iostat/throughput result
-out_file = "out_org"
+out_file = "out_mod8"
 #-------------------------------------------------
 
 state = "INIT"
@@ -25,17 +25,17 @@ p_idle = 0.00
 linecount = 0
 
 iostat_df = pd.DataFrame(index=index)
-"""
+
 for i in [8,16,32,64]:
     for j in ['128m','256m','512m','1024m']:
         for k in range(1,4):
             listname.append(str(i)+"t_"+str(j))
-"""
 
+"""
 for i in [9,16,36,64]:
     for k in range(1,3):
         listname.append(str(i)+"t")
-
+"""
 f = open(out_file+"_iostat.txt", 'r')
 lines = f.readlines()
 for line in lines:
@@ -88,7 +88,7 @@ linecount = 0
 
 #throughput & latency
 listname = []
-"""
+
 for i in [8,16,32,64]:
     for j in ['128m','256m','512m','1024m']:
         for k in range(1,4):
@@ -97,6 +97,7 @@ for i in [8,16,32,64]:
 for i in [9,16,36,64]:
     for j in range(1,3):
         listname.append(str(i)+"t")
+"""
 
 f = open(out_file+".txt", 'r')
 lines = f.readlines()
