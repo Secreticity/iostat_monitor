@@ -4,7 +4,8 @@ import pandas as pd
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "org_ior_r"
+#save_name = "org_ior_r"
+save_name = "org_npb"
 
 # File name of the iostat/throughput result
 out_file = "out_org"
@@ -24,11 +25,16 @@ p_idle = 0.00
 linecount = 0
 
 iostat_df = pd.DataFrame(index=index)
-
+"""
 for i in [8,16,32,64]:
     for j in ['128m','256m','512m','1024m']:
         for k in range(1,4):
             listname.append(str(i)+"t_"+str(j))
+"""
+
+for i in [9,16,36,64]:
+    for k in range(1,3):
+        listname.append(str(i)+"t")
 
 f = open(out_file+"_iostat.txt", 'r')
 lines = f.readlines()
@@ -82,10 +88,15 @@ linecount = 0
 
 #throughput & latency
 listname = []
+"""
 for i in [8,16,32,64]:
     for j in ['128m','256m','512m','1024m']:
         for k in range(1,4):
             listname.append(str(i)+"t_"+str(j))
+"""
+for i in [9,16,36,64]:
+    for j in range(1,3):
+        listname.append(str(i)+"t")
 
 f = open(out_file+".txt", 'r')
 lines = f.readlines()
@@ -107,14 +118,18 @@ for line in lines:
     elif (line.find("Max") != -1):
         linecount += 1
         p_speed += float(line.split()[2])
+    elif (line.find("data") != -1):
+        linecount += 1
+        p_speed += float(line.split()[5])
     elif (line.find("pagevec") != -1):
         p_latency += int(line.split(":")[1])
 
 f.close()
 
-temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3,2)]},index=index)
+temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3000000,2)]},index=index)
 data_df = pd.concat([data_df,temp_df],axis=1)
 
 #-------------------------------- Throughput & Latency DONE ---------
-
+#print(iostat_df)
+#print(data_df)
 r = pd.concat([iostat_df,data_df],axis=0,sort=False).to_csv("result/"+save_name+".csv", mode='w')

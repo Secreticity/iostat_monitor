@@ -11,7 +11,7 @@ sar 1 -o /tmp/data >> out_org_iostat.txt 2>&1 &
 echo "sar (iostat) running..."
 sleep 0.5
 
-sh ./profiling.sh &
+sh ./n_profiling.sh &
 echo "profiling.sh running..."
 sleep 0.5
 
