@@ -1,0 +1,34 @@
+MODIFIED8
+
+Processors:9,iter:1
+   I/O data rate  (MB/sec) :         377.83
+pagevec:3408386746
+
+Processors:9,iter:2
+   I/O data rate  (MB/sec) :         376.95
+pagevec:3589899640
+
+Processors:16,iter:1
+   I/O data rate  (MB/sec) :         670.97
+pagevec:3038956094
+
+Processors:16,iter:2
+   I/O data rate  (MB/sec) :         675.50
+pagevec:2930421261
+
+Processors:36,iter:1
+   I/O data rate  (MB/sec) :        1447.53
+pagevec:2768390104
+
+Processors:36,iter:2
+   I/O data rate  (MB/sec) :        1502.47
+pagevec:2814856211
+
+Processors:64,iter:1
+   I/O data rate  (MB/sec) :        2564.85
+pagevec:3001067928
+
+Processors:64,iter:2
+   I/O data rate  (MB/sec) :        2576.46
+pagevec:3066321368
+DONE

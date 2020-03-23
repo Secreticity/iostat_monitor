@@ -3,6 +3,10 @@
 echo `/bin/syscfg/syscfg /d biossettings "Memory Mode" | grep "Current" | cut -d: -f2`
 echo `/bin/syscfg/syscfg /d biossettings "Cluster Mode" | grep "Current" | cut -d: -f2`
 
+echo "file transfer..."
+cp -r /home/kau/cykim/NPB3.4/NPB3.4-MPI /mnt/pm963/
+echo "file transfer DONE"
+
 sh ./iostat.sh &
 echo "iostat.sh running..."
 sleep 0.5

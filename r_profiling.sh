@@ -10,7 +10,7 @@ annot="MODIFIED8"
 path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
 #------------------------------
 
-echo "Saved File will be recorded as : "$flepath
+echo "Saved File will be recorded as : "$filepath
 echo "mymodule path: "$path
 
 #----- mount and unmount pm963
