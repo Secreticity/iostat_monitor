@@ -4,7 +4,7 @@ import pandas as pd
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "org_ior_w"
+save_name = "org_ior_r"
 
 # File name of the iostat/throughput result
 out_file = "out_org"
@@ -117,4 +117,4 @@ data_df = pd.concat([data_df,temp_df],axis=1)
 
 #-------------------------------- Throughput & Latency DONE ---------
 
-r = pd.concat([iostat_df,data_df],axis=0,sort=False).to_csv(save_name+".csv", mode='w')
+r = pd.concat([iostat_df,data_df],axis=0,sort=False).to_csv("result/"+save_name+".csv", mode='w')
