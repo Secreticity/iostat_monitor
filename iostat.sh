@@ -1,15 +1,15 @@
 #!/bin/bash
 
-filepath='/home/kau/jwbang/200320/out_mod8_iostat.txt'
+filepath='/home/kau/jwbang/200320/out_mod1_iostat.txt'
 write=0
 
-echo '' > /home/kau/jwbang/200320/out_mod8.txt
+echo '' > /home/kau/jwbang/200320/out_mod1.txt
 echo '' > $filepath
 echo ${filepath} >> log.iostat
 
 while true
 do
-  str=`echo $(cat out_mod8.txt | tail -1)`
+  str=`echo $(cat out_mod1.txt | tail -1)`
   if [[ $str =~ ^P ]]; then
     if [ $write -eq 0 ]; then
       write=1

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_mod8.txt'
+filepath='/home/kau/jwbang/200320/out_mod1.txt'
 
 #annot="ORIGINAL"
 #path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
