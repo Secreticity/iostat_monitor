@@ -15,7 +15,7 @@ sleep 0.1
 # ORIGINAL
 for proc in 8 16 32 64
 do
-  for b_size in 16m 64m 256m 1024m
+  for b_size in 128m 256m 512m 1024m
   do
     for iter in {1..3}
     do
@@ -29,7 +29,7 @@ do
       rmmod mymodule 
       dmesg | grep 'add_pagevec' | tail -1 | cut -d_ -f2 >> $filepath
       sh /home/kau/jwbang/drop-cache.sh
-      sleep 20s
+      sleep 4s
     done
   done
 done
