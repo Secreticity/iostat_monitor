@@ -3,7 +3,7 @@
 echo `/bin/syscfg/syscfg /d biossettings "Memory Mode" | grep "Current" | cut -d: -f2`
 echo `/bin/syscfg/syscfg /d biossettings "Cluster Mode" | grep "Current" | cut -d: -f2`
 
-echo "*** READ MODE ***"
+echo "*** HACC-IO BENCHMARK ***"
 
 sh ./iostat.sh &
 echo "iostat.sh running..."
@@ -13,8 +13,8 @@ sar 1 -o /tmp/data >> out_mod1_iostat.txt 2>&1 &
 echo "sar (iostat) running..."
 sleep 0.5
 
-sh ./r_profiling.sh &
-echo "profiling.sh running..."
+sh ./hacc_profiling.sh &
+echo "HACC-IO running..."
 sleep 0.5
 
 exit 0

@@ -1,0 +1,1347 @@
+log file from 200324
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod8.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod8.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod8.txt
+NPB - bt-io
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod1.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod1.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod1.txt
+NPB - bt-io
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod2.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod2.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Saved File will be recorded as : /home/kau/jwbang/200320/out_org.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_org
+
+Processors:8,Block Size:128m,iter:1
+Max Write: 5817.89 MiB/sec (6100.50 MB/sec)
+pagevec:140698117
+
+Processors:8,Block Size:128m,iter:2
+Max Write: 5854.21 MiB/sec (6138.58 MB/sec)
+pagevec:139395178
+
+Processors:8,Block Size:128m,iter:3
+Max Write: 5888.11 MiB/sec (6174.13 MB/sec)
+pagevec:139701377
+
+Processors:8,Block Size:256m,iter:1
+Max Write: 5807.42 MiB/sec (6089.53 MB/sec)
+pagevec:277497514
+
+Processors:8,Block Size:256m,iter:2
+Max Write: 5900.96 MiB/sec (6187.61 MB/sec)
+pagevec:279626455
+
+Processors:8,Block Size:256m,iter:3
+Max Write: 5848.76 MiB/sec (6132.87 MB/sec)
+pagevec:280804140
+
+Processors:8,Block Size:512m,iter:1
+Max Write: 5823.02 MiB/sec (6105.88 MB/sec)
+pagevec:556424810
+
+Processors:8,Block Size:512m,iter:2
+Max Write: 5918.77 MiB/sec (6206.28 MB/sec)
+pagevec:556588388
+
+Processors:8,Block Size:512m,iter:3
+Max Write: 5926.49 MiB/sec (6214.38 MB/sec)
+pagevec:560990899
+
+Processors:8,Block Size:1024m,iter:1
+Max Write: 5836.27 MiB/sec (6119.77 MB/sec)
+pagevec:1101096888
+
+Processors:8,Block Size:1024m,iter:2
+Max Write: 5950.05 MiB/sec (6239.08 MB/sec)
+pagevec:1102840505
+
+Processors:8,Block Size:1024m,iter:3
+Max Write: 5924.17 MiB/sec (6211.95 MB/sec)
+pagevec:1116007769
+
+Processors:16,Block Size:128m,iter:1
+Max Write: 9435.05 MiB/sec (9893.37 MB/sec)
+pagevec:852140671
+
+Processors:16,Block Size:128m,iter:2
+Max Write: 9457.97 MiB/sec (9917.40 MB/sec)
+pagevec:844259561
+
+Processors:16,Block Size:128m,iter:3
+Max Write: 9381.29 MiB/sec (9837.00 MB/sec)
+pagevec:836517049
+
+Processors:16,Block Size:256m,iter:1
+Max Write: 9422.26 MiB/sec (9879.95 MB/sec)
+pagevec:1737878618
+
+Processors:16,Block Size:256m,iter:2
+Max Write: 9388.27 MiB/sec (9844.32 MB/sec)
+pagevec:1737233489
+
+Processors:16,Block Size:256m,iter:3
+Max Write: 9360.94 MiB/sec (9815.66 MB/sec)
+pagevec:1776600142
+
+Processors:16,Block Size:512m,iter:1
+Max Write: 9409.65 MiB/sec (9866.73 MB/sec)
+pagevec:3603969558
+
+Processors:16,Block Size:512m,iter:2
+Max Write: 9358.90 MiB/sec (9813.52 MB/sec)
+pagevec:3635838844
+
+Processors:16,Block Size:512m,iter:3
+Max Write: 9334.13 MiB/sec (9787.54 MB/sec)
+pagevec:3626397968
+
+Processors:16,Block Size:1024m,iter:1
+Max Write: 9322.45 MiB/sec (9775.30 MB/sec)
+pagevec:6694440979
+
+Processors:16,Block Size:1024m,iter:2
+Max Write: 9384.08 MiB/sec (9839.92 MB/sec)
+pagevec:7031765351
+
+Processors:16,Block Size:1024m,iter:3
+Max Write: 9404.10 MiB/sec (9860.91 MB/sec)
+pagevec:7007200992
+
+Processors:32,Block Size:128m,iter:1
+Max Write: 9793.61 MiB/sec (10269.34 MB/sec)
+pagevec:8204021586
+
+Processors:32,Block Size:128m,iter:2
+Max Write: 9794.43 MiB/sec (10270.20 MB/sec)
+pagevec:8176464159
+
+Processors:32,Block Size:128m,iter:3
+Max Write: 9819.83 MiB/sec (10296.84 MB/sec)
+pagevec:8191059867
+
+Processors:32,Block Size:256m,iter:1
+Max Write: 9831.34 MiB/sec (10308.90 MB/sec)
+pagevec:16523781738
+
+Processors:32,Block Size:256m,iter:2
+Max Write: 9831.75 MiB/sec (10309.33 MB/sec)
+pagevec:16515555366
+
+Processors:32,Block Size:256m,iter:3
+Max Write: 9850.77 MiB/sec (10329.28 MB/sec)
+pagevec:16463392543
+
+Processors:32,Block Size:512m,iter:1
+Max Write: 9693.19 MiB/sec (10164.04 MB/sec)
+pagevec:33031220351
+
+Processors:32,Block Size:512m,iter:2
+Max Write: 9847.98 MiB/sec (10326.36 MB/sec)
+pagevec:33159433478
+
+Processors:32,Block Size:512m,iter:3
+Max Write: 9849.39 MiB/sec (10327.83 MB/sec)
+pagevec:33110228079
+
+Processors:32,Block Size:1024m,iter:1
+Max Write: 8393.63 MiB/sec (8801.36 MB/sec)
+pagevec:58850290340
+
+Processors:32,Block Size:1024m,iter:2
+Max Write: 8634.57 MiB/sec (9054.00 MB/sec)
+pagevec:58368558086
+
+Processors:32,Block Size:1024m,iter:3
+Max Write: 8529.89 MiB/sec (8944.24 MB/sec)
+pagevec:57232830725
+
+Processors:64,Block Size:128m,iter:1
+Max Write: 9902.69 MiB/sec (10383.72 MB/sec)
+pagevec:41111774815
+
+Processors:64,Block Size:128m,iter:2
+Max Write: 9904.03 MiB/sec (10385.13 MB/sec)
+pagevec:41422782182
+
+Processors:64,Block Size:128m,iter:3
+Max Write: 9979.16 MiB/sec (10463.91 MB/sec)
+pagevec:40928796657
+
+Processors:64,Block Size:256m,iter:1
+Max Write: 9772.32 MiB/sec (10247.02 MB/sec)
+pagevec:81553978918
+
+Processors:64,Block Size:256m,iter:2
+Max Write: 9996.36 MiB/sec (10481.94 MB/sec)
+pagevec:81668676095
+
+Processors:64,Block Size:256m,iter:3
+Max Write: 9925.46 MiB/sec (10407.59 MB/sec)
+pagevec:82289585391
+
+Processors:64,Block Size:512m,iter:1
+Max Write: 9990.45 MiB/sec (10475.75 MB/sec)
+pagevec:162414999142
+
+Processors:64,Block Size:512m,iter:2
+Max Write: 9972.54 MiB/sec (10456.97 MB/sec)
+pagevec:162494940103
+
+Processors:64,Block Size:512m,iter:3
+Max Write: 9377.33 MiB/sec (9832.85 MB/sec)
+pagevec:163044951568
+
+Processors:64,Block Size:1024m,iter:1
+Max Write: 3115.79 MiB/sec (3267.14 MB/sec)
+pagevec:174688130155
+
+Processors:64,Block Size:1024m,iter:2
+Max Write: 3031.11 MiB/sec (3178.35 MB/sec)
+pagevec:134864915164
+
+Processors:64,Block Size:1024m,iter:3
+Max Write: 3203.43 MiB/sec (3359.04 MB/sec)
+pagevec:135628815584
+Saved File will be recorded as : /home/kau/jwbang/200320/out_org.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_org
+
+Processors:16,[hacc-io]-Size:100,iter:1
+641.393
+pagevec:17421528
+
+Processors:16,[hacc-io]-Size:100,iter:2
+1135.62
+pagevec:15225262
+
+Processors:16,[hacc-io]-Size:100,iter:3
+1078.39
+pagevec:17107137
+
+Processors:16,[hacc-io]-Size:1000,iter:1
+1121.14
+pagevec:16209214
+
+Processors:16,[hacc-io]-Size:1000,iter:2
+1191
+pagevec:16384090
+
+Processors:16,[hacc-io]-Size:1000,iter:3
+1227.15
+pagevec:17937718
+
+Processors:16,[hacc-io]-Size:10000,iter:1
+1038.92
+pagevec:17495177
+
+Processors:16,[hacc-io]-Size:10000,iter:2
+1149.01
+pagevec:18529701
+
+Processors:16,[hacc-io]-Size:10000,iter:3
+1333.8
+pagevec:18663644
+
+Processors:16,[hacc-io]-Size:100000,iter:1
+965.068
+pagevec:38300378
+
+Processors:16,[hacc-io]-Size:100000,iter:2
+1829.74
+pagevec:32656464
+
+Processors:16,[hacc-io]-Size:100000,iter:3
+1854.07
+pagevec:32576767
+
+Processors:16,[hacc-io]-Size:1000000,iter:1
+1024.94
+pagevec:147969804
+
+Processors:16,[hacc-io]-Size:1000000,iter:2
+2433.75
+pagevec:102812192
+
+Processors:16,[hacc-io]-Size:1000000,iter:3
+1937.03
+pagevec:125014537
+
+Processors:32,[hacc-io]-Size:100,iter:1
+135.145
+pagevec:77804651
+
+Processors:32,[hacc-io]-Size:100,iter:2
+1124.81
+pagevec:80248299
+
+Processors:32,[hacc-io]-Size:100,iter:3
+1141.43
+pagevec:89492377
+
+Processors:32,[hacc-io]-Size:1000,iter:1
+1016.96
+pagevec:94953916
+
+Processors:32,[hacc-io]-Size:1000,iter:2
+1161.84
+pagevec:84541815
+
+Processors:32,[hacc-io]-Size:1000,iter:3
+1173.83
+pagevec:85386018
+
+Processors:32,[hacc-io]-Size:10000,iter:1
+897.32
+pagevec:101872073
+
+Processors:32,[hacc-io]-Size:10000,iter:2
+1347.34
+pagevec:87744465
+
+Processors:32,[hacc-io]-Size:10000,iter:3
+1353.38
+pagevec:91184771
+
+Processors:32,[hacc-io]-Size:100000,iter:1
+983.576
+pagevec:399012561
+
+Processors:32,[hacc-io]-Size:100000,iter:2
+2023.9
+pagevec:306428621
+
+Processors:32,[hacc-io]-Size:100000,iter:3
+2034.81
+pagevec:320392424
+
+Processors:32,[hacc-io]-Size:1000000,iter:1
+1028.99
+pagevec:1359665505
+
+Processors:32,[hacc-io]-Size:1000000,iter:2
+1918.08
+pagevec:1433367359
+
+Processors:32,[hacc-io]-Size:1000000,iter:3
+2407.9
+pagevec:822151119
+
+Processors:64,[hacc-io]-Size:100,iter:1
+72.3857
+pagevec:732664454
+
+Processors:64,[hacc-io]-Size:100,iter:2
+1004.35
+pagevec:623009323
+
+Processors:64,[hacc-io]-Size:100,iter:3
+1066.73
+pagevec:706518664
+
+Processors:64,[hacc-io]-Size:1000,iter:1
+885.432
+pagevec:601812743
+
+Processors:64,[hacc-io]-Size:1000,iter:2
+1107.67
+pagevec:636359547
+
+Processors:64,[hacc-io]-Size:1000,iter:3
+226.467
+pagevec:517856877
+
+Processors:64,[hacc-io]-Size:10000,iter:1
+913.925
+pagevec:783953256
+
+Processors:64,[hacc-io]-Size:10000,iter:2
+1368.28
+pagevec:793476911
+
+Processors:64,[hacc-io]-Size:10000,iter:3
+1468.41
+pagevec:829092417
+
+Processors:64,[hacc-io]-Size:100000,iter:1
+902.128
+pagevec:2739603075
+
+Processors:64,[hacc-io]-Size:100000,iter:2
+866.878
+pagevec:2733308102
+
+Processors:64,[hacc-io]-Size:100000,iter:3
+2225.22
+pagevec:2611005485
+
+Processors:64,[hacc-io]-Size:1000000,iter:1
+1007.67
+pagevec:10476427277
+
+Processors:64,[hacc-io]-Size:1000000,iter:2
+803.1
+pagevec:10321599515
+
+Processors:64,[hacc-io]-Size:1000000,iter:3
+2397.43
+pagevec:8330793819
+Saved File will be recorded as : /home/kau/jwbang/200320/out_org.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_org
+
+Processors:16,[hacc-io]-Size:100,iter:1
+649.865
+pagevec:17304641
+
+Processors:16,[hacc-io]-Size:100,iter:2
+1077.29
+pagevec:16182012
+
+Processors:16,[hacc-io]-Size:100,iter:3
+1204.82
+pagevec:16480933
+
+Processors:16,[hacc-io]-Size:100,iter:4
+1204.22
+pagevec:14780670
+
+Processors:16,[hacc-io]-Size:100,iter:5
+1193.82
+pagevec:17870286
+
+Processors:16,[hacc-io]-Size:100,iter:6
+1206.52
+pagevec:15250589
+
+Processors:16,[hacc-io]-Size:100,iter:7
+1218.99
+pagevec:15933536
+
+Processors:16,[hacc-io]-Size:100,iter:8
+1086.92
+pagevec:16143781
+
+Processors:16,[hacc-io]-Size:100,iter:9
+1195.96
+pagevec:15802214
+
+Processors:16,[hacc-io]-Size:100,iter:10
+1208.94
+pagevec:16665700
+
+Processors:16,[hacc-io]-Size:1000,iter:1
+1095.8
+pagevec:14627151
+
+Processors:16,[hacc-io]-Size:1000,iter:2
+1146.5
+pagevec:17096426
+
+Processors:16,[hacc-io]-Size:1000,iter:3
+1229.59
+pagevec:16737449
+
+Processors:16,[hacc-io]-Size:1000,iter:4
+1077.92
+pagevec:15074553
+
+Processors:16,[hacc-io]-Size:1000,iter:5
+1206.13
+pagevec:16691232
+
+Processors:16,[hacc-io]-Size:1000,iter:6
+1249.81
+pagevec:15448741
+
+Processors:16,[hacc-io]-Size:1000,iter:7
+1230.03
+pagevec:16721331
+
+Processors:16,[hacc-io]-Size:1000,iter:8
+1245.23
+pagevec:16612744
+
+Processors:16,[hacc-io]-Size:1000,iter:9
+1232.99
+pagevec:15678664
+
+Processors:16,[hacc-io]-Size:1000,iter:10
+1080.48
+pagevec:17221482
+
+Processors:16,[hacc-io]-Size:10000,iter:1
+1056.19
+pagevec:19078165
+
+Processors:16,[hacc-io]-Size:10000,iter:2
+1318.51
+pagevec:18024242
+
+Processors:16,[hacc-io]-Size:10000,iter:3
+1325.73
+pagevec:17979851
+
+Processors:16,[hacc-io]-Size:10000,iter:4
+1323.84
+pagevec:19024609
+
+Processors:16,[hacc-io]-Size:10000,iter:5
+1299.93
+pagevec:17864641
+
+Processors:16,[hacc-io]-Size:10000,iter:6
+1139.16
+pagevec:18407426
+
+Processors:16,[hacc-io]-Size:10000,iter:7
+1354.85
+pagevec:17886094
+
+Processors:16,[hacc-io]-Size:10000,iter:8
+1358.54
+pagevec:18943750
+
+Processors:16,[hacc-io]-Size:10000,iter:9
+1317.17
+pagevec:18685342
+
+Processors:16,[hacc-io]-Size:10000,iter:10
+1352.81
+pagevec:17890713
+
+Processors:16,[hacc-io]-Size:100000,iter:1
+968.337
+pagevec:36771224
+
+Processors:16,[hacc-io]-Size:100000,iter:2
+1515.12
+pagevec:34712931
+
+Processors:16,[hacc-io]-Size:100000,iter:3
+1837.57
+pagevec:33060600
+
+Processors:16,[hacc-io]-Size:100000,iter:4
+1848.47
+pagevec:32666388
+
+Processors:16,[hacc-io]-Size:100000,iter:5
+1838.89
+pagevec:33183820
+
+Processors:16,[hacc-io]-Size:100000,iter:6
+1833.14
+pagevec:33523941
+
+Processors:16,[hacc-io]-Size:100000,iter:7
+1841.98
+pagevec:31112189
+
+Processors:16,[hacc-io]-Size:100000,iter:8
+1512.78
+pagevec:34140717
+
+Processors:16,[hacc-io]-Size:100000,iter:9
+1817.98
+pagevec:31671544
+
+Processors:16,[hacc-io]-Size:100000,iter:10
+1836.34
+pagevec:32162367
+
+Processors:16,[hacc-io]-Size:1000000,iter:1
+1036.88
+pagevec:153298314
+
+Processors:16,[hacc-io]-Size:1000000,iter:2
+2365.93
+pagevec:101735345
+
+Processors:16,[hacc-io]-Size:1000000,iter:3
+2392.17
+pagevec:102545713
+
+Processors:16,[hacc-io]-Size:1000000,iter:4
+1941.33
+pagevec:124288650
+
+Processors:16,[hacc-io]-Size:1000000,iter:5
+2416.75
+pagevec:101355675
+
+Processors:16,[hacc-io]-Size:1000000,iter:6
+2415.9
+pagevec:104676629
+
+Processors:16,[hacc-io]-Size:1000000,iter:7
+2415.19
+pagevec:106726019
+
+Processors:16,[hacc-io]-Size:1000000,iter:8
+2400.94
+pagevec:101897910
+
+Processors:16,[hacc-io]-Size:1000000,iter:9
+2381.67
+pagevec:103548377
+
+Processors:16,[hacc-io]-Size:1000000,iter:10
+940.556
+pagevec:167308295
+
+Processors:32,[hacc-io]-Size:100,iter:1
+135.497
+pagevec:77351694
+
+Processors:32,[hacc-io]-Size:100,iter:2
+1179.89
+pagevec:75593883
+
+Processors:32,[hacc-io]-Size:100,iter:3
+1171.99
+pagevec:84971582
+
+Processors:32,[hacc-io]-Size:100,iter:4
+1174.26
+pagevec:86094987
+
+Processors:32,[hacc-io]-Size:100,iter:5
+1158.25
+pagevec:76086083
+
+Processors:32,[hacc-io]-Size:100,iter:6
+1016.44
+pagevec:79770944
+
+Processors:32,[hacc-io]-Size:100,iter:7
+1142.17
+pagevec:70776095
+
+Processors:32,[hacc-io]-Size:100,iter:8
+1172.17
+pagevec:98877881
+
+Processors:32,[hacc-io]-Size:100,iter:9
+1153.22
+pagevec:78219754
+
+Processors:32,[hacc-io]-Size:100,iter:10
+1174.72
+pagevec:66681815
+
+Processors:32,[hacc-io]-Size:1000,iter:1
+1031.68
+pagevec:92104364
+
+Processors:32,[hacc-io]-Size:1000,iter:2
+1014.22
+pagevec:83510796
+
+Processors:32,[hacc-io]-Size:1000,iter:3
+1185.71
+pagevec:68770212
+
+Processors:32,[hacc-io]-Size:1000,iter:4
+1193.41
+pagevec:71963302
+
+Processors:32,[hacc-io]-Size:1000,iter:5
+1219.04
+pagevec:86480175
+
+Processors:32,[hacc-io]-Size:1000,iter:6
+1193.14
+pagevec:72172723
+
+Processors:32,[hacc-io]-Size:1000,iter:7
+1055.09
+pagevec:89506814
+
+Processors:32,[hacc-io]-Size:1000,iter:8
+1213.92
+pagevec:86616110
+
+Processors:32,[hacc-io]-Size:1000,iter:9
+1206.81
+pagevec:75711805
+
+Processors:32,[hacc-io]-Size:1000,iter:10
+1195.47
+pagevec:74850249
+
+Processors:32,[hacc-io]-Size:10000,iter:1
+984.967
+pagevec:96042662
+
+Processors:32,[hacc-io]-Size:10000,iter:2
+1325.67
+pagevec:95145795
+
+Processors:32,[hacc-io]-Size:10000,iter:3
+1179.44
+pagevec:101397498
+
+Processors:32,[hacc-io]-Size:10000,iter:4
+1410.89
+pagevec:96578267
+
+Processors:32,[hacc-io]-Size:10000,iter:5
+1385.68
+pagevec:94166181
+
+Processors:32,[hacc-io]-Size:10000,iter:6
+1409.49
+pagevec:102398570
+
+Processors:32,[hacc-io]-Size:10000,iter:7
+1183.2
+pagevec:101395063
+
+Processors:32,[hacc-io]-Size:10000,iter:8
+1410.72
+pagevec:82589049
+
+Processors:32,[hacc-io]-Size:10000,iter:9
+1381.8
+pagevec:111496611
+
+Processors:32,[hacc-io]-Size:10000,iter:10
+1374.6
+pagevec:107592671
+
+Processors:32,[hacc-io]-Size:100000,iter:1
+1000.35
+pagevec:399917257
+
+Processors:32,[hacc-io]-Size:100000,iter:2
+2003.45
+pagevec:293025723
+
+Processors:32,[hacc-io]-Size:100000,iter:3
+1676.11
+pagevec:382405194
+
+Processors:32,[hacc-io]-Size:100000,iter:4
+2039.67
+pagevec:310325747
+
+Processors:32,[hacc-io]-Size:100000,iter:5
+2047.91
+pagevec:297516008
+
+Processors:32,[hacc-io]-Size:100000,iter:6
+2028.39
+pagevec:294351892
+
+Processors:32,[hacc-io]-Size:100000,iter:7
+2043.67
+pagevec:294411734
+
+Processors:32,[hacc-io]-Size:100000,iter:8
+1660.66
+pagevec:419702292
+
+Processors:32,[hacc-io]-Size:100000,iter:9
+2048.61
+pagevec:297224746
+
+Processors:32,[hacc-io]-Size:100000,iter:10
+2008.28
+pagevec:310928855
+
+Processors:32,[hacc-io]-Size:1000000,iter:1
+1027.05
+pagevec:1408402722
+
+Processors:32,[hacc-io]-Size:1000000,iter:2
+830.202
+pagevec:1344289415
+
+Processors:32,[hacc-io]-Size:1000000,iter:3
+1870.64
+pagevec:1404164942
+
+Processors:32,[hacc-io]-Size:1000000,iter:4
+2359.12
+pagevec:826684107
+
+Processors:32,[hacc-io]-Size:1000000,iter:5
+2362.07
+pagevec:867681327
+
+Processors:32,[hacc-io]-Size:1000000,iter:6
+2365.8
+pagevec:836094370
+
+Processors:32,[hacc-io]-Size:1000000,iter:7
+2363.11
+pagevec:799431875
+
+Processors:32,[hacc-io]-Size:1000000,iter:8
+1888.03
+pagevec:1386011939
+
+Processors:32,[hacc-io]-Size:1000000,iter:9
+2373.04
+pagevec:848985512
+
+Processors:32,[hacc-io]-Size:1000000,iter:10
+2365.16
+pagevec:804411848
+
+Processors:64,[hacc-io]-Size:100,iter:1
+71.6654
+pagevec:566526625
+
+Processors:64,[hacc-io]-Size:100,iter:2
+1068.43
+pagevec:677134472
+
+Processors:64,[hacc-io]-Size:100,iter:3
+969.237
+pagevec:649848264
+
+Processors:64,[hacc-io]-Size:100,iter:4
+1078.79
+pagevec:649369503
+
+Processors:64,[hacc-io]-Size:100,iter:5
+1086.45
+pagevec:610778123
+
+Processors:64,[hacc-io]-Size:100,iter:6
+1073.67
+pagevec:683019606
+
+Processors:64,[hacc-io]-Size:100,iter:7
+1092.51
+pagevec:674233037
+
+Processors:64,[hacc-io]-Size:100,iter:8
+983.721
+pagevec:623452398
+
+Processors:64,[hacc-io]-Size:100,iter:9
+1062.85
+pagevec:734718333
+
+Processors:64,[hacc-io]-Size:100,iter:10
+1082.85
+pagevec:609872671
+
+Processors:64,[hacc-io]-Size:1000,iter:1
+792.585
+pagevec:522278965
+
+Processors:64,[hacc-io]-Size:1000,iter:2
+1107.48
+pagevec:676022343
+
+Processors:64,[hacc-io]-Size:1000,iter:3
+1121.16
+pagevec:635580086
+
+Processors:64,[hacc-io]-Size:1000,iter:4
+1133.52
+pagevec:683188702
+
+Processors:64,[hacc-io]-Size:1000,iter:5
+1130.65
+pagevec:715910098
+
+Processors:64,[hacc-io]-Size:1000,iter:6
+1108.75
+pagevec:620683625
+
+Processors:64,[hacc-io]-Size:1000,iter:7
+991.088
+pagevec:580543225
+
+Processors:64,[hacc-io]-Size:1000,iter:8
+1072.99
+pagevec:517061140
+
+Processors:64,[hacc-io]-Size:1000,iter:9
+1145.72
+pagevec:679036001
+
+Processors:64,[hacc-io]-Size:1000,iter:10
+914.85
+pagevec:627213911
+
+Processors:64,[hacc-io]-Size:10000,iter:1
+910.26
+pagevec:854044672
+
+Processors:64,[hacc-io]-Size:10000,iter:2
+1441.85
+pagevec:802236548
+
+Processors:64,[hacc-io]-Size:10000,iter:3
+1234.68
+pagevec:832892611
+
+Processors:64,[hacc-io]-Size:10000,iter:4
+1433.31
+pagevec:844097820
+
+Processors:64,[hacc-io]-Size:10000,iter:5
+1448.18
+pagevec:817172264
+
+Processors:64,[hacc-io]-Size:10000,iter:6
+1464.68
+pagevec:844958720
+
+Processors:64,[hacc-io]-Size:10000,iter:7
+1455.42
+pagevec:850301620
+
+Processors:64,[hacc-io]-Size:10000,iter:8
+1462.27
+pagevec:770958896
+
+Processors:64,[hacc-io]-Size:10000,iter:9
+1251.68
+pagevec:846232537
+
+Processors:64,[hacc-io]-Size:10000,iter:10
+1399.19
+pagevec:775260816
+
+Processors:64,[hacc-io]-Size:100000,iter:1
+966.779
+pagevec:2640621297
+
+Processors:64,[hacc-io]-Size:100000,iter:2
+876.839
+pagevec:2777392284
+
+Processors:64,[hacc-io]-Size:100000,iter:3
+2215.74
+pagevec:2509023251
+
+Processors:64,[hacc-io]-Size:100000,iter:4
+2183.64
+pagevec:2549229718
+
+Processors:64,[hacc-io]-Size:100000,iter:5
+1757.12
+pagevec:2688159027
+
+Processors:64,[hacc-io]-Size:100000,iter:6
+2182.82
+pagevec:2580927805
+
+Processors:64,[hacc-io]-Size:100000,iter:7
+2234.13
+pagevec:2465695067
+
+Processors:64,[hacc-io]-Size:100000,iter:8
+2210.31
+pagevec:2533297108
+
+Processors:64,[hacc-io]-Size:100000,iter:9
+2177.44
+pagevec:2530736458
+
+Processors:64,[hacc-io]-Size:100000,iter:10
+1712.25
+pagevec:2677666793
+
+Processors:64,[hacc-io]-Size:1000000,iter:1
+1030.83
+pagevec:10375449505
+
+Processors:64,[hacc-io]-Size:1000000,iter:2
+789.369
+pagevec:10400941935
+
+Processors:64,[hacc-io]-Size:1000000,iter:3
+2375.33
+pagevec:8362379251
+
+Processors:64,[hacc-io]-Size:1000000,iter:4
+1939.92
+pagevec:10547690086
+
+Processors:64,[hacc-io]-Size:1000000,iter:5
+2423.83
+pagevec:8362507669
+
+Processors:64,[hacc-io]-Size:1000000,iter:6
+2438.13
+pagevec:8497092045
+
+Processors:64,[hacc-io]-Size:1000000,iter:7
+2416.46
+pagevec:8340219471
+
+Processors:64,[hacc-io]-Size:1000000,iter:8
+2006.72
+pagevec:9440777944
+
+Processors:64,[hacc-io]-Size:1000000,iter:9
+1094.55
+pagevec:10307066869
+
+Processors:64,[hacc-io]-Size:1000000,iter:10
+2411.04
+pagevec:8243951683
+Saved File will be recorded as : /home/kau/jwbang/200320/out_org.txt
+NPB - bt-io
+mymodule path: /home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko
+out_org
+
+Processors:9,iter:1
+   I/O data rate  (MB/sec) :         515.96
+pagevec:1490808672
+
+Processors:9,iter:2
+   I/O data rate  (MB/sec) :         503.66
+pagevec:1548216796
+
+Processors:16,iter:1
+   I/O data rate  (MB/sec) :         907.35
+pagevec:1256349671
+
+Processors:16,iter:2
+   I/O data rate  (MB/sec) :         896.73
+pagevec:1269404110
+
+Processors:25,iter:1
+   I/O data rate  (MB/sec) :        1409.05
+pagevec:1166395110
+
+Processors:25,iter:2
+   I/O data rate  (MB/sec) :        1027.38
+pagevec:1161705328
+
+Processors:36,iter:1
+   I/O data rate  (MB/sec) :        1638.90
+pagevec:1155767927
+
+Processors:36,iter:2
+   I/O data rate  (MB/sec) :        1992.39
+pagevec:1174964192
+
+Processors:49,iter:1
+   I/O data rate  (MB/sec) :        2695.96
+pagevec:1366098642
+
+Processors:49,iter:2
+   I/O data rate  (MB/sec) :        2632.51
+pagevec:1458801915
+
+Processors:64,iter:1
+   I/O data rate  (MB/sec) :        3483.09
+pagevec:1685131509
+
+Processors:64,iter:2
+   I/O data rate  (MB/sec) :        3340.79
+pagevec:1719340337
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod1.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod1
+
+Processors:8,Block Size:128m,iter:1
+Max Write: 5774.78 MiB/sec (6055.29 MB/sec)
+pagevec:182921423
+
+Processors:8,Block Size:128m,iter:2
+Max Write: 5850.25 MiB/sec (6134.43 MB/sec)
+pagevec:184928362
+
+Processors:8,Block Size:128m,iter:3
+Max Write: 5875.23 MiB/sec (6160.62 MB/sec)
+pagevec:182442281
+
+Processors:8,Block Size:256m,iter:1
+Max Write: 5762.67 MiB/sec (6042.59 MB/sec)
+pagevec:362028452
+
+Processors:8,Block Size:256m,iter:2
+Max Write: 5908.39 MiB/sec (6195.39 MB/sec)
+pagevec:368233463
+
+Processors:8,Block Size:256m,iter:3
+Max Write: 5782.16 MiB/sec (6063.03 MB/sec)
+pagevec:385660646
+
+Processors:8,Block Size:512m,iter:1
+Max Write: 5784.33 MiB/sec (6065.31 MB/sec)
+pagevec:729804636
+
+Processors:8,Block Size:512m,iter:2
+Max Write: 5909.80 MiB/sec (6196.88 MB/sec)
+pagevec:735490743
+
+Processors:8,Block Size:512m,iter:3
+Max Write: 5910.95 MiB/sec (6198.08 MB/sec)
+pagevec:737624083
+
+Processors:8,Block Size:1024m,iter:1
+Max Write: 5807.46 MiB/sec (6089.56 MB/sec)
+pagevec:1454284071
+
+Processors:8,Block Size:1024m,iter:2
+Max Write: 5927.11 MiB/sec (6215.02 MB/sec)
+pagevec:1472753774
+
+Processors:8,Block Size:1024m,iter:3
+Max Write: 5918.51 MiB/sec (6206.01 MB/sec)
+pagevec:1469100030
+
+Processors:16,Block Size:128m,iter:1
+Max Write: 7889.42 MiB/sec (8272.66 MB/sec)
+pagevec:1640677532
+
+Processors:16,Block Size:128m,iter:2
+Max Write: 7760.75 MiB/sec (8137.73 MB/sec)
+pagevec:1696095911
+
+Processors:16,Block Size:128m,iter:3
+Max Write: 7847.98 MiB/sec (8229.20 MB/sec)
+pagevec:1638982949
+
+Processors:16,Block Size:256m,iter:1
+Max Write: 7922.65 MiB/sec (8307.50 MB/sec)
+pagevec:3298991737
+
+Processors:16,Block Size:256m,iter:2
+Max Write: 7908.04 MiB/sec (8292.18 MB/sec)
+pagevec:3313952324
+
+Processors:16,Block Size:256m,iter:3
+Max Write: 7908.60 MiB/sec (8292.77 MB/sec)
+pagevec:3310952296
+
+Processors:16,Block Size:512m,iter:1
+Max Write: 7883.52 MiB/sec (8266.47 MB/sec)
+pagevec:6645512773
+
+Processors:16,Block Size:512m,iter:2
+Max Write: 7892.51 MiB/sec (8275.90 MB/sec)
+pagevec:6662259372
+
+Processors:16,Block Size:512m,iter:3
+Max Write: 7870.30 MiB/sec (8252.61 MB/sec)
+pagevec:6693019626
+
+Processors:16,Block Size:1024m,iter:1
+Max Write: 7737.17 MiB/sec (8113.02 MB/sec)
+pagevec:13295529601
+
+Processors:16,Block Size:1024m,iter:2
+Max Write: 7746.44 MiB/sec (8122.73 MB/sec)
+pagevec:13650181353
+
+Processors:16,Block Size:1024m,iter:3
+Max Write: 7721.39 MiB/sec (8096.46 MB/sec)
+pagevec:13797014396
+
+Processors:32,Block Size:128m,iter:1
+Max Write: 8103.09 MiB/sec (8496.71 MB/sec)
+pagevec:11524929882
+
+Processors:32,Block Size:128m,iter:2
+Max Write: 8112.48 MiB/sec (8506.55 MB/sec)
+pagevec:11481722056
+
+Processors:32,Block Size:128m,iter:3
+Max Write: 8109.53 MiB/sec (8503.45 MB/sec)
+pagevec:11474509288
+
+Processors:32,Block Size:256m,iter:1
+Max Write: 8140.16 MiB/sec (8535.58 MB/sec)
+pagevec:22930484853
+
+Processors:32,Block Size:256m,iter:2
+Max Write: 8143.66 MiB/sec (8539.25 MB/sec)
+pagevec:22941748931
+
+Processors:32,Block Size:256m,iter:3
+Max Write: 8140.53 MiB/sec (8535.96 MB/sec)
+pagevec:22938384518
+
+Processors:32,Block Size:512m,iter:1
+Max Write: 7847.06 MiB/sec (8228.24 MB/sec)
+pagevec:46546393863
+
+Processors:32,Block Size:512m,iter:2
+Max Write: 8016.93 MiB/sec (8406.36 MB/sec)
+pagevec:46953969701
+
+Processors:32,Block Size:512m,iter:3
+Max Write: 8018.11 MiB/sec (8407.60 MB/sec)
+pagevec:46872350395
+
+Processors:32,Block Size:1024m,iter:1
+Max Write: 7559.22 MiB/sec (7926.42 MB/sec)
+pagevec:91209539244
+
+Processors:32,Block Size:1024m,iter:2
+Max Write: 7471.32 MiB/sec (7834.24 MB/sec)
+pagevec:88674019756
+
+Processors:32,Block Size:1024m,iter:3
+Max Write: 7471.53 MiB/sec (7834.47 MB/sec)
+pagevec:87706092320
+
+Processors:64,Block Size:128m,iter:1
+Max Write: 8378.42 MiB/sec (8785.41 MB/sec)
+pagevec:51214612020
+
+Processors:64,Block Size:128m,iter:2
+Max Write: 8368.63 MiB/sec (8775.14 MB/sec)
+pagevec:51732780641
+
+Processors:64,Block Size:128m,iter:3
+Max Write: 8393.44 MiB/sec (8801.16 MB/sec)
+pagevec:51559831193
+
+Processors:64,Block Size:256m,iter:1
+Max Write: 8143.25 MiB/sec (8538.82 MB/sec)
+pagevec:104235270065
+
+Processors:64,Block Size:256m,iter:2
+Max Write: 8203.71 MiB/sec (8602.21 MB/sec)
+pagevec:104104183099
+
+Processors:64,Block Size:256m,iter:3
+Max Write: 8167.21 MiB/sec (8563.94 MB/sec)
+pagevec:103669060105
+
+Processors:64,Block Size:512m,iter:1
+Max Write: 8133.58 MiB/sec (8528.68 MB/sec)
+pagevec:209528526534
+
+Processors:64,Block Size:512m,iter:2
+Max Write: 8179.61 MiB/sec (8576.94 MB/sec)
+pagevec:209427390888
+
+Processors:64,Block Size:512m,iter:3
+Max Write: 8160.33 MiB/sec (8556.72 MB/sec)
+pagevec:208615563716
+
+Processors:64,Block Size:1024m,iter:1
+Max Write: 3136.93 MiB/sec (3289.30 MB/sec)
+pagevec:257901013226
+
+Processors:64,Block Size:1024m,iter:2
+Max Write: 3081.03 MiB/sec (3230.69 MB/sec)
+pagevec:181201214419
+
+Processors:64,Block Size:1024m,iter:3
+Max Write: 3062.60 MiB/sec (3211.37 MB/sec)
+pagevec:180534828762

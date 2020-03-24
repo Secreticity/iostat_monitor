@@ -3,32 +3,32 @@
 #------------ SETTING VARIABLES
 filepath='/home/kau/jwbang/200320/out_mod1.txt'
 
-#annot="ORIGINAL"
+annot="out_mod1" #1,2,4,8,16
 #path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
-annot="MODIFIED1"  #1,2,4,8,16
 path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
+
+logpath="/home/kau/jwbang/200320/log_folder/log"
 #------------------------------
 
 echo "Saved File will be recorded as : "$filepath
 echo "NPB - bt-io"
 echo "mymodule path: "$path
-echo "Saved File will be recorded as : "$filepath >> log
-echo "NPB - bt-io" >> log
-echo "mymodule path: "$path >> log
+echo "Saved File will be recorded as : "$filepath >> $logpath
+echo "NPB - bt-io" >> $logpath
+echo "mymodule path: "$path >> $logpath
 
 #----- mount and unmount pm963
 #sh /home/kau/jwbang/mkfs.sh xfs
 source ~/.bash_profile
-sh /home/kau/jwbang/drop-cache.sh >> log
+sh /home/kau/jwbang/drop-cache.sh >> $logpath
 sleep 3
 #-----------------------------
 
 echo ${annot} > ${filepath}
 sleep 0.1
 
-# ORIGINAL
-for proc in 9 16 36 64
+for proc in 9 16 25 36 49 64
 do
   for iter in {1..2}
   do
@@ -47,7 +47,7 @@ do
   done
 done
 
-cat ${filepath} >> log
+cat ${filepath} >> $logpath
 echo "DONE"
 echo "DONE" >> ${filepath}
 exit 0

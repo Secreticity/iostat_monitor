@@ -1,11 +1,13 @@
 #!/bin/bash
 
 filepath='/home/kau/jwbang/200320/out_mod1_iostat.txt'
+logpath='/home/kau/jwbang/200320/log_folder/log.iostat'
+
 write=0
 
 echo '' > /home/kau/jwbang/200320/out_mod1.txt
 echo '' > $filepath
-echo ${filepath} >> log.iostat
+echo ${filepath} >> $logpath
 
 while true
 do
@@ -24,7 +26,7 @@ do
     fi
   elif [[ $str =~ ^D ]]; then
     echo "profiling DONE  --- Shutting DOWN"
-    cat ${filepath} >> log.iostat
+    cat ${filepath} >> $logpath
     sudo kill -9 `pidof sadc`
     exit 0
   else
