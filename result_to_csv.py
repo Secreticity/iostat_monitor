@@ -4,7 +4,7 @@ import pandas as pd
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "mod8_ior_r"
+save_name = "mod1_ior_r"
 #save_name = "org_npb"
 
 # File name of the iostat/throughput result
