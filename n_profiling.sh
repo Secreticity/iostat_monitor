@@ -6,7 +6,7 @@ filepath='/home/kau/jwbang/200320/out_mod1.txt'
 #annot="ORIGINAL"
 #path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
-annot="MODIFIED8"  #1,2,4,8,16
+annot="MODIFIED1"  #1,2,4,8,16
 path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
 #------------------------------
 

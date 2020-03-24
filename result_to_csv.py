@@ -8,7 +8,7 @@ save_name = "mod8_ior_r"
 #save_name = "org_npb"
 
 # File name of the iostat/throughput result
-out_file = "out_mod8"
+out_file = "out_mod1"
 #-------------------------------------------------
 
 state = "INIT"
