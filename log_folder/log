@@ -1345,3 +1345,4022 @@ pagevec:181201214419
 Processors:64,Block Size:1024m,iter:3
 Max Write: 3062.60 MiB/sec (3211.37 MB/sec)
 pagevec:180534828762
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod1.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod1
+
+Processors:16,[hacc-io]-Size:100,iter:1
+653.641
+pagevec:28199523
+
+Processors:16,[hacc-io]-Size:100,iter:2
+1049.33
+pagevec:30632047
+
+Processors:16,[hacc-io]-Size:100,iter:3
+1187.58
+pagevec:27744447
+
+Processors:16,[hacc-io]-Size:100,iter:4
+1082.33
+pagevec:27350585
+
+Processors:16,[hacc-io]-Size:100,iter:5
+1173.78
+pagevec:29488433
+
+Processors:16,[hacc-io]-Size:100,iter:6
+1056.19
+pagevec:26241846
+
+Processors:16,[hacc-io]-Size:100,iter:7
+1175.74
+pagevec:28124698
+
+Processors:16,[hacc-io]-Size:100,iter:8
+1161.59
+pagevec:29898610
+
+Processors:16,[hacc-io]-Size:100,iter:9
+1061.55
+pagevec:29457774
+
+Processors:16,[hacc-io]-Size:100,iter:10
+1190.41
+pagevec:28421726
+
+Processors:16,[hacc-io]-Size:1000,iter:1
+983.199
+pagevec:29169597
+
+Processors:16,[hacc-io]-Size:1000,iter:2
+1130.16
+pagevec:28089383
+
+Processors:16,[hacc-io]-Size:1000,iter:3
+1065.77
+pagevec:28537053
+
+Processors:16,[hacc-io]-Size:1000,iter:4
+1198.09
+pagevec:30496407
+
+Processors:16,[hacc-io]-Size:1000,iter:5
+1055.61
+pagevec:28866172
+
+Processors:16,[hacc-io]-Size:1000,iter:6
+1196.97
+pagevec:28095382
+
+Processors:16,[hacc-io]-Size:1000,iter:7
+1185.09
+pagevec:26724623
+
+Processors:16,[hacc-io]-Size:1000,iter:8
+1045.06
+pagevec:29919763
+
+Processors:16,[hacc-io]-Size:1000,iter:9
+1172.54
+pagevec:27048356
+
+Processors:16,[hacc-io]-Size:1000,iter:10
+1055.84
+pagevec:27470282
+
+Processors:16,[hacc-io]-Size:10000,iter:1
+1027.88
+pagevec:34238096
+
+Processors:16,[hacc-io]-Size:10000,iter:2
+1126.3
+pagevec:32925002
+
+Processors:16,[hacc-io]-Size:10000,iter:3
+1300.89
+pagevec:30957261
+
+Processors:16,[hacc-io]-Size:10000,iter:4
+1117.8
+pagevec:33087610
+
+Processors:16,[hacc-io]-Size:10000,iter:5
+1285.64
+pagevec:28409969
+
+Processors:16,[hacc-io]-Size:10000,iter:6
+1142.27
+pagevec:33517244
+
+Processors:16,[hacc-io]-Size:10000,iter:7
+1304.65
+pagevec:31222827
+
+Processors:16,[hacc-io]-Size:10000,iter:8
+1297.79
+pagevec:29876959
+
+Processors:16,[hacc-io]-Size:10000,iter:9
+1118.81
+pagevec:32925968
+
+Processors:16,[hacc-io]-Size:10000,iter:10
+1262.53
+pagevec:31183413
+
+Processors:16,[hacc-io]-Size:100000,iter:1
+946.964
+pagevec:77586592
+
+Processors:16,[hacc-io]-Size:100000,iter:2
+1719.74
+pagevec:53488335
+
+Processors:16,[hacc-io]-Size:100000,iter:3
+1483.54
+pagevec:73737814
+
+Processors:16,[hacc-io]-Size:100000,iter:4
+1763.5
+pagevec:51513782
+
+Processors:16,[hacc-io]-Size:100000,iter:5
+1779.23
+pagevec:53521452
+
+Processors:16,[hacc-io]-Size:100000,iter:6
+1782.6
+pagevec:55651364
+
+Processors:16,[hacc-io]-Size:100000,iter:7
+1482.66
+pagevec:73627448
+
+Processors:16,[hacc-io]-Size:100000,iter:8
+1777.34
+pagevec:57248820
+
+Processors:16,[hacc-io]-Size:100000,iter:9
+1791.87
+pagevec:57421283
+
+Processors:16,[hacc-io]-Size:100000,iter:10
+1488.63
+pagevec:79010778
+
+Processors:16,[hacc-io]-Size:1000000,iter:1
+1065.05
+pagevec:268404377
+
+Processors:16,[hacc-io]-Size:1000000,iter:2
+2432.91
+pagevec:163587143
+
+Processors:16,[hacc-io]-Size:1000000,iter:3
+1953.23
+pagevec:254450890
+
+Processors:16,[hacc-io]-Size:1000000,iter:4
+2414.1
+pagevec:156955183
+
+Processors:16,[hacc-io]-Size:1000000,iter:5
+2416.75
+pagevec:155422427
+
+Processors:16,[hacc-io]-Size:1000000,iter:6
+2431.9
+pagevec:158197258
+
+Processors:16,[hacc-io]-Size:1000000,iter:7
+2422.15
+pagevec:160066638
+
+Processors:16,[hacc-io]-Size:1000000,iter:8
+1969.22
+pagevec:254226042
+
+Processors:16,[hacc-io]-Size:1000000,iter:9
+2406.34
+pagevec:152452589
+
+Processors:16,[hacc-io]-Size:1000000,iter:10
+2440.17
+pagevec:160150371
+
+Processors:32,[hacc-io]-Size:100,iter:1
+122.292
+pagevec:195993077
+
+Processors:32,[hacc-io]-Size:100,iter:2
+1007.73
+pagevec:201863114
+
+Processors:32,[hacc-io]-Size:100,iter:3
+1089.29
+pagevec:194299578
+
+Processors:32,[hacc-io]-Size:100,iter:4
+1006.33
+pagevec:183153643
+
+Processors:32,[hacc-io]-Size:100,iter:5
+1112.67
+pagevec:179957171
+
+Processors:32,[hacc-io]-Size:100,iter:6
+1000.33
+pagevec:201915424
+
+Processors:32,[hacc-io]-Size:100,iter:7
+1112.15
+pagevec:213995406
+
+Processors:32,[hacc-io]-Size:100,iter:8
+993.817
+pagevec:172021519
+
+Processors:32,[hacc-io]-Size:100,iter:9
+1120
+pagevec:225047848
+
+Processors:32,[hacc-io]-Size:100,iter:10
+1103.41
+pagevec:224212153
+
+Processors:32,[hacc-io]-Size:1000,iter:1
+899.521
+pagevec:205024131
+
+Processors:32,[hacc-io]-Size:1000,iter:2
+1111.25
+pagevec:203816994
+
+Processors:32,[hacc-io]-Size:1000,iter:3
+988.944
+pagevec:207664026
+
+Processors:32,[hacc-io]-Size:1000,iter:4
+1124.76
+pagevec:204395156
+
+Processors:32,[hacc-io]-Size:1000,iter:5
+994.49
+pagevec:235410572
+
+Processors:32,[hacc-io]-Size:1000,iter:6
+1106.02
+pagevec:213735807
+
+Processors:32,[hacc-io]-Size:1000,iter:7
+992.096
+pagevec:190141300
+
+Processors:32,[hacc-io]-Size:1000,iter:8
+1144.61
+pagevec:199953594
+
+Processors:32,[hacc-io]-Size:1000,iter:9
+982.417
+pagevec:206901947
+
+Processors:32,[hacc-io]-Size:1000,iter:10
+1153.85
+pagevec:227831154
+
+Processors:32,[hacc-io]-Size:10000,iter:1
+957.514
+pagevec:281624788
+
+Processors:32,[hacc-io]-Size:10000,iter:2
+1138.84
+pagevec:253437962
+
+Processors:32,[hacc-io]-Size:10000,iter:3
+1316.29
+pagevec:236682170
+
+Processors:32,[hacc-io]-Size:10000,iter:4
+1296.78
+pagevec:240790213
+
+Processors:32,[hacc-io]-Size:10000,iter:5
+1143.48
+pagevec:238984643
+
+Processors:32,[hacc-io]-Size:10000,iter:6
+1317.66
+pagevec:235942511
+
+Processors:32,[hacc-io]-Size:10000,iter:7
+1128.51
+pagevec:274385436
+
+Processors:32,[hacc-io]-Size:10000,iter:8
+1313.83
+pagevec:227684054
+
+Processors:32,[hacc-io]-Size:10000,iter:9
+1146.77
+pagevec:238438446
+
+Processors:32,[hacc-io]-Size:10000,iter:10
+1305.34
+pagevec:228199084
+
+Processors:32,[hacc-io]-Size:100000,iter:1
+1023.04
+pagevec:775209715
+
+Processors:32,[hacc-io]-Size:100000,iter:2
+1634.59
+pagevec:747625694
+
+Processors:32,[hacc-io]-Size:100000,iter:3
+2012.29
+pagevec:681152489
+
+Processors:32,[hacc-io]-Size:100000,iter:4
+1990.76
+pagevec:674830365
+
+Processors:32,[hacc-io]-Size:100000,iter:5
+1638.98
+pagevec:803003497
+
+Processors:32,[hacc-io]-Size:100000,iter:6
+1955.58
+pagevec:655197258
+
+Processors:32,[hacc-io]-Size:100000,iter:7
+1984.22
+pagevec:633892540
+
+Processors:32,[hacc-io]-Size:100000,iter:8
+1641.74
+pagevec:774060057
+
+Processors:32,[hacc-io]-Size:100000,iter:9
+1983.04
+pagevec:667398752
+
+Processors:32,[hacc-io]-Size:100000,iter:10
+1992.69
+pagevec:704634398
+
+Processors:32,[hacc-io]-Size:1000000,iter:1
+1035.08
+pagevec:2630216554
+
+Processors:32,[hacc-io]-Size:1000000,iter:2
+813.484
+pagevec:2575840361
+
+Processors:32,[hacc-io]-Size:1000000,iter:3
+2342.11
+pagevec:1705645476
+
+Processors:32,[hacc-io]-Size:1000000,iter:4
+2343.67
+pagevec:1751243590
+
+Processors:32,[hacc-io]-Size:1000000,iter:5
+2324.29
+pagevec:1760379513
+
+Processors:32,[hacc-io]-Size:1000000,iter:6
+1881.94
+pagevec:2618839053
+
+Processors:32,[hacc-io]-Size:1000000,iter:7
+2347.3
+pagevec:1700930014
+
+Processors:32,[hacc-io]-Size:1000000,iter:8
+2332.38
+pagevec:1716340141
+
+Processors:32,[hacc-io]-Size:1000000,iter:9
+2334.47
+pagevec:1701653478
+
+Processors:32,[hacc-io]-Size:1000000,iter:10
+1885.29
+pagevec:2583289531
+
+Processors:64,[hacc-io]-Size:100,iter:1
+65.6637
+pagevec:933122340
+
+Processors:64,[hacc-io]-Size:100,iter:2
+1016.39
+pagevec:1115358740
+
+Processors:64,[hacc-io]-Size:100,iter:3
+1035.64
+pagevec:1117461332
+
+Processors:64,[hacc-io]-Size:100,iter:4
+1035.47
+pagevec:978245824
+
+Processors:64,[hacc-io]-Size:100,iter:5
+1049.36
+pagevec:1050072072
+
+Processors:64,[hacc-io]-Size:100,iter:6
+923.679
+pagevec:992254537
+
+Processors:64,[hacc-io]-Size:100,iter:7
+926.973
+pagevec:1109753641
+
+Processors:64,[hacc-io]-Size:100,iter:8
+1044.07
+pagevec:1005530421
+
+Processors:64,[hacc-io]-Size:100,iter:9
+926.584
+pagevec:1044267167
+
+Processors:64,[hacc-io]-Size:100,iter:10
+677.398
+pagevec:1036286386
+
+Processors:64,[hacc-io]-Size:1000,iter:1
+788.639
+pagevec:1150043911
+
+Processors:64,[hacc-io]-Size:1000,iter:2
+1048.62
+pagevec:1046027001
+
+Processors:64,[hacc-io]-Size:1000,iter:3
+1054.58
+pagevec:1098506473
+
+Processors:64,[hacc-io]-Size:1000,iter:4
+913.737
+pagevec:1149194609
+
+Processors:64,[hacc-io]-Size:1000,iter:5
+1080.48
+pagevec:1158180294
+
+Processors:64,[hacc-io]-Size:1000,iter:6
+926.311
+pagevec:1046451737
+
+Processors:64,[hacc-io]-Size:1000,iter:7
+1114.98
+pagevec:1085807422
+
+Processors:64,[hacc-io]-Size:1000,iter:8
+918.779
+pagevec:1092121175
+
+Processors:64,[hacc-io]-Size:1000,iter:9
+1080.03
+pagevec:1106177368
+
+Processors:64,[hacc-io]-Size:1000,iter:10
+942.468
+pagevec:1078008242
+
+Processors:64,[hacc-io]-Size:10000,iter:1
+883.009
+pagevec:1350093673
+
+Processors:64,[hacc-io]-Size:10000,iter:2
+1205.91
+pagevec:1332726759
+
+Processors:64,[hacc-io]-Size:10000,iter:3
+1384.09
+pagevec:1301334143
+
+Processors:64,[hacc-io]-Size:10000,iter:4
+1395.18
+pagevec:1397614513
+
+Processors:64,[hacc-io]-Size:10000,iter:5
+1179.6
+pagevec:1369036603
+
+Processors:64,[hacc-io]-Size:10000,iter:6
+1361.33
+pagevec:1238842208
+
+Processors:64,[hacc-io]-Size:10000,iter:7
+1391.31
+pagevec:1307390167
+
+Processors:64,[hacc-io]-Size:10000,iter:8
+1195.64
+pagevec:1448767257
+
+Processors:64,[hacc-io]-Size:10000,iter:9
+1385.06
+pagevec:1320444375
+
+Processors:64,[hacc-io]-Size:10000,iter:10
+1349.66
+pagevec:1230659459
+
+Processors:64,[hacc-io]-Size:100000,iter:1
+990.589
+pagevec:3962684426
+
+Processors:64,[hacc-io]-Size:100000,iter:2
+877.143
+pagevec:3958539624
+
+Processors:64,[hacc-io]-Size:100000,iter:3
+2169.13
+pagevec:3704494253
+
+Processors:64,[hacc-io]-Size:100000,iter:4
+2181.18
+pagevec:3788132769
+
+Processors:64,[hacc-io]-Size:100000,iter:5
+2162.19
+pagevec:3846830468
+
+Processors:64,[hacc-io]-Size:100000,iter:6
+2170.16
+pagevec:3735511556
+
+Processors:64,[hacc-io]-Size:100000,iter:7
+1724.4
+pagevec:3891059027
+
+Processors:64,[hacc-io]-Size:100000,iter:8
+2157.99
+pagevec:3754204125
+
+Processors:64,[hacc-io]-Size:100000,iter:9
+2162.19
+pagevec:3754977303
+
+Processors:64,[hacc-io]-Size:100000,iter:10
+1726.62
+pagevec:3867350326
+
+Processors:64,[hacc-io]-Size:1000000,iter:1
+1037.52
+pagevec:14244037193
+
+Processors:64,[hacc-io]-Size:1000000,iter:2
+903.211
+pagevec:14578943781
+
+Processors:64,[hacc-io]-Size:1000000,iter:3
+2358.6
+pagevec:12891066544
+
+Processors:64,[hacc-io]-Size:1000000,iter:4
+1918.24
+pagevec:14930696148
+
+Processors:64,[hacc-io]-Size:1000000,iter:5
+2365.39
+pagevec:12620387406
+
+Processors:64,[hacc-io]-Size:1000000,iter:6
+2353.89
+pagevec:12680759912
+
+Processors:64,[hacc-io]-Size:1000000,iter:7
+2374.07
+pagevec:12603583627
+
+Processors:64,[hacc-io]-Size:1000000,iter:8
+1873.62
+pagevec:14746153382
+
+Processors:64,[hacc-io]-Size:1000000,iter:9
+1294.21
+pagevec:14438306133
+
+Processors:64,[hacc-io]-Size:1000000,iter:10
+2393.34
+pagevec:12445301410
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod1.txt
+NPB - bt-io
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+out_mod1
+
+Processors:9,iter:1
+   I/O data rate  (MB/sec) :         506.94
+pagevec:1628591206
+
+Processors:9,iter:2
+   I/O data rate  (MB/sec) :         494.62
+pagevec:1665348791
+
+Processors:16,iter:1
+   I/O data rate  (MB/sec) :         898.62
+pagevec:1391573622
+
+Processors:16,iter:2
+   I/O data rate  (MB/sec) :         877.50
+pagevec:1401095767
+
+Processors:25,iter:1
+   I/O data rate  (MB/sec) :        1335.58
+pagevec:1548913883
+
+Processors:25,iter:2
+   I/O data rate  (MB/sec) :        1337.33
+pagevec:1463648962
+
+Processors:36,iter:1
+   I/O data rate  (MB/sec) :        1992.48
+pagevec:1785414136
+
+Processors:36,iter:2
+   I/O data rate  (MB/sec) :        1979.73
+pagevec:1891535421
+
+Processors:49,iter:1
+   I/O data rate  (MB/sec) :        2462.11
+pagevec:2751446405
+
+Processors:49,iter:2
+   I/O data rate  (MB/sec) :        2623.89
+pagevec:2595550351
+
+Processors:64,iter:1
+   I/O data rate  (MB/sec) :        3432.03
+pagevec:3881680057
+
+Processors:64,iter:2
+   I/O data rate  (MB/sec) :        3442.68
+pagevec:4259569551
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod1.txt
+NPB - bt-io
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod1.txt
+NPB - bt-io
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod1.txt
+NPB - bt-io
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+out_mod1
+
+Processors:9,iter:1
+   I/O data rate  (MB/sec) :         518.38
+pagevec:1525065654
+
+Processors:9,iter:2
+   I/O data rate  (MB/sec) :         506.31
+pagevec:1664842455
+
+Processors:16,iter:1
+   I/O data rate  (MB/sec) :         911.08
+pagevec:1396789621
+
+Processors:16,iter:2
+   I/O data rate  (MB/sec) :         877.63
+pagevec:1389627692
+
+Processors:25,iter:1
+   I/O data rate  (MB/sec) :        1416.87
+pagevec:1429887358
+
+Processors:25,iter:2
+   I/O data rate  (MB/sec) :        1392.38
+pagevec:1607986569
+
+Processors:36,iter:1
+   I/O data rate  (MB/sec) :        1960.67
+pagevec:1651723280
+
+Processors:36,iter:2
+   I/O data rate  (MB/sec) :        1857.99
+pagevec:1710138863
+
+Processors:49,iter:1
+   I/O data rate  (MB/sec) :        2706.34
+pagevec:2408188731
+
+Processors:49,iter:2
+   I/O data rate  (MB/sec) :        2648.22
+pagevec:2674781415
+
+Processors:64,iter:1
+   I/O data rate  (MB/sec) :        3505.15
+pagevec:3753153405
+
+Processors:64,iter:2
+   I/O data rate  (MB/sec) :        3411.96
+pagevec:4182631672
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod2.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod2.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod2
+
+Processors:8,Block Size:128m,iter:1
+Max Write: 4952.99 MiB/sec (5193.59 MB/sec)
+pagevec:446465174
+
+Processors:8,Block Size:128m,iter:2
+Max Write: 4998.51 MiB/sec (5241.32 MB/sec)
+pagevec:433796303
+
+Processors:8,Block Size:128m,iter:3
+Max Write: 4938.80 MiB/sec (5178.71 MB/sec)
+pagevec:449699698
+
+Processors:8,Block Size:256m,iter:1
+Max Write: 4979.20 MiB/sec (5221.07 MB/sec)
+pagevec:889741725
+
+Processors:8,Block Size:256m,iter:2
+Max Write: 4978.80 MiB/sec (5220.65 MB/sec)
+pagevec:876260905
+
+Processors:8,Block Size:256m,iter:3
+Max Write: 4978.96 MiB/sec (5220.82 MB/sec)
+pagevec:894104940
+
+Processors:8,Block Size:512m,iter:1
+Max Write: 4909.76 MiB/sec (5148.25 MB/sec)
+pagevec:1745666805
+
+Processors:8,Block Size:512m,iter:2
+Max Write: 5021.61 MiB/sec (5265.54 MB/sec)
+pagevec:1748300520
+
+Processors:8,Block Size:512m,iter:3
+Max Write: 4983.45 MiB/sec (5225.52 MB/sec)
+pagevec:1797777026
+
+Processors:8,Block Size:1024m,iter:1
+Max Write: 4954.94 MiB/sec (5195.63 MB/sec)
+pagevec:3459201256
+
+Processors:8,Block Size:1024m,iter:2
+Max Write: 5010.18 MiB/sec (5253.55 MB/sec)
+pagevec:3521295284
+
+Processors:8,Block Size:1024m,iter:3
+Max Write: 4998.48 MiB/sec (5241.29 MB/sec)
+pagevec:3553645374
+
+Processors:16,Block Size:128m,iter:1
+Max Write: 6087.00 MiB/sec (6382.68 MB/sec)
+pagevec:2874188157
+
+Processors:16,Block Size:128m,iter:2
+Max Write: 6133.19 MiB/sec (6431.11 MB/sec)
+pagevec:2843418309
+
+Processors:16,Block Size:128m,iter:3
+Max Write: 6123.19 MiB/sec (6420.63 MB/sec)
+pagevec:2855533033
+
+Processors:16,Block Size:256m,iter:1
+Max Write: 6130.38 MiB/sec (6428.17 MB/sec)
+pagevec:5699865044
+
+Processors:16,Block Size:256m,iter:2
+Max Write: 6141.43 MiB/sec (6439.75 MB/sec)
+pagevec:5665712248
+
+Processors:16,Block Size:256m,iter:3
+Max Write: 6160.72 MiB/sec (6459.98 MB/sec)
+pagevec:5664880209
+
+Processors:16,Block Size:512m,iter:1
+Max Write: 6145.63 MiB/sec (6444.16 MB/sec)
+pagevec:11330811399
+
+Processors:16,Block Size:512m,iter:2
+Max Write: 6119.30 MiB/sec (6416.55 MB/sec)
+pagevec:11391617362
+
+Processors:16,Block Size:512m,iter:3
+Max Write: 6142.97 MiB/sec (6441.37 MB/sec)
+pagevec:11333171281
+
+Processors:16,Block Size:1024m,iter:1
+Max Write: 6099.79 MiB/sec (6396.09 MB/sec)
+pagevec:22241178701
+
+Processors:16,Block Size:1024m,iter:2
+Max Write: 6103.07 MiB/sec (6399.53 MB/sec)
+pagevec:22611050520
+
+Processors:16,Block Size:1024m,iter:3
+Max Write: 6083.34 MiB/sec (6378.85 MB/sec)
+pagevec:22757299404
+
+Processors:32,Block Size:128m,iter:1
+Max Write: 6202.91 MiB/sec (6504.23 MB/sec)
+pagevec:16541387545
+
+Processors:32,Block Size:128m,iter:2
+Max Write: 6176.84 MiB/sec (6476.89 MB/sec)
+pagevec:16792436183
+
+Processors:32,Block Size:128m,iter:3
+Max Write: 6206.17 MiB/sec (6507.65 MB/sec)
+pagevec:16636657135
+
+Processors:32,Block Size:256m,iter:1
+Max Write: 6233.55 MiB/sec (6536.35 MB/sec)
+pagevec:32983596753
+
+Processors:32,Block Size:256m,iter:2
+Max Write: 6233.08 MiB/sec (6535.85 MB/sec)
+pagevec:32947400389
+
+Processors:32,Block Size:256m,iter:3
+Max Write: 6233.21 MiB/sec (6535.99 MB/sec)
+pagevec:32995630333
+
+Processors:32,Block Size:512m,iter:1
+Max Write: 6208.92 MiB/sec (6510.53 MB/sec)
+pagevec:66174062507
+
+Processors:32,Block Size:512m,iter:2
+Max Write: 6165.08 MiB/sec (6464.55 MB/sec)
+pagevec:66272133518
+
+Processors:32,Block Size:512m,iter:3
+Max Write: 6190.73 MiB/sec (6491.46 MB/sec)
+pagevec:66429533852
+
+Processors:32,Block Size:1024m,iter:1
+Max Write: 6145.78 MiB/sec (6444.32 MB/sec)
+pagevec:132831408931
+
+Processors:32,Block Size:1024m,iter:2
+Max Write: 6178.49 MiB/sec (6478.62 MB/sec)
+pagevec:131717949798
+
+Processors:32,Block Size:1024m,iter:3
+Max Write: 6181.09 MiB/sec (6481.35 MB/sec)
+pagevec:131597396887
+
+Processors:64,Block Size:128m,iter:1
+Max Write: 6278.60 MiB/sec (6583.59 MB/sec)
+pagevec:72142682454
+
+Processors:64,Block Size:128m,iter:2
+Max Write: 6285.15 MiB/sec (6590.46 MB/sec)
+pagevec:72383050092
+
+Processors:64,Block Size:128m,iter:3
+Max Write: 6283.30 MiB/sec (6588.52 MB/sec)
+pagevec:72537971677
+
+Processors:64,Block Size:256m,iter:1
+Max Write: 6253.60 MiB/sec (6557.38 MB/sec)
+pagevec:144632496919
+
+Processors:64,Block Size:256m,iter:2
+Max Write: 6223.71 MiB/sec (6526.03 MB/sec)
+pagevec:143958739891
+
+Processors:64,Block Size:256m,iter:3
+Max Write: 6246.60 MiB/sec (6550.03 MB/sec)
+pagevec:143895595938
+
+Processors:64,Block Size:512m,iter:1
+Max Write: 6192.24 MiB/sec (6493.04 MB/sec)
+pagevec:287610077777
+
+Processors:64,Block Size:512m,iter:2
+Max Write: 6211.86 MiB/sec (6513.61 MB/sec)
+pagevec:287792584595
+
+Processors:64,Block Size:512m,iter:3
+Max Write: 6224.76 MiB/sec (6527.13 MB/sec)
+pagevec:288126315467
+
+Processors:64,Block Size:1024m,iter:1
+Max Write: 3066.32 MiB/sec (3215.27 MB/sec)
+pagevec:400274783764
+
+Processors:64,Block Size:1024m,iter:2
+Max Write: 3019.29 MiB/sec (3165.96 MB/sec)
+pagevec:267739540125
+
+Processors:64,Block Size:1024m,iter:3
+Max Write: 3003.25 MiB/sec (3149.13 MB/sec)
+pagevec:267687641492
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod2.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod2.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod2
+
+Processors:16,[hacc-io]-Size:100,iter:1
+1153.81
+pagevec:50526875
+
+Processors:16,[hacc-io]-Size:100,iter:2
+1047.23
+pagevec:46924465
+
+Processors:16,[hacc-io]-Size:100,iter:3
+1173.67
+pagevec:52012595
+
+Processors:16,[hacc-io]-Size:100,iter:4
+1054.9
+pagevec:50726309
+
+Processors:16,[hacc-io]-Size:100,iter:5
+1158.14
+pagevec:55254586
+
+Processors:16,[hacc-io]-Size:100,iter:6
+1179.13
+pagevec:48088354
+
+Processors:16,[hacc-io]-Size:100,iter:7
+1055.6
+pagevec:53441194
+
+Processors:16,[hacc-io]-Size:100,iter:8
+1176.94
+pagevec:66248366
+
+Processors:16,[hacc-io]-Size:100,iter:9
+1055.09
+pagevec:59630747
+
+Processors:16,[hacc-io]-Size:100,iter:10
+1159.03
+pagevec:56630001
+
+Processors:16,[hacc-io]-Size:1000,iter:1
+1118.84
+pagevec:51877809
+
+Processors:16,[hacc-io]-Size:1000,iter:2
+1038.7
+pagevec:51983254
+
+Processors:16,[hacc-io]-Size:1000,iter:3
+1184.51
+pagevec:55425209
+
+Processors:16,[hacc-io]-Size:1000,iter:4
+1070.96
+pagevec:48700160
+
+Processors:16,[hacc-io]-Size:1000,iter:5
+1201.42
+pagevec:62557629
+
+Processors:16,[hacc-io]-Size:1000,iter:6
+1048.72
+pagevec:46543189
+
+Processors:16,[hacc-io]-Size:1000,iter:7
+1157.24
+pagevec:47203543
+
+Processors:16,[hacc-io]-Size:1000,iter:8
+1182.98
+pagevec:47092579
+
+Processors:16,[hacc-io]-Size:1000,iter:9
+1068.88
+pagevec:46900693
+
+Processors:16,[hacc-io]-Size:1000,iter:10
+1187.6
+pagevec:51734138
+
+Processors:16,[hacc-io]-Size:10000,iter:1
+1227.59
+pagevec:53421125
+
+Processors:16,[hacc-io]-Size:10000,iter:2
+1129.32
+pagevec:73969810
+
+Processors:16,[hacc-io]-Size:10000,iter:3
+1269.47
+pagevec:62546934
+
+Processors:16,[hacc-io]-Size:10000,iter:4
+1118.01
+pagevec:64034985
+
+Processors:16,[hacc-io]-Size:10000,iter:5
+1292.31
+pagevec:71731691
+
+Processors:16,[hacc-io]-Size:10000,iter:6
+1138.21
+pagevec:68682232
+
+Processors:16,[hacc-io]-Size:10000,iter:7
+1281.1
+pagevec:53856679
+
+Processors:16,[hacc-io]-Size:10000,iter:8
+1137.56
+pagevec:69105241
+
+Processors:16,[hacc-io]-Size:10000,iter:9
+1264.25
+pagevec:57924371
+
+Processors:16,[hacc-io]-Size:10000,iter:10
+1116.04
+pagevec:68836927
+
+Processors:16,[hacc-io]-Size:100000,iter:1
+1704.58
+pagevec:148548187
+
+Processors:16,[hacc-io]-Size:100000,iter:2
+1509.6
+pagevec:183644027
+
+Processors:16,[hacc-io]-Size:100000,iter:3
+1780.04
+pagevec:145345662
+
+Processors:16,[hacc-io]-Size:100000,iter:4
+1773.26
+pagevec:158311162
+
+Processors:16,[hacc-io]-Size:100000,iter:5
+1476.4
+pagevec:173632932
+
+Processors:16,[hacc-io]-Size:100000,iter:6
+1793.6
+pagevec:148627661
+
+Processors:16,[hacc-io]-Size:100000,iter:7
+1799.5
+pagevec:153994434
+
+Processors:16,[hacc-io]-Size:100000,iter:8
+1494.77
+pagevec:171419678
+
+Processors:16,[hacc-io]-Size:100000,iter:9
+1772.73
+pagevec:138182662
+
+Processors:16,[hacc-io]-Size:100000,iter:10
+1789.84
+pagevec:145483267
+
+Processors:16,[hacc-io]-Size:1000000,iter:1
+1941.2
+pagevec:525598991
+
+Processors:16,[hacc-io]-Size:1000000,iter:2
+2389.71
+pagevec:425869587
+
+Processors:16,[hacc-io]-Size:1000000,iter:3
+2378.82
+pagevec:401548339
+
+Processors:16,[hacc-io]-Size:1000000,iter:4
+2384.84
+pagevec:406507032
+
+Processors:16,[hacc-io]-Size:1000000,iter:5
+1932.76
+pagevec:557777922
+
+Processors:16,[hacc-io]-Size:1000000,iter:6
+2389.74
+pagevec:382793834
+
+Processors:16,[hacc-io]-Size:1000000,iter:7
+2384.17
+pagevec:420491536
+
+Processors:16,[hacc-io]-Size:1000000,iter:8
+2403.53
+pagevec:403937984
+
+Processors:16,[hacc-io]-Size:1000000,iter:9
+1928.19
+pagevec:538213968
+
+Processors:16,[hacc-io]-Size:1000000,iter:10
+2404.71
+pagevec:381652169
+
+Processors:32,[hacc-io]-Size:100,iter:1
+1093.75
+pagevec:281091107
+
+Processors:32,[hacc-io]-Size:100,iter:2
+979.051
+pagevec:337581373
+
+Processors:32,[hacc-io]-Size:100,iter:3
+1111.95
+pagevec:327349282
+
+Processors:32,[hacc-io]-Size:100,iter:4
+991.819
+pagevec:359089939
+
+Processors:32,[hacc-io]-Size:100,iter:5
+1110.01
+pagevec:347443329
+
+Processors:32,[hacc-io]-Size:100,iter:6
+998.053
+pagevec:282373214
+
+Processors:32,[hacc-io]-Size:100,iter:7
+1116.74
+pagevec:373267448
+
+Processors:32,[hacc-io]-Size:100,iter:8
+985.327
+pagevec:369661466
+
+Processors:32,[hacc-io]-Size:100,iter:9
+1112.26
+pagevec:331877418
+
+Processors:32,[hacc-io]-Size:100,iter:10
+1098.98
+pagevec:320109032
+
+Processors:32,[hacc-io]-Size:1000,iter:1
+1074.69
+pagevec:334543516
+
+Processors:32,[hacc-io]-Size:1000,iter:2
+986.301
+pagevec:330794730
+
+Processors:32,[hacc-io]-Size:1000,iter:3
+1162.71
+pagevec:335946541
+
+Processors:32,[hacc-io]-Size:1000,iter:4
+1013.89
+pagevec:337978273
+
+Processors:32,[hacc-io]-Size:1000,iter:5
+1108.89
+pagevec:298826034
+
+Processors:32,[hacc-io]-Size:1000,iter:6
+998.319
+pagevec:318213565
+
+Processors:32,[hacc-io]-Size:1000,iter:7
+1121.4
+pagevec:352276678
+
+Processors:32,[hacc-io]-Size:1000,iter:8
+995.428
+pagevec:341940730
+
+Processors:32,[hacc-io]-Size:1000,iter:9
+1152.62
+pagevec:336754957
+
+Processors:32,[hacc-io]-Size:1000,iter:10
+978.219
+pagevec:324628954
+
+Processors:32,[hacc-io]-Size:10000,iter:1
+1255.79
+pagevec:438383160
+
+Processors:32,[hacc-io]-Size:10000,iter:2
+1153.27
+pagevec:437293544
+
+Processors:32,[hacc-io]-Size:10000,iter:3
+1306.45
+pagevec:363847552
+
+Processors:32,[hacc-io]-Size:10000,iter:4
+1286.84
+pagevec:331630369
+
+Processors:32,[hacc-io]-Size:10000,iter:5
+1129.8
+pagevec:391808790
+
+Processors:32,[hacc-io]-Size:10000,iter:6
+1304.05
+pagevec:360792627
+
+Processors:32,[hacc-io]-Size:10000,iter:7
+1129.44
+pagevec:410500380
+
+Processors:32,[hacc-io]-Size:10000,iter:8
+1331.96
+pagevec:355716454
+
+Processors:32,[hacc-io]-Size:10000,iter:9
+1144.77
+pagevec:440576864
+
+Processors:32,[hacc-io]-Size:10000,iter:10
+1327.29
+pagevec:428141128
+
+Processors:32,[hacc-io]-Size:100000,iter:1
+1964.36
+pagevec:1092451054
+
+Processors:32,[hacc-io]-Size:100000,iter:2
+2007.36
+pagevec:1068668071
+
+Processors:32,[hacc-io]-Size:100000,iter:3
+1536.36
+pagevec:1183233858
+
+Processors:32,[hacc-io]-Size:100000,iter:4
+1983.63
+pagevec:1100943497
+
+Processors:32,[hacc-io]-Size:100000,iter:5
+1969.59
+pagevec:1075977402
+
+Processors:32,[hacc-io]-Size:100000,iter:6
+1979.06
+pagevec:1093216027
+
+Processors:32,[hacc-io]-Size:100000,iter:7
+1621.69
+pagevec:1164157342
+
+Processors:32,[hacc-io]-Size:100000,iter:8
+1973.39
+pagevec:1111915661
+
+Processors:32,[hacc-io]-Size:100000,iter:9
+1977.96
+pagevec:1049670215
+
+Processors:32,[hacc-io]-Size:100000,iter:10
+1625.12
+pagevec:1161363506
+
+Processors:32,[hacc-io]-Size:1000000,iter:1
+893.703
+pagevec:3958735098
+
+Processors:32,[hacc-io]-Size:1000000,iter:2
+2377.16
+pagevec:3005199544
+
+Processors:32,[hacc-io]-Size:1000000,iter:3
+2383.25
+pagevec:3049229377
+
+Processors:32,[hacc-io]-Size:1000000,iter:4
+1920.74
+pagevec:4113445698
+
+Processors:32,[hacc-io]-Size:1000000,iter:5
+2371.84
+pagevec:2941842738
+
+Processors:32,[hacc-io]-Size:1000000,iter:6
+2394.06
+pagevec:2955608652
+
+Processors:32,[hacc-io]-Size:1000000,iter:7
+2370.21
+pagevec:2984705488
+
+Processors:32,[hacc-io]-Size:1000000,iter:8
+1905.52
+pagevec:3969969599
+
+Processors:32,[hacc-io]-Size:1000000,iter:9
+2404.31
+pagevec:2996557925
+
+Processors:32,[hacc-io]-Size:1000000,iter:10
+2367.45
+pagevec:3045680891
+
+Processors:64,[hacc-io]-Size:100,iter:1
+937.257
+pagevec:1524147949
+
+Processors:64,[hacc-io]-Size:100,iter:2
+1052.23
+pagevec:1456201143
+
+Processors:64,[hacc-io]-Size:100,iter:3
+932.638
+pagevec:1626995313
+
+Processors:64,[hacc-io]-Size:100,iter:4
+1028.48
+pagevec:1502253803
+
+Processors:64,[hacc-io]-Size:100,iter:5
+943.39
+pagevec:1689814274
+
+Processors:64,[hacc-io]-Size:100,iter:6
+1050.32
+pagevec:1532989786
+
+Processors:64,[hacc-io]-Size:100,iter:7
+930.887
+pagevec:1557504058
+
+Processors:64,[hacc-io]-Size:100,iter:8
+1048.91
+pagevec:1509571164
+
+Processors:64,[hacc-io]-Size:100,iter:9
+945.267
+pagevec:1507305313
+
+Processors:64,[hacc-io]-Size:100,iter:10
+1042.06
+pagevec:1484171957
+
+Processors:64,[hacc-io]-Size:1000,iter:1
+1056.15
+pagevec:1526877242
+
+Processors:64,[hacc-io]-Size:1000,iter:2
+952.906
+pagevec:1681195894
+
+Processors:64,[hacc-io]-Size:1000,iter:3
+1102.76
+pagevec:1757260866
+
+Processors:64,[hacc-io]-Size:1000,iter:4
+948.517
+pagevec:1522103748
+
+Processors:64,[hacc-io]-Size:1000,iter:5
+1066
+pagevec:1708955969
+
+Processors:64,[hacc-io]-Size:1000,iter:6
+952.536
+pagevec:1543095283
+
+Processors:64,[hacc-io]-Size:1000,iter:7
+1102.25
+pagevec:1538951525
+
+Processors:64,[hacc-io]-Size:1000,iter:8
+954.224
+pagevec:1605825313
+
+Processors:64,[hacc-io]-Size:1000,iter:9
+1084.39
+pagevec:1551777249
+
+Processors:64,[hacc-io]-Size:1000,iter:10
+954.389
+pagevec:1731295971
+
+Processors:64,[hacc-io]-Size:10000,iter:1
+1155.29
+pagevec:1925208023
+
+Processors:64,[hacc-io]-Size:10000,iter:2
+1403.97
+pagevec:1890880857
+
+Processors:64,[hacc-io]-Size:10000,iter:3
+1408.88
+pagevec:1954123150
+
+Processors:64,[hacc-io]-Size:10000,iter:4
+1214.88
+pagevec:1904227169
+
+Processors:64,[hacc-io]-Size:10000,iter:5
+1414.54
+pagevec:2041625540
+
+Processors:64,[hacc-io]-Size:10000,iter:6
+1417.34
+pagevec:1956852842
+
+Processors:64,[hacc-io]-Size:10000,iter:7
+1191.48
+pagevec:1888387587
+
+Processors:64,[hacc-io]-Size:10000,iter:8
+1429.89
+pagevec:2052823505
+
+Processors:64,[hacc-io]-Size:10000,iter:9
+1396.21
+pagevec:1921603194
+
+Processors:64,[hacc-io]-Size:10000,iter:10
+1208.08
+pagevec:1950378085
+
+Processors:64,[hacc-io]-Size:100000,iter:1
+884.445
+pagevec:5505207433
+
+Processors:64,[hacc-io]-Size:100000,iter:2
+2150.83
+pagevec:5372607154
+
+Processors:64,[hacc-io]-Size:100000,iter:3
+2109
+pagevec:5384487610
+
+Processors:64,[hacc-io]-Size:100000,iter:4
+1694.76
+pagevec:5509703914
+
+Processors:64,[hacc-io]-Size:100000,iter:5
+2114.58
+pagevec:5211043724
+
+Processors:64,[hacc-io]-Size:100000,iter:6
+2157.5
+pagevec:5395059491
+
+Processors:64,[hacc-io]-Size:100000,iter:7
+2132.35
+pagevec:5286381972
+
+Processors:64,[hacc-io]-Size:100000,iter:8
+1695.34
+pagevec:5519865019
+
+Processors:64,[hacc-io]-Size:100000,iter:9
+2106.28
+pagevec:5237614623
+
+Processors:64,[hacc-io]-Size:100000,iter:10
+2153.51
+pagevec:5300833717
+
+Processors:64,[hacc-io]-Size:1000000,iter:1
+777.965
+pagevec:19932800317
+
+Processors:64,[hacc-io]-Size:1000000,iter:2
+2346.52
+pagevec:17396468954
+
+Processors:64,[hacc-io]-Size:1000000,iter:3
+2360.5
+pagevec:17512650033
+
+Processors:64,[hacc-io]-Size:1000000,iter:4
+1895.1
+pagevec:19714805877
+
+Processors:64,[hacc-io]-Size:1000000,iter:5
+2350.6
+pagevec:17573882775
+
+Processors:64,[hacc-io]-Size:1000000,iter:6
+2336.06
+pagevec:17633844877
+
+Processors:64,[hacc-io]-Size:1000000,iter:7
+2311.46
+pagevec:17457206115
+
+Processors:64,[hacc-io]-Size:1000000,iter:8
+1901.22
+pagevec:20417489625
+
+Processors:64,[hacc-io]-Size:1000000,iter:9
+2344.53
+pagevec:17874448729
+
+Processors:64,[hacc-io]-Size:1000000,iter:10
+2351.7
+pagevec:17395251673
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod4.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod4
+
+Processors:8,Block Size:128m,iter:1
+Max Write: 5378.01 MiB/sec (5639.25 MB/sec)
+pagevec:303365181
+
+Processors:8,Block Size:128m,iter:2
+Max Write: 5468.86 MiB/sec (5734.51 MB/sec)
+pagevec:300978987
+
+Processors:8,Block Size:128m,iter:3
+Max Write: 5473.13 MiB/sec (5738.99 MB/sec)
+pagevec:298539471
+
+Processors:8,Block Size:256m,iter:1
+Max Write: 5417.33 MiB/sec (5680.48 MB/sec)
+pagevec:581810845
+
+Processors:8,Block Size:256m,iter:2
+Max Write: 5481.90 MiB/sec (5748.19 MB/sec)
+pagevec:595649182
+
+Processors:8,Block Size:256m,iter:3
+Max Write: 5424.32 MiB/sec (5687.81 MB/sec)
+pagevec:584272983
+
+Processors:8,Block Size:512m,iter:1
+Max Write: 5426.52 MiB/sec (5690.12 MB/sec)
+pagevec:1163064495
+
+Processors:8,Block Size:512m,iter:2
+Max Write: 5514.51 MiB/sec (5782.38 MB/sec)
+pagevec:1183264679
+
+Processors:8,Block Size:512m,iter:3
+Max Write: 5517.20 MiB/sec (5785.20 MB/sec)
+pagevec:1171405717
+
+Processors:8,Block Size:1024m,iter:1
+Max Write: 5408.22 MiB/sec (5670.93 MB/sec)
+pagevec:2357265094
+
+Processors:8,Block Size:1024m,iter:2
+Max Write: 5530.14 MiB/sec (5798.77 MB/sec)
+pagevec:2327829386
+
+Processors:8,Block Size:1024m,iter:3
+Max Write: 5525.90 MiB/sec (5794.32 MB/sec)
+pagevec:2345021546
+
+Processors:16,Block Size:128m,iter:1
+Max Write: 8532.77 MiB/sec (8947.25 MB/sec)
+pagevec:1233576176
+
+Processors:16,Block Size:128m,iter:2
+Max Write: 8445.85 MiB/sec (8856.11 MB/sec)
+pagevec:1250830112
+
+Processors:16,Block Size:128m,iter:3
+Max Write: 8533.09 MiB/sec (8947.59 MB/sec)
+pagevec:1234952388
+
+Processors:16,Block Size:256m,iter:1
+Max Write: 8544.64 MiB/sec (8959.70 MB/sec)
+pagevec:2459901198
+
+Processors:16,Block Size:256m,iter:2
+Max Write: 8526.53 MiB/sec (8940.72 MB/sec)
+pagevec:2462163245
+
+Processors:16,Block Size:256m,iter:3
+Max Write: 8534.28 MiB/sec (8948.84 MB/sec)
+pagevec:2454894502
+
+Processors:16,Block Size:512m,iter:1
+Max Write: 8563.21 MiB/sec (8979.17 MB/sec)
+pagevec:4868421429
+
+Processors:16,Block Size:512m,iter:2
+Max Write: 8573.09 MiB/sec (8989.54 MB/sec)
+pagevec:4879319038
+
+Processors:16,Block Size:512m,iter:3
+Max Write: 8553.28 MiB/sec (8968.77 MB/sec)
+pagevec:4905992332
+
+Processors:16,Block Size:1024m,iter:1
+Max Write: 8451.25 MiB/sec (8861.77 MB/sec)
+pagevec:9451128659
+
+Processors:16,Block Size:1024m,iter:2
+Max Write: 8527.68 MiB/sec (8941.92 MB/sec)
+pagevec:9572287409
+
+Processors:16,Block Size:1024m,iter:3
+Max Write: 8362.54 MiB/sec (8768.76 MB/sec)
+pagevec:9540103683
+
+Processors:32,Block Size:128m,iter:1
+Max Write: 8923.61 MiB/sec (9357.08 MB/sec)
+pagevec:9644725270
+
+Processors:32,Block Size:128m,iter:2
+Max Write: 8939.64 MiB/sec (9373.89 MB/sec)
+pagevec:9689184933
+
+Processors:32,Block Size:128m,iter:3
+Max Write: 8930.83 MiB/sec (9364.65 MB/sec)
+pagevec:9726047194
+
+Processors:32,Block Size:256m,iter:1
+Max Write: 8998.14 MiB/sec (9435.24 MB/sec)
+pagevec:19286167481
+
+Processors:32,Block Size:256m,iter:2
+Max Write: 9001.87 MiB/sec (9439.15 MB/sec)
+pagevec:19225752811
+
+Processors:32,Block Size:256m,iter:3
+Max Write: 8981.85 MiB/sec (9418.15 MB/sec)
+pagevec:19229865481
+
+Processors:32,Block Size:512m,iter:1
+Max Write: 8925.00 MiB/sec (9358.54 MB/sec)
+pagevec:38336602083
+
+Processors:32,Block Size:512m,iter:2
+Max Write: 8807.78 MiB/sec (9235.63 MB/sec)
+pagevec:38160705146
+
+Processors:32,Block Size:512m,iter:3
+Max Write: 8996.46 MiB/sec (9433.47 MB/sec)
+pagevec:38347366980
+
+Processors:32,Block Size:1024m,iter:1
+Max Write: 8042.43 MiB/sec (8433.10 MB/sec)
+pagevec:70399411133
+
+Processors:32,Block Size:1024m,iter:2
+Max Write: 8090.21 MiB/sec (8483.20 MB/sec)
+pagevec:67855559848
+
+Processors:32,Block Size:1024m,iter:3
+Max Write: 8009.40 MiB/sec (8398.46 MB/sec)
+pagevec:67673485098
+
+Processors:64,Block Size:128m,iter:1
+Max Write: 9083.97 MiB/sec (9525.24 MB/sec)
+pagevec:45922966030
+
+Processors:64,Block Size:128m,iter:2
+Max Write: 9099.52 MiB/sec (9541.54 MB/sec)
+pagevec:45832998373
+
+Processors:64,Block Size:128m,iter:3
+Max Write: 9087.76 MiB/sec (9529.21 MB/sec)
+pagevec:46119897113
+
+Processors:64,Block Size:256m,iter:1
+Max Write: 9098.85 MiB/sec (9540.84 MB/sec)
+pagevec:91668515963
+
+Processors:64,Block Size:256m,iter:2
+Max Write: 9028.22 MiB/sec (9466.78 MB/sec)
+pagevec:91628990568
+
+Processors:64,Block Size:256m,iter:3
+Max Write: 9080.20 MiB/sec (9521.28 MB/sec)
+pagevec:91458870195
+
+Processors:64,Block Size:512m,iter:1
+Max Write: 9106.79 MiB/sec (9549.16 MB/sec)
+pagevec:182505830343
+
+Processors:64,Block Size:512m,iter:2
+Max Write: 9085.54 MiB/sec (9526.88 MB/sec)
+pagevec:182253884327
+
+Processors:64,Block Size:512m,iter:3
+Max Write: 8655.54 MiB/sec (9075.99 MB/sec)
+pagevec:181879108265
+
+Processors:64,Block Size:1024m,iter:1
+Max Write: 3172.07 MiB/sec (3326.15 MB/sec)
+pagevec:208078901449
+
+Processors:64,Block Size:1024m,iter:2
+Max Write: 3067.03 MiB/sec (3216.01 MB/sec)
+pagevec:156513034901
+
+Processors:64,Block Size:1024m,iter:3
+Max Write: 3017.47 MiB/sec (3164.05 MB/sec)
+pagevec:154789459346
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod4.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod4
+
+Processors:16,[hacc-io]-Size:100,iter:1
+1038.82
+pagevec:32034671
+
+Processors:16,[hacc-io]-Size:100,iter:2
+1096.83
+pagevec:28698373
+
+Processors:16,[hacc-io]-Size:100,iter:3
+1177.93
+pagevec:29119586
+
+Processors:16,[hacc-io]-Size:100,iter:4
+1149.12
+pagevec:33383844
+
+Processors:16,[hacc-io]-Size:100,iter:5
+1173.04
+pagevec:33749768
+
+Processors:16,[hacc-io]-Size:100,iter:6
+1051.9
+pagevec:31790299
+
+Processors:16,[hacc-io]-Size:100,iter:7
+1154.25
+pagevec:28632104
+
+Processors:16,[hacc-io]-Size:100,iter:8
+1167.47
+pagevec:33198904
+
+Processors:16,[hacc-io]-Size:100,iter:9
+1150.6
+pagevec:33659705
+
+Processors:16,[hacc-io]-Size:100,iter:10
+1200.02
+pagevec:32865785
+
+Processors:16,[hacc-io]-Size:1000,iter:1
+1001.58
+pagevec:31907090
+
+Processors:16,[hacc-io]-Size:1000,iter:2
+1168.46
+pagevec:29966169
+
+Processors:16,[hacc-io]-Size:1000,iter:3
+1193.37
+pagevec:35357123
+
+Processors:16,[hacc-io]-Size:1000,iter:4
+1200.37
+pagevec:33679607
+
+Processors:16,[hacc-io]-Size:1000,iter:5
+1161.56
+pagevec:33997577
+
+Processors:16,[hacc-io]-Size:1000,iter:6
+1162.33
+pagevec:34603995
+
+Processors:16,[hacc-io]-Size:1000,iter:7
+1042
+pagevec:32195963
+
+Processors:16,[hacc-io]-Size:1000,iter:8
+1195.75
+pagevec:32586565
+
+Processors:16,[hacc-io]-Size:1000,iter:9
+1177.87
+pagevec:30752153
+
+Processors:16,[hacc-io]-Size:1000,iter:10
+1163.76
+pagevec:33471739
+
+Processors:16,[hacc-io]-Size:10000,iter:1
+1206.02
+pagevec:35832051
+
+Processors:16,[hacc-io]-Size:10000,iter:2
+1119.95
+pagevec:36601810
+
+Processors:16,[hacc-io]-Size:10000,iter:3
+1284.91
+pagevec:34153539
+
+Processors:16,[hacc-io]-Size:10000,iter:4
+1261.41
+pagevec:42809321
+
+Processors:16,[hacc-io]-Size:10000,iter:5
+1257.69
+pagevec:34012929
+
+Processors:16,[hacc-io]-Size:10000,iter:6
+1296.37
+pagevec:35524820
+
+Processors:16,[hacc-io]-Size:10000,iter:7
+1267.75
+pagevec:39462897
+
+Processors:16,[hacc-io]-Size:10000,iter:8
+1100.06
+pagevec:36331261
+
+Processors:16,[hacc-io]-Size:10000,iter:9
+1276.81
+pagevec:35792566
+
+Processors:16,[hacc-io]-Size:10000,iter:10
+1277.14
+pagevec:42381468
+
+Processors:16,[hacc-io]-Size:100000,iter:1
+1711.67
+pagevec:72508127
+
+Processors:16,[hacc-io]-Size:100000,iter:2
+1748.09
+pagevec:71830029
+
+Processors:16,[hacc-io]-Size:100000,iter:3
+1479.66
+pagevec:83428174
+
+Processors:16,[hacc-io]-Size:100000,iter:4
+1758.69
+pagevec:75405775
+
+Processors:16,[hacc-io]-Size:100000,iter:5
+1758.96
+pagevec:77038803
+
+Processors:16,[hacc-io]-Size:100000,iter:6
+1756.17
+pagevec:74239379
+
+Processors:16,[hacc-io]-Size:100000,iter:7
+1754.97
+pagevec:74513798
+
+Processors:16,[hacc-io]-Size:100000,iter:8
+1743.4
+pagevec:73236199
+
+Processors:16,[hacc-io]-Size:100000,iter:9
+1477.34
+pagevec:79288715
+
+Processors:16,[hacc-io]-Size:100000,iter:10
+1773.39
+pagevec:78689265
+
+Processors:16,[hacc-io]-Size:1000000,iter:1
+2385.16
+pagevec:214262341
+
+Processors:16,[hacc-io]-Size:1000000,iter:2
+2424.8
+pagevec:215302806
+
+Processors:16,[hacc-io]-Size:1000000,iter:3
+1958.74
+pagevec:259458690
+
+Processors:16,[hacc-io]-Size:1000000,iter:4
+2427.27
+pagevec:212170831
+
+Processors:16,[hacc-io]-Size:1000000,iter:5
+2423.65
+pagevec:220602335
+
+Processors:16,[hacc-io]-Size:1000000,iter:6
+2434.27
+pagevec:209758035
+
+Processors:16,[hacc-io]-Size:1000000,iter:7
+2415.36
+pagevec:218623068
+
+Processors:16,[hacc-io]-Size:1000000,iter:8
+1960.28
+pagevec:241250697
+
+Processors:16,[hacc-io]-Size:1000000,iter:9
+2403.9
+pagevec:206837605
+
+Processors:16,[hacc-io]-Size:1000000,iter:10
+2418.99
+pagevec:211482384
+
+Processors:32,[hacc-io]-Size:100,iter:1
+1107.81
+pagevec:171978468
+
+Processors:32,[hacc-io]-Size:100,iter:2
+994.677
+pagevec:183077125
+
+Processors:32,[hacc-io]-Size:100,iter:3
+1091.56
+pagevec:182497352
+
+Processors:32,[hacc-io]-Size:100,iter:4
+1069.88
+pagevec:189965925
+
+Processors:32,[hacc-io]-Size:100,iter:5
+1122.56
+pagevec:182029427
+
+Processors:32,[hacc-io]-Size:100,iter:6
+1108.47
+pagevec:151711271
+
+Processors:32,[hacc-io]-Size:100,iter:7
+1089.15
+pagevec:182973948
+
+Processors:32,[hacc-io]-Size:100,iter:8
+991.975
+pagevec:167371566
+
+Processors:32,[hacc-io]-Size:100,iter:9
+1107.62
+pagevec:220349228
+
+Processors:32,[hacc-io]-Size:100,iter:10
+1111.58
+pagevec:179247249
+
+Processors:32,[hacc-io]-Size:1000,iter:1
+1082.46
+pagevec:184573324
+
+Processors:32,[hacc-io]-Size:1000,iter:2
+1115.23
+pagevec:185295076
+
+Processors:32,[hacc-io]-Size:1000,iter:3
+998.839
+pagevec:174478404
+
+Processors:32,[hacc-io]-Size:1000,iter:4
+1109.88
+pagevec:187645635
+
+Processors:32,[hacc-io]-Size:1000,iter:5
+1135.87
+pagevec:197910055
+
+Processors:32,[hacc-io]-Size:1000,iter:6
+1120.65
+pagevec:173200800
+
+Processors:32,[hacc-io]-Size:1000,iter:7
+1127.63
+pagevec:206219226
+
+Processors:32,[hacc-io]-Size:1000,iter:8
+1144.82
+pagevec:183059575
+
+Processors:32,[hacc-io]-Size:1000,iter:9
+996.735
+pagevec:180176213
+
+Processors:32,[hacc-io]-Size:1000,iter:10
+1095.7
+pagevec:167325544
+
+Processors:32,[hacc-io]-Size:10000,iter:1
+1236.68
+pagevec:218108409
+
+Processors:32,[hacc-io]-Size:10000,iter:2
+1309.76
+pagevec:220684090
+
+Processors:32,[hacc-io]-Size:10000,iter:3
+1301.67
+pagevec:209591577
+
+Processors:32,[hacc-io]-Size:10000,iter:4
+1120.9
+pagevec:201217021
+
+Processors:32,[hacc-io]-Size:10000,iter:5
+1299.96
+pagevec:192802491
+
+Processors:32,[hacc-io]-Size:10000,iter:6
+1302.38
+pagevec:265911509
+
+Processors:32,[hacc-io]-Size:10000,iter:7
+1291.24
+pagevec:232738165
+
+Processors:32,[hacc-io]-Size:10000,iter:8
+1283.55
+pagevec:203939942
+
+Processors:32,[hacc-io]-Size:10000,iter:9
+1311.93
+pagevec:218786379
+
+Processors:32,[hacc-io]-Size:10000,iter:10
+1141.06
+pagevec:233650503
+
+Processors:32,[hacc-io]-Size:100000,iter:1
+1940.21
+pagevec:566018634
+
+Processors:32,[hacc-io]-Size:100000,iter:2
+1993.8
+pagevec:536730273
+
+Processors:32,[hacc-io]-Size:100000,iter:3
+1966.35
+pagevec:525137399
+
+Processors:32,[hacc-io]-Size:100000,iter:4
+1969.22
+pagevec:541484755
+
+Processors:32,[hacc-io]-Size:100000,iter:5
+1588.53
+pagevec:623109327
+
+Processors:32,[hacc-io]-Size:100000,iter:6
+1958.62
+pagevec:511720131
+
+Processors:32,[hacc-io]-Size:100000,iter:7
+1983.8
+pagevec:522677277
+
+Processors:32,[hacc-io]-Size:100000,iter:8
+1967.87
+pagevec:533157905
+
+Processors:32,[hacc-io]-Size:100000,iter:9
+1988.59
+pagevec:511009521
+
+Processors:32,[hacc-io]-Size:100000,iter:10
+1974.68
+pagevec:512635170
+
+Processors:32,[hacc-io]-Size:1000000,iter:1
+854.88
+pagevec:1868738089
+
+Processors:32,[hacc-io]-Size:1000000,iter:2
+2384.76
+pagevec:1295779348
+
+Processors:32,[hacc-io]-Size:1000000,iter:3
+2386.65
+pagevec:1232251921
+
+Processors:32,[hacc-io]-Size:1000000,iter:4
+2391
+pagevec:1248350502
+
+Processors:32,[hacc-io]-Size:1000000,iter:5
+1907.17
+pagevec:1819222394
+
+Processors:32,[hacc-io]-Size:1000000,iter:6
+2386.73
+pagevec:1259123038
+
+Processors:32,[hacc-io]-Size:1000000,iter:7
+2388.24
+pagevec:1247240527
+
+Processors:32,[hacc-io]-Size:1000000,iter:8
+2396.02
+pagevec:1242578379
+
+Processors:32,[hacc-io]-Size:1000000,iter:9
+2384.8
+pagevec:1277385286
+
+Processors:32,[hacc-io]-Size:1000000,iter:10
+1903.65
+pagevec:1810314477
+
+Processors:64,[hacc-io]-Size:100,iter:1
+1016.15
+pagevec:937683435
+
+Processors:64,[hacc-io]-Size:100,iter:2
+1033.39
+pagevec:1046361923
+
+Processors:64,[hacc-io]-Size:100,iter:3
+1028
+pagevec:1078604770
+
+Processors:64,[hacc-io]-Size:100,iter:4
+934.55
+pagevec:1084586814
+
+Processors:64,[hacc-io]-Size:100,iter:5
+1043.18
+pagevec:869256339
+
+Processors:64,[hacc-io]-Size:100,iter:6
+1035.29
+pagevec:1000498961
+
+Processors:64,[hacc-io]-Size:100,iter:7
+1048.18
+pagevec:1090618331
+
+Processors:64,[hacc-io]-Size:100,iter:8
+1028.6
+pagevec:953906062
+
+Processors:64,[hacc-io]-Size:100,iter:9
+1035.55
+pagevec:933355040
+
+Processors:64,[hacc-io]-Size:100,iter:10
+922.983
+pagevec:925495978
+
+Processors:64,[hacc-io]-Size:1000,iter:1
+1048.83
+pagevec:1088038455
+
+Processors:64,[hacc-io]-Size:1000,iter:2
+1066.04
+pagevec:912810341
+
+Processors:64,[hacc-io]-Size:1000,iter:3
+1079.49
+pagevec:926451418
+
+Processors:64,[hacc-io]-Size:1000,iter:4
+1086.41
+pagevec:902629941
+
+Processors:64,[hacc-io]-Size:1000,iter:5
+919.039
+pagevec:1001546871
+
+Processors:64,[hacc-io]-Size:1000,iter:6
+1086.86
+pagevec:958983815
+
+Processors:64,[hacc-io]-Size:1000,iter:7
+1083.28
+pagevec:995182459
+
+Processors:64,[hacc-io]-Size:1000,iter:8
+1067.42
+pagevec:909458115
+
+Processors:64,[hacc-io]-Size:1000,iter:9
+1095.77
+pagevec:967580550
+
+Processors:64,[hacc-io]-Size:1000,iter:10
+1075.75
+pagevec:934835414
+
+Processors:64,[hacc-io]-Size:10000,iter:1
+1348.5
+pagevec:1083209780
+
+Processors:64,[hacc-io]-Size:10000,iter:2
+1313.55
+pagevec:1301499761
+
+Processors:64,[hacc-io]-Size:10000,iter:3
+1380.89
+pagevec:1178500702
+
+Processors:64,[hacc-io]-Size:10000,iter:4
+1373.73
+pagevec:1202942046
+
+Processors:64,[hacc-io]-Size:10000,iter:5
+1354.38
+pagevec:1072610567
+
+Processors:64,[hacc-io]-Size:10000,iter:6
+1187.97
+pagevec:1190332611
+
+Processors:64,[hacc-io]-Size:10000,iter:7
+1366.33
+pagevec:1197786484
+
+Processors:64,[hacc-io]-Size:10000,iter:8
+1375.93
+pagevec:1151869310
+
+Processors:64,[hacc-io]-Size:10000,iter:9
+1361.1
+pagevec:1111917159
+
+Processors:64,[hacc-io]-Size:10000,iter:10
+1399.9
+pagevec:1216310499
+
+Processors:64,[hacc-io]-Size:100000,iter:1
+1698.77
+pagevec:3334823849
+
+Processors:64,[hacc-io]-Size:100000,iter:2
+2092.41
+pagevec:3145034172
+
+Processors:64,[hacc-io]-Size:100000,iter:3
+2146.34
+pagevec:3129596216
+
+Processors:64,[hacc-io]-Size:100000,iter:4
+2173.07
+pagevec:3100270890
+
+Processors:64,[hacc-io]-Size:100000,iter:5
+2151.72
+pagevec:3240930086
+
+Processors:64,[hacc-io]-Size:100000,iter:6
+2126.47
+pagevec:3123129613
+
+Processors:64,[hacc-io]-Size:100000,iter:7
+655.287
+pagevec:3267850629
+
+Processors:64,[hacc-io]-Size:100000,iter:8
+2174.6
+pagevec:3155217620
+
+Processors:64,[hacc-io]-Size:100000,iter:9
+2186.14
+pagevec:3209932074
+
+Processors:64,[hacc-io]-Size:100000,iter:10
+2146.72
+pagevec:3167679547
+
+Processors:64,[hacc-io]-Size:1000000,iter:1
+1891.36
+pagevec:11187881676
+
+Processors:64,[hacc-io]-Size:1000000,iter:2
+2358.21
+pagevec:9214703085
+
+Processors:64,[hacc-io]-Size:1000000,iter:3
+2349.39
+pagevec:8963017469
+
+Processors:64,[hacc-io]-Size:1000000,iter:4
+2347.43
+pagevec:9064929958
+
+Processors:64,[hacc-io]-Size:1000000,iter:5
+1773.61
+pagevec:11087837854
+
+Processors:64,[hacc-io]-Size:1000000,iter:6
+1583.09
+pagevec:11312203562
+
+Processors:64,[hacc-io]-Size:1000000,iter:7
+2354.03
+pagevec:9415207867
+
+Processors:64,[hacc-io]-Size:1000000,iter:8
+2354.87
+pagevec:9272791224
+
+Processors:64,[hacc-io]-Size:1000000,iter:9
+2350.77
+pagevec:9315035792
+
+Processors:64,[hacc-io]-Size:1000000,iter:10
+1650.19
+pagevec:11556865656
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod8.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod8
+
+Processors:8,Block Size:128m,iter:1
+Max Write: 5454.12 MiB/sec (5719.06 MB/sec)
+pagevec:278459710
+
+Processors:8,Block Size:128m,iter:2
+Max Write: 5513.06 MiB/sec (5780.86 MB/sec)
+pagevec:281120667
+
+Processors:8,Block Size:128m,iter:3
+Max Write: 5535.82 MiB/sec (5804.73 MB/sec)
+pagevec:278060037
+
+Processors:8,Block Size:256m,iter:1
+Max Write: 5481.95 MiB/sec (5748.24 MB/sec)
+pagevec:540578867
+
+Processors:8,Block Size:256m,iter:2
+Max Write: 5601.12 MiB/sec (5873.20 MB/sec)
+pagevec:543396043
+
+Processors:8,Block Size:256m,iter:3
+Max Write: 5562.33 MiB/sec (5832.52 MB/sec)
+pagevec:533708654
+
+Processors:8,Block Size:512m,iter:1
+Max Write: 5503.86 MiB/sec (5771.22 MB/sec)
+pagevec:1072359861
+
+Processors:8,Block Size:512m,iter:2
+Max Write: 5612.13 MiB/sec (5884.75 MB/sec)
+pagevec:1071781949
+
+Processors:8,Block Size:512m,iter:3
+Max Write: 5602.50 MiB/sec (5874.65 MB/sec)
+pagevec:1082148983
+
+Processors:8,Block Size:1024m,iter:1
+Max Write: 5532.50 MiB/sec (5801.24 MB/sec)
+pagevec:2130528805
+
+Processors:8,Block Size:1024m,iter:2
+Max Write: 5631.31 MiB/sec (5904.86 MB/sec)
+pagevec:2138398779
+
+Processors:8,Block Size:1024m,iter:3
+Max Write: 5638.48 MiB/sec (5912.37 MB/sec)
+pagevec:2136547827
+
+Processors:16,Block Size:128m,iter:1
+Max Write: 9618.67 MiB/sec (10085.91 MB/sec)
+pagevec:769017755
+
+Processors:16,Block Size:128m,iter:2
+Max Write: 9646.37 MiB/sec (10114.95 MB/sec)
+pagevec:776319284
+
+Processors:16,Block Size:128m,iter:3
+Max Write: 9622.70 MiB/sec (10090.13 MB/sec)
+pagevec:770260821
+
+Processors:16,Block Size:256m,iter:1
+Max Write: 9733.44 MiB/sec (10206.26 MB/sec)
+pagevec:1512970449
+
+Processors:16,Block Size:256m,iter:2
+Max Write: 9678.96 MiB/sec (10149.12 MB/sec)
+pagevec:1524505618
+
+Processors:16,Block Size:256m,iter:3
+Max Write: 9706.68 MiB/sec (10178.20 MB/sec)
+pagevec:1528825216
+
+Processors:16,Block Size:512m,iter:1
+Max Write: 9733.49 MiB/sec (10206.31 MB/sec)
+pagevec:3011821335
+
+Processors:16,Block Size:512m,iter:2
+Max Write: 9711.58 MiB/sec (10183.33 MB/sec)
+pagevec:3027087886
+
+Processors:16,Block Size:512m,iter:3
+Max Write: 9710.81 MiB/sec (10182.52 MB/sec)
+pagevec:3025380462
+
+Processors:16,Block Size:1024m,iter:1
+Max Write: 9560.27 MiB/sec (10024.67 MB/sec)
+pagevec:5943338742
+
+Processors:16,Block Size:1024m,iter:2
+Max Write: 9675.01 MiB/sec (10144.98 MB/sec)
+pagevec:5967539262
+
+Processors:16,Block Size:1024m,iter:3
+Max Write: 9428.43 MiB/sec (9886.43 MB/sec)
+pagevec:5950176862
+
+Processors:32,Block Size:128m,iter:1
+Max Write: 12874.39 MiB/sec (13499.78 MB/sec)
+pagevec:3732033402
+
+Processors:32,Block Size:128m,iter:2
+Max Write: 12839.09 MiB/sec (13462.76 MB/sec)
+pagevec:3781742144
+
+Processors:32,Block Size:128m,iter:3
+Max Write: 12782.30 MiB/sec (13403.21 MB/sec)
+pagevec:3766579627
+
+Processors:32,Block Size:256m,iter:1
+Max Write: 13030.95 MiB/sec (13663.94 MB/sec)
+pagevec:7340526317
+
+Processors:32,Block Size:256m,iter:2
+Max Write: 12986.44 MiB/sec (13617.27 MB/sec)
+pagevec:7230797592
+
+Processors:32,Block Size:256m,iter:3
+Max Write: 13000.45 MiB/sec (13631.96 MB/sec)
+pagevec:7321529531
+
+Processors:32,Block Size:512m,iter:1
+Max Write: 12338.84 MiB/sec (12938.21 MB/sec)
+pagevec:14103521385
+
+Processors:32,Block Size:512m,iter:2
+Max Write: 12985.75 MiB/sec (13616.54 MB/sec)
+pagevec:14559540236
+
+Processors:32,Block Size:512m,iter:3
+Max Write: 12967.71 MiB/sec (13597.63 MB/sec)
+pagevec:14629297595
+
+Processors:32,Block Size:1024m,iter:1
+Max Write: 10336.19 MiB/sec (10838.28 MB/sec)
+pagevec:24954880903
+
+Processors:32,Block Size:1024m,iter:2
+Max Write: 9742.21 MiB/sec (10215.45 MB/sec)
+pagevec:23952856245
+
+Processors:32,Block Size:1024m,iter:3
+Max Write: 9770.95 MiB/sec (10245.58 MB/sec)
+pagevec:24494350952
+
+Processors:64,Block Size:128m,iter:1
+Max Write: 13411.13 MiB/sec (14062.59 MB/sec)
+pagevec:14433542511
+
+Processors:64,Block Size:128m,iter:2
+Max Write: 13473.21 MiB/sec (14127.69 MB/sec)
+pagevec:14767016432
+
+Processors:64,Block Size:128m,iter:3
+Max Write: 13468.87 MiB/sec (14123.14 MB/sec)
+pagevec:14923665185
+
+Processors:64,Block Size:256m,iter:1
+Max Write: 12860.81 MiB/sec (13485.53 MB/sec)
+pagevec:26826759586
+
+Processors:64,Block Size:256m,iter:2
+Max Write: 13507.63 MiB/sec (14163.78 MB/sec)
+pagevec:28437925864
+
+Processors:64,Block Size:256m,iter:3
+Max Write: 13405.53 MiB/sec (14056.72 MB/sec)
+pagevec:27700243602
+
+Processors:64,Block Size:512m,iter:1
+Max Write: 11695.79 MiB/sec (12263.93 MB/sec)
+pagevec:44260851438
+
+Processors:64,Block Size:512m,iter:2
+Max Write: 11884.63 MiB/sec (12461.94 MB/sec)
+pagevec:43527651510
+
+Processors:64,Block Size:512m,iter:3
+Max Write: 10616.75 MiB/sec (11132.47 MB/sec)
+pagevec:44737618866
+
+Processors:64,Block Size:1024m,iter:1
+Max Write: 3244.27 MiB/sec (3401.86 MB/sec)
+pagevec:50768998159
+
+Processors:64,Block Size:1024m,iter:2
+Max Write: 3123.99 MiB/sec (3275.74 MB/sec)
+pagevec:43126428211
+
+Processors:64,Block Size:1024m,iter:3
+Max Write: 3155.95 MiB/sec (3309.26 MB/sec)
+pagevec:44601662983
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod8.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod8
+
+Processors:16,[hacc-io]-Size:100,iter:1
+1031.86
+pagevec:24687235
+
+Processors:16,[hacc-io]-Size:100,iter:2
+1186.88
+pagevec:26244635
+
+Processors:16,[hacc-io]-Size:100,iter:3
+1175.29
+pagevec:25262454
+
+Processors:16,[hacc-io]-Size:100,iter:4
+1054.11
+pagevec:25330712
+
+Processors:16,[hacc-io]-Size:100,iter:5
+1216.83
+pagevec:26289335
+
+Processors:16,[hacc-io]-Size:100,iter:6
+1053.51
+pagevec:26038296
+
+Processors:16,[hacc-io]-Size:100,iter:7
+1182.39
+pagevec:25682629
+
+Processors:16,[hacc-io]-Size:100,iter:8
+1070.15
+pagevec:27574134
+
+Processors:16,[hacc-io]-Size:100,iter:9
+1172.99
+pagevec:30841318
+
+Processors:16,[hacc-io]-Size:100,iter:10
+1027.03
+pagevec:25311001
+
+Processors:16,[hacc-io]-Size:1000,iter:1
+1175.84
+pagevec:29045054
+
+Processors:16,[hacc-io]-Size:1000,iter:2
+1056.65
+pagevec:25710429
+
+Processors:16,[hacc-io]-Size:1000,iter:3
+1203.6
+pagevec:29716016
+
+Processors:16,[hacc-io]-Size:1000,iter:4
+1048.44
+pagevec:26529830
+
+Processors:16,[hacc-io]-Size:1000,iter:5
+1197.03
+pagevec:25829010
+
+Processors:16,[hacc-io]-Size:1000,iter:6
+1209.64
+pagevec:26668755
+
+Processors:16,[hacc-io]-Size:1000,iter:7
+1047.6
+pagevec:29844226
+
+Processors:16,[hacc-io]-Size:1000,iter:8
+1189.57
+pagevec:26914922
+
+Processors:16,[hacc-io]-Size:1000,iter:9
+1052.9
+pagevec:27512699
+
+Processors:16,[hacc-io]-Size:1000,iter:10
+1209.22
+pagevec:30877632
+
+Processors:16,[hacc-io]-Size:10000,iter:1
+1221.79
+pagevec:30539094
+
+Processors:16,[hacc-io]-Size:10000,iter:2
+1139.29
+pagevec:34227052
+
+Processors:16,[hacc-io]-Size:10000,iter:3
+1273.7
+pagevec:28707151
+
+Processors:16,[hacc-io]-Size:10000,iter:4
+1137.38
+pagevec:30255929
+
+Processors:16,[hacc-io]-Size:10000,iter:5
+1270.34
+pagevec:30523402
+
+Processors:16,[hacc-io]-Size:10000,iter:6
+1139.16
+pagevec:29240575
+
+Processors:16,[hacc-io]-Size:10000,iter:7
+1276.93
+pagevec:30885248
+
+Processors:16,[hacc-io]-Size:10000,iter:8
+1278.84
+pagevec:32125287
+
+Processors:16,[hacc-io]-Size:10000,iter:9
+1117.13
+pagevec:29281128
+
+Processors:16,[hacc-io]-Size:10000,iter:10
+1279.33
+pagevec:32128780
+
+Processors:16,[hacc-io]-Size:100000,iter:1
+1756.39
+pagevec:58760904
+
+Processors:16,[hacc-io]-Size:100000,iter:2
+1480.19
+pagevec:66687763
+
+Processors:16,[hacc-io]-Size:100000,iter:3
+1767.07
+pagevec:58802442
+
+Processors:16,[hacc-io]-Size:100000,iter:4
+1779
+pagevec:58737333
+
+Processors:16,[hacc-io]-Size:100000,iter:5
+1481.77
+pagevec:61793805
+
+Processors:16,[hacc-io]-Size:100000,iter:6
+1775.6
+pagevec:59229723
+
+Processors:16,[hacc-io]-Size:100000,iter:7
+1785.09
+pagevec:58955862
+
+Processors:16,[hacc-io]-Size:100000,iter:8
+1767.76
+pagevec:57882225
+
+Processors:16,[hacc-io]-Size:100000,iter:9
+1477.5
+pagevec:63707672
+
+Processors:16,[hacc-io]-Size:100000,iter:10
+1780.89
+pagevec:60048968
+
+Processors:16,[hacc-io]-Size:1000000,iter:1
+1943.06
+pagevec:190835691
+
+Processors:16,[hacc-io]-Size:1000000,iter:2
+2389.58
+pagevec:167586265
+
+Processors:16,[hacc-io]-Size:1000000,iter:3
+2424.09
+pagevec:179427201
+
+Processors:16,[hacc-io]-Size:1000000,iter:4
+2413.99
+pagevec:173322910
+
+Processors:16,[hacc-io]-Size:1000000,iter:5
+2408.49
+pagevec:172639250
+
+Processors:16,[hacc-io]-Size:1000000,iter:6
+1929.86
+pagevec:196704349
+
+Processors:16,[hacc-io]-Size:1000000,iter:7
+2401.18
+pagevec:182997309
+
+Processors:16,[hacc-io]-Size:1000000,iter:8
+2386.04
+pagevec:175389483
+
+Processors:16,[hacc-io]-Size:1000000,iter:9
+2420.34
+pagevec:173001111
+
+Processors:16,[hacc-io]-Size:1000000,iter:10
+1925.88
+pagevec:193841271
+
+Processors:32,[hacc-io]-Size:100,iter:1
+1090.48
+pagevec:66138404
+
+Processors:32,[hacc-io]-Size:100,iter:2
+1098.82
+pagevec:61677174
+
+Processors:32,[hacc-io]-Size:100,iter:3
+993.407
+pagevec:65854115
+
+Processors:32,[hacc-io]-Size:100,iter:4
+1078
+pagevec:68555461
+
+Processors:32,[hacc-io]-Size:100,iter:5
+996.441
+pagevec:65884593
+
+Processors:32,[hacc-io]-Size:100,iter:6
+1045.7
+pagevec:70021346
+
+Processors:32,[hacc-io]-Size:100,iter:7
+999.868
+pagevec:68211333
+
+Processors:32,[hacc-io]-Size:100,iter:8
+1115.91
+pagevec:62879848
+
+Processors:32,[hacc-io]-Size:100,iter:9
+1084.94
+pagevec:70666729
+
+Processors:32,[hacc-io]-Size:100,iter:10
+1006.54
+pagevec:65811285
+
+Processors:32,[hacc-io]-Size:1000,iter:1
+975.109
+pagevec:61718297
+
+Processors:32,[hacc-io]-Size:1000,iter:2
+1134.08
+pagevec:72737331
+
+Processors:32,[hacc-io]-Size:1000,iter:3
+998.517
+pagevec:62023487
+
+Processors:32,[hacc-io]-Size:1000,iter:4
+1138.13
+pagevec:73020169
+
+Processors:32,[hacc-io]-Size:1000,iter:5
+978.709
+pagevec:70060988
+
+Processors:32,[hacc-io]-Size:1000,iter:6
+1110.65
+pagevec:69299165
+
+Processors:32,[hacc-io]-Size:1000,iter:7
+975.939
+pagevec:68431835
+
+Processors:32,[hacc-io]-Size:1000,iter:8
+1131.99
+pagevec:59186021
+
+Processors:32,[hacc-io]-Size:1000,iter:9
+995.437
+pagevec:71735129
+
+Processors:32,[hacc-io]-Size:1000,iter:10
+1130.67
+pagevec:67461231
+
+Processors:32,[hacc-io]-Size:10000,iter:1
+1275.28
+pagevec:89807904
+
+Processors:32,[hacc-io]-Size:10000,iter:2
+1331.66
+pagevec:87892408
+
+Processors:32,[hacc-io]-Size:10000,iter:3
+1128.95
+pagevec:80162465
+
+Processors:32,[hacc-io]-Size:10000,iter:4
+1318.83
+pagevec:81883281
+
+Processors:32,[hacc-io]-Size:10000,iter:5
+1110.42
+pagevec:84947450
+
+Processors:32,[hacc-io]-Size:10000,iter:6
+1308.75
+pagevec:83957162
+
+Processors:32,[hacc-io]-Size:10000,iter:7
+1303.48
+pagevec:86196929
+
+Processors:32,[hacc-io]-Size:10000,iter:8
+1131.88
+pagevec:86528089
+
+Processors:32,[hacc-io]-Size:10000,iter:9
+1318.3
+pagevec:84205956
+
+Processors:32,[hacc-io]-Size:10000,iter:10
+1123.64
+pagevec:81615900
+
+Processors:32,[hacc-io]-Size:100000,iter:1
+1627.84
+pagevec:195360321
+
+Processors:32,[hacc-io]-Size:100000,iter:2
+1960.26
+pagevec:176345285
+
+Processors:32,[hacc-io]-Size:100000,iter:3
+1972.28
+pagevec:184317152
+
+Processors:32,[hacc-io]-Size:100000,iter:4
+1605.86
+pagevec:203467814
+
+Processors:32,[hacc-io]-Size:100000,iter:5
+1915.05
+pagevec:184672962
+
+Processors:32,[hacc-io]-Size:100000,iter:6
+1984.38
+pagevec:174248797
+
+Processors:32,[hacc-io]-Size:100000,iter:7
+1595.33
+pagevec:205546698
+
+Processors:32,[hacc-io]-Size:100000,iter:8
+1959.63
+pagevec:177292813
+
+Processors:32,[hacc-io]-Size:100000,iter:9
+2002.44
+pagevec:186735817
+
+Processors:32,[hacc-io]-Size:100000,iter:10
+1969.17
+pagevec:176138069
+
+Processors:32,[hacc-io]-Size:1000000,iter:1
+883.957
+pagevec:626988632
+
+Processors:32,[hacc-io]-Size:1000000,iter:2
+2355.13
+pagevec:507669178
+
+Processors:32,[hacc-io]-Size:1000000,iter:3
+2353.31
+pagevec:505070789
+
+Processors:32,[hacc-io]-Size:1000000,iter:4
+2356.89
+pagevec:524611429
+
+Processors:32,[hacc-io]-Size:1000000,iter:5
+1881.51
+pagevec:627586591
+
+Processors:32,[hacc-io]-Size:1000000,iter:6
+2351.11
+pagevec:513456645
+
+Processors:32,[hacc-io]-Size:1000000,iter:7
+2343.7
+pagevec:505112319
+
+Processors:32,[hacc-io]-Size:1000000,iter:8
+2374.42
+pagevec:515260202
+
+Processors:32,[hacc-io]-Size:1000000,iter:9
+1892.56
+pagevec:629252675
+
+Processors:32,[hacc-io]-Size:1000000,iter:10
+2342.93
+pagevec:518762005
+
+Processors:64,[hacc-io]-Size:100,iter:1
+1045.78
+pagevec:196915991
+
+Processors:64,[hacc-io]-Size:100,iter:2
+1027.43
+pagevec:197068311
+
+Processors:64,[hacc-io]-Size:100,iter:3
+938.061
+pagevec:197260930
+
+Processors:64,[hacc-io]-Size:100,iter:4
+1039.1
+pagevec:203411962
+
+Processors:64,[hacc-io]-Size:100,iter:5
+936.643
+pagevec:186593597
+
+Processors:64,[hacc-io]-Size:100,iter:6
+1058.02
+pagevec:197990722
+
+Processors:64,[hacc-io]-Size:100,iter:7
+918.155
+pagevec:196259843
+
+Processors:64,[hacc-io]-Size:100,iter:8
+1035.73
+pagevec:192428972
+
+Processors:64,[hacc-io]-Size:100,iter:9
+938.563
+pagevec:196451603
+
+Processors:64,[hacc-io]-Size:100,iter:10
+1043.89
+pagevec:187693500
+
+Processors:64,[hacc-io]-Size:1000,iter:1
+922.711
+pagevec:181346006
+
+Processors:64,[hacc-io]-Size:1000,iter:2
+1024.66
+pagevec:190479895
+
+Processors:64,[hacc-io]-Size:1000,iter:3
+947.215
+pagevec:171975993
+
+Processors:64,[hacc-io]-Size:1000,iter:4
+1090.54
+pagevec:227872120
+
+Processors:64,[hacc-io]-Size:1000,iter:5
+946.874
+pagevec:192748383
+
+Processors:64,[hacc-io]-Size:1000,iter:6
+1101.04
+pagevec:171343810
+
+Processors:64,[hacc-io]-Size:1000,iter:7
+1094.32
+pagevec:189591458
+
+Processors:64,[hacc-io]-Size:1000,iter:8
+952.635
+pagevec:197240087
+
+Processors:64,[hacc-io]-Size:1000,iter:9
+1043.01
+pagevec:170911958
+
+Processors:64,[hacc-io]-Size:1000,iter:10
+948.314
+pagevec:207295788
+
+Processors:64,[hacc-io]-Size:10000,iter:1
+1210.43
+pagevec:260404231
+
+Processors:64,[hacc-io]-Size:10000,iter:2
+1420.67
+pagevec:236228041
+
+Processors:64,[hacc-io]-Size:10000,iter:3
+1367.41
+pagevec:234910216
+
+Processors:64,[hacc-io]-Size:10000,iter:4
+1186.9
+pagevec:234326908
+
+Processors:64,[hacc-io]-Size:10000,iter:5
+1371.86
+pagevec:253789852
+
+Processors:64,[hacc-io]-Size:10000,iter:6
+1411.24
+pagevec:230752246
+
+Processors:64,[hacc-io]-Size:10000,iter:7
+1180.93
+pagevec:237928473
+
+Processors:64,[hacc-io]-Size:10000,iter:8
+1418.84
+pagevec:252519793
+
+Processors:64,[hacc-io]-Size:10000,iter:9
+1394.52
+pagevec:251793664
+
+Processors:64,[hacc-io]-Size:10000,iter:10
+1177.13
+pagevec:254418384
+
+Processors:64,[hacc-io]-Size:100000,iter:1
+890.111
+pagevec:730650360
+
+Processors:64,[hacc-io]-Size:100000,iter:2
+2149.67
+pagevec:733504234
+
+Processors:64,[hacc-io]-Size:100000,iter:3
+2146.18
+pagevec:662679088
+
+Processors:64,[hacc-io]-Size:100000,iter:4
+1678.26
+pagevec:767055568
+
+Processors:64,[hacc-io]-Size:100000,iter:5
+2159.03
+pagevec:617777586
+
+Processors:64,[hacc-io]-Size:100000,iter:6
+2140.93
+pagevec:651609660
+
+Processors:64,[hacc-io]-Size:100000,iter:7
+2155.74
+pagevec:680085044
+
+Processors:64,[hacc-io]-Size:100000,iter:8
+1755.84
+pagevec:747401289
+
+Processors:64,[hacc-io]-Size:100000,iter:9
+2137.91
+pagevec:656519457
+
+Processors:64,[hacc-io]-Size:100000,iter:10
+2157.66
+pagevec:685263680
+
+Processors:64,[hacc-io]-Size:1000000,iter:1
+1126.48
+pagevec:2180590923
+
+Processors:64,[hacc-io]-Size:1000000,iter:2
+1868.06
+pagevec:1991459541
+
+Processors:64,[hacc-io]-Size:1000000,iter:3
+2348.86
+pagevec:1679794467
+
+Processors:64,[hacc-io]-Size:1000000,iter:4
+2331.13
+pagevec:1803864202
+
+Processors:64,[hacc-io]-Size:1000000,iter:5
+2348.8
+pagevec:1763899553
+
+Processors:64,[hacc-io]-Size:1000000,iter:6
+1595.14
+pagevec:1982974052
+
+Processors:64,[hacc-io]-Size:1000000,iter:7
+1180.91
+pagevec:2203293405
+
+Processors:64,[hacc-io]-Size:1000000,iter:8
+2338.75
+pagevec:1775075733
+
+Processors:64,[hacc-io]-Size:1000000,iter:9
+2337.95
+pagevec:1752702092
+
+Processors:64,[hacc-io]-Size:1000000,iter:10
+2344.2
+pagevec:1739313479
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod16.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod16
+
+Processors:8,Block Size:128m,iter:1
+Max Write: 5142.29 MiB/sec (5392.09 MB/sec)
+pagevec:337071181
+
+Processors:8,Block Size:128m,iter:2
+Max Write: 5206.96 MiB/sec (5459.89 MB/sec)
+pagevec:342278995
+
+Processors:8,Block Size:128m,iter:3
+Max Write: 5239.64 MiB/sec (5494.16 MB/sec)
+pagevec:337707471
+
+Processors:8,Block Size:256m,iter:1
+Max Write: 5172.78 MiB/sec (5424.05 MB/sec)
+pagevec:661980672
+
+Processors:8,Block Size:256m,iter:2
+Max Write: 5279.66 MiB/sec (5536.12 MB/sec)
+pagevec:665012927
+
+Processors:8,Block Size:256m,iter:3
+Max Write: 5247.91 MiB/sec (5502.83 MB/sec)
+pagevec:655596206
+
+Processors:8,Block Size:512m,iter:1
+Max Write: 5202.56 MiB/sec (5455.28 MB/sec)
+pagevec:1305238543
+
+Processors:8,Block Size:512m,iter:2
+Max Write: 5279.57 MiB/sec (5536.03 MB/sec)
+pagevec:1307831717
+
+Processors:8,Block Size:512m,iter:3
+Max Write: 5274.94 MiB/sec (5531.17 MB/sec)
+pagevec:1320850758
+
+Processors:8,Block Size:1024m,iter:1
+Max Write: 5211.53 MiB/sec (5464.68 MB/sec)
+pagevec:2597620619
+
+Processors:8,Block Size:1024m,iter:2
+Max Write: 5290.11 MiB/sec (5547.08 MB/sec)
+pagevec:2614821743
+
+Processors:8,Block Size:1024m,iter:3
+Max Write: 5279.84 MiB/sec (5536.31 MB/sec)
+pagevec:2641247175
+
+Processors:16,Block Size:128m,iter:1
+Max Write: 8789.21 MiB/sec (9216.16 MB/sec)
+pagevec:997557325
+
+Processors:16,Block Size:128m,iter:2
+Max Write: 8813.23 MiB/sec (9241.34 MB/sec)
+pagevec:1001668838
+
+Processors:16,Block Size:128m,iter:3
+Max Write: 8801.56 MiB/sec (9229.10 MB/sec)
+pagevec:1005444278
+
+Processors:16,Block Size:256m,iter:1
+Max Write: 8888.70 MiB/sec (9320.47 MB/sec)
+pagevec:1982843627
+
+Processors:16,Block Size:256m,iter:2
+Max Write: 8871.37 MiB/sec (9302.31 MB/sec)
+pagevec:1971766829
+
+Processors:16,Block Size:256m,iter:3
+Max Write: 8868.89 MiB/sec (9299.70 MB/sec)
+pagevec:1981062736
+
+Processors:16,Block Size:512m,iter:1
+Max Write: 8885.05 MiB/sec (9316.65 MB/sec)
+pagevec:3922197788
+
+Processors:16,Block Size:512m,iter:2
+Max Write: 8867.28 MiB/sec (9298.02 MB/sec)
+pagevec:3931812925
+
+Processors:16,Block Size:512m,iter:3
+Max Write: 8852.73 MiB/sec (9282.76 MB/sec)
+pagevec:3965580170
+
+Processors:16,Block Size:1024m,iter:1
+Max Write: 8668.68 MiB/sec (9089.77 MB/sec)
+pagevec:7931791263
+
+Processors:16,Block Size:1024m,iter:2
+Max Write: 8755.80 MiB/sec (9181.13 MB/sec)
+pagevec:7948185015
+
+Processors:16,Block Size:1024m,iter:3
+Max Write: 8803.99 MiB/sec (9231.65 MB/sec)
+pagevec:7874462755
+
+Processors:32,Block Size:128m,iter:1
+Max Write: 10787.35 MiB/sec (11311.36 MB/sec)
+pagevec:5869124118
+
+Processors:32,Block Size:128m,iter:2
+Max Write: 10762.09 MiB/sec (11284.87 MB/sec)
+pagevec:5882254262
+
+Processors:32,Block Size:128m,iter:3
+Max Write: 10775.06 MiB/sec (11298.47 MB/sec)
+pagevec:5885682545
+
+Processors:32,Block Size:256m,iter:1
+Max Write: 10889.40 MiB/sec (11418.37 MB/sec)
+pagevec:11661864933
+
+Processors:32,Block Size:256m,iter:2
+Max Write: 10883.92 MiB/sec (11412.62 MB/sec)
+pagevec:11697064309
+
+Processors:32,Block Size:256m,iter:3
+Max Write: 10875.09 MiB/sec (11403.36 MB/sec)
+pagevec:11660187293
+
+Processors:32,Block Size:512m,iter:1
+Max Write: 10648.99 MiB/sec (11166.28 MB/sec)
+pagevec:24257311166
+
+Processors:32,Block Size:512m,iter:2
+Max Write: 10709.01 MiB/sec (11229.21 MB/sec)
+pagevec:24257018600
+
+Processors:32,Block Size:512m,iter:3
+Max Write: 10714.64 MiB/sec (11235.11 MB/sec)
+pagevec:24301823409
+
+Processors:32,Block Size:1024m,iter:1
+Max Write: 8954.75 MiB/sec (9389.74 MB/sec)
+pagevec:43655009291
+
+Processors:32,Block Size:1024m,iter:2
+Max Write: 8659.54 MiB/sec (9080.19 MB/sec)
+pagevec:42375283382
+
+Processors:32,Block Size:1024m,iter:3
+Max Write: 8479.70 MiB/sec (8891.61 MB/sec)
+pagevec:41559614485
+
+Processors:64,Block Size:128m,iter:1
+Max Write: 11593.28 MiB/sec (12156.44 MB/sec)
+pagevec:29466843595
+
+Processors:64,Block Size:128m,iter:2
+Max Write: 11636.94 MiB/sec (12202.22 MB/sec)
+pagevec:29770704436
+
+Processors:64,Block Size:128m,iter:3
+Max Write: 11618.13 MiB/sec (12182.49 MB/sec)
+pagevec:29621884222
+
+Processors:64,Block Size:256m,iter:1
+Max Write: 11453.35 MiB/sec (12009.71 MB/sec)
+pagevec:60620839520
+
+Processors:64,Block Size:256m,iter:2
+Max Write: 11417.29 MiB/sec (11971.89 MB/sec)
+pagevec:60810598865
+
+Processors:64,Block Size:256m,iter:3
+Max Write: 11138.70 MiB/sec (11679.77 MB/sec)
+pagevec:60396077084
+
+Processors:64,Block Size:512m,iter:1
+Max Write: 10552.84 MiB/sec (11065.46 MB/sec)
+pagevec:119419513005
+
+Processors:64,Block Size:512m,iter:2
+Max Write: 10560.59 MiB/sec (11073.58 MB/sec)
+pagevec:118981791172
+
+Processors:64,Block Size:512m,iter:3
+Max Write: 10405.57 MiB/sec (10911.03 MB/sec)
+pagevec:118987452860
+
+Processors:64,Block Size:1024m,iter:1
+Max Write: 2988.02 MiB/sec (3133.17 MB/sec)
+pagevec:127100737010
+
+Processors:64,Block Size:1024m,iter:2
+Max Write: 3024.17 MiB/sec (3171.07 MB/sec)
+pagevec:101336373631
+
+Processors:64,Block Size:1024m,iter:3
+Max Write: 3000.61 MiB/sec (3146.37 MB/sec)
+pagevec:101003071104
+Saved File will be recorded as : /home/kau/jwbang/200320/out_mod16.txt
+Read/Write: READ
+mymodule path: /home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_mod16
+
+Processors:16,[hacc-io]-Size:100,iter:1
+1075.18
+pagevec:32062996
+
+Processors:16,[hacc-io]-Size:100,iter:2
+1059.26
+pagevec:33248543
+
+Processors:16,[hacc-io]-Size:100,iter:3
+1171.51
+pagevec:30358247
+
+Processors:16,[hacc-io]-Size:100,iter:4
+1043.27
+pagevec:30524756
+
+Processors:16,[hacc-io]-Size:100,iter:5
+1192.1
+pagevec:35123021
+
+Processors:16,[hacc-io]-Size:100,iter:6
+1066.97
+pagevec:31692063
+
+Processors:16,[hacc-io]-Size:100,iter:7
+1211.32
+pagevec:33090195
+
+Processors:16,[hacc-io]-Size:100,iter:8
+1171.27
+pagevec:31399864
+
+Processors:16,[hacc-io]-Size:100,iter:9
+1058.43
+pagevec:35757290
+
+Processors:16,[hacc-io]-Size:100,iter:10
+1171.22
+pagevec:33628109
+
+Processors:16,[hacc-io]-Size:1000,iter:1
+1116.4
+pagevec:33163398
+
+Processors:16,[hacc-io]-Size:1000,iter:2
+1077.53
+pagevec:33067393
+
+Processors:16,[hacc-io]-Size:1000,iter:3
+1191.45
+pagevec:33760327
+
+Processors:16,[hacc-io]-Size:1000,iter:4
+1057.29
+pagevec:36173419
+
+Processors:16,[hacc-io]-Size:1000,iter:5
+1215.63
+pagevec:32101573
+
+Processors:16,[hacc-io]-Size:1000,iter:6
+1176.14
+pagevec:31269458
+
+Processors:16,[hacc-io]-Size:1000,iter:7
+1044.08
+pagevec:33346437
+
+Processors:16,[hacc-io]-Size:1000,iter:8
+1215.26
+pagevec:35433663
+
+Processors:16,[hacc-io]-Size:1000,iter:9
+1058.52
+pagevec:32989401
+
+Processors:16,[hacc-io]-Size:1000,iter:10
+1182.12
+pagevec:34913320
+
+Processors:16,[hacc-io]-Size:10000,iter:1
+1131.69
+pagevec:35248935
+
+Processors:16,[hacc-io]-Size:10000,iter:2
+1272.34
+pagevec:43004087
+
+Processors:16,[hacc-io]-Size:10000,iter:3
+1122.44
+pagevec:38552012
+
+Processors:16,[hacc-io]-Size:10000,iter:4
+1269.37
+pagevec:38667370
+
+Processors:16,[hacc-io]-Size:10000,iter:5
+1139.56
+pagevec:40092086
+
+Processors:16,[hacc-io]-Size:10000,iter:6
+1287.29
+pagevec:37142288
+
+Processors:16,[hacc-io]-Size:10000,iter:7
+1122.48
+pagevec:39269503
+
+Processors:16,[hacc-io]-Size:10000,iter:8
+1304.42
+pagevec:38892383
+
+Processors:16,[hacc-io]-Size:10000,iter:9
+1122.81
+pagevec:34914654
+
+Processors:16,[hacc-io]-Size:10000,iter:10
+1289.3
+pagevec:37769260
+
+Processors:16,[hacc-io]-Size:100000,iter:1
+1770.82
+pagevec:67348271
+
+Processors:16,[hacc-io]-Size:100000,iter:2
+1788.28
+pagevec:70877291
+
+Processors:16,[hacc-io]-Size:100000,iter:3
+1492.62
+pagevec:78708066
+
+Processors:16,[hacc-io]-Size:100000,iter:4
+1805.72
+pagevec:79538265
+
+Processors:16,[hacc-io]-Size:100000,iter:5
+1805.45
+pagevec:74592115
+
+Processors:16,[hacc-io]-Size:100000,iter:6
+1496.62
+pagevec:74379879
+
+Processors:16,[hacc-io]-Size:100000,iter:7
+1787.96
+pagevec:76455193
+
+Processors:16,[hacc-io]-Size:100000,iter:8
+1792.97
+pagevec:79466380
+
+Processors:16,[hacc-io]-Size:100000,iter:9
+1483.24
+pagevec:81465901
+
+Processors:16,[hacc-io]-Size:100000,iter:10
+1803.77
+pagevec:73766071
+
+Processors:16,[hacc-io]-Size:1000000,iter:1
+1937.96
+pagevec:240714244
+
+Processors:16,[hacc-io]-Size:1000000,iter:2
+2442.55
+pagevec:214523207
+
+Processors:16,[hacc-io]-Size:1000000,iter:3
+2415.38
+pagevec:219388105
+
+Processors:16,[hacc-io]-Size:1000000,iter:4
+2424.44
+pagevec:217600949
+
+Processors:16,[hacc-io]-Size:1000000,iter:5
+1945.99
+pagevec:242666646
+
+Processors:16,[hacc-io]-Size:1000000,iter:6
+2432.21
+pagevec:223183565
+
+Processors:16,[hacc-io]-Size:1000000,iter:7
+2425.63
+pagevec:217624925
+
+Processors:16,[hacc-io]-Size:1000000,iter:8
+2420.27
+pagevec:224937086
+
+Processors:16,[hacc-io]-Size:1000000,iter:9
+1937.35
+pagevec:235967931
+
+Processors:16,[hacc-io]-Size:1000000,iter:10
+2434.17
+pagevec:210123012
+
+Processors:32,[hacc-io]-Size:100,iter:1
+1104.06
+pagevec:102036268
+
+Processors:32,[hacc-io]-Size:100,iter:2
+1112.06
+pagevec:96166055
+
+Processors:32,[hacc-io]-Size:100,iter:3
+991.897
+pagevec:92000293
+
+Processors:32,[hacc-io]-Size:100,iter:4
+991.401
+pagevec:95819754
+
+Processors:32,[hacc-io]-Size:100,iter:5
+1116.9
+pagevec:93467758
+
+Processors:32,[hacc-io]-Size:100,iter:6
+993.036
+pagevec:100676943
+
+Processors:32,[hacc-io]-Size:100,iter:7
+1121.41
+pagevec:82854431
+
+Processors:32,[hacc-io]-Size:100,iter:8
+995.01
+pagevec:97855905
+
+Processors:32,[hacc-io]-Size:100,iter:9
+1087.04
+pagevec:88992702
+
+Processors:32,[hacc-io]-Size:100,iter:10
+1078.54
+pagevec:96390456
+
+Processors:32,[hacc-io]-Size:1000,iter:1
+1090.16
+pagevec:89728594
+
+Processors:32,[hacc-io]-Size:1000,iter:2
+1003.05
+pagevec:93906733
+
+Processors:32,[hacc-io]-Size:1000,iter:3
+1148.63
+pagevec:88893439
+
+Processors:32,[hacc-io]-Size:1000,iter:4
+1009.42
+pagevec:94423787
+
+Processors:32,[hacc-io]-Size:1000,iter:5
+1141.13
+pagevec:89902923
+
+Processors:32,[hacc-io]-Size:1000,iter:6
+998.47
+pagevec:97176294
+
+Processors:32,[hacc-io]-Size:1000,iter:7
+1115.24
+pagevec:92896558
+
+Processors:32,[hacc-io]-Size:1000,iter:8
+1002.85
+pagevec:99392984
+
+Processors:32,[hacc-io]-Size:1000,iter:9
+1135.12
+pagevec:93469622
+
+Processors:32,[hacc-io]-Size:1000,iter:10
+987.972
+pagevec:113036834
+
+Processors:32,[hacc-io]-Size:10000,iter:1
+1263.42
+pagevec:108644063
+
+Processors:32,[hacc-io]-Size:10000,iter:2
+1110.04
+pagevec:116976846
+
+Processors:32,[hacc-io]-Size:10000,iter:3
+1305.29
+pagevec:106586285
+
+Processors:32,[hacc-io]-Size:10000,iter:4
+1306.78
+pagevec:115642534
+
+Processors:32,[hacc-io]-Size:10000,iter:5
+1140.12
+pagevec:115997645
+
+Processors:32,[hacc-io]-Size:10000,iter:6
+1322.41
+pagevec:114370188
+
+Processors:32,[hacc-io]-Size:10000,iter:7
+1139.28
+pagevec:119869606
+
+Processors:32,[hacc-io]-Size:10000,iter:8
+1314.85
+pagevec:110638781
+
+Processors:32,[hacc-io]-Size:10000,iter:9
+1147.72
+pagevec:127221837
+
+Processors:32,[hacc-io]-Size:10000,iter:10
+1306.93
+pagevec:109596766
+
+Processors:32,[hacc-io]-Size:100000,iter:1
+1973.25
+pagevec:268661701
+
+Processors:32,[hacc-io]-Size:100000,iter:2
+1618.98
+pagevec:286260594
+
+Processors:32,[hacc-io]-Size:100000,iter:3
+1997.41
+pagevec:257377646
+
+Processors:32,[hacc-io]-Size:100000,iter:4
+2007.84
+pagevec:265559524
+
+Processors:32,[hacc-io]-Size:100000,iter:5
+1641.05
+pagevec:263132543
+
+Processors:32,[hacc-io]-Size:100000,iter:6
+1996.13
+pagevec:246697434
+
+Processors:32,[hacc-io]-Size:100000,iter:7
+1980.4
+pagevec:262163786
+
+Processors:32,[hacc-io]-Size:100000,iter:8
+1988.9
+pagevec:263675963
+
+Processors:32,[hacc-io]-Size:100000,iter:9
+1634.42
+pagevec:296906375
+
+Processors:32,[hacc-io]-Size:100000,iter:10
+1970.56
+pagevec:257769298
+
+Processors:32,[hacc-io]-Size:1000000,iter:1
+1883.45
+pagevec:843692055
+
+Processors:32,[hacc-io]-Size:1000000,iter:2
+2366.38
+pagevec:656137463
+
+Processors:32,[hacc-io]-Size:1000000,iter:3
+2362.44
+pagevec:673177115
+
+Processors:32,[hacc-io]-Size:1000000,iter:4
+2363.41
+pagevec:659058489
+
+Processors:32,[hacc-io]-Size:1000000,iter:5
+1883.52
+pagevec:818931613
+
+Processors:32,[hacc-io]-Size:1000000,iter:6
+2373.92
+pagevec:679225026
+
+Processors:32,[hacc-io]-Size:1000000,iter:7
+2370.35
+pagevec:665987922
+
+Processors:32,[hacc-io]-Size:1000000,iter:8
+2381.72
+pagevec:681336696
+
+Processors:32,[hacc-io]-Size:1000000,iter:9
+1876.9
+pagevec:819927767
+
+Processors:32,[hacc-io]-Size:1000000,iter:10
+2388.29
+pagevec:674937801
+
+Processors:64,[hacc-io]-Size:100,iter:1
+1011.44
+pagevec:254398079
+
+Processors:64,[hacc-io]-Size:100,iter:2
+930.606
+pagevec:314140281
+
+Processors:64,[hacc-io]-Size:100,iter:3
+1037.33
+pagevec:290152830
+
+Processors:64,[hacc-io]-Size:100,iter:4
+930.095
+pagevec:268294045
+
+Processors:64,[hacc-io]-Size:100,iter:5
+1021.58
+pagevec:285531105
+
+Processors:64,[hacc-io]-Size:100,iter:6
+939.761
+pagevec:291482385
+
+Processors:64,[hacc-io]-Size:100,iter:7
+1029.71
+pagevec:266198295
+
+Processors:64,[hacc-io]-Size:100,iter:8
+921.368
+pagevec:259333174
+
+Processors:64,[hacc-io]-Size:100,iter:9
+1036.84
+pagevec:237313521
+
+Processors:64,[hacc-io]-Size:100,iter:10
+934.654
+pagevec:311209314
+
+Processors:64,[hacc-io]-Size:1000,iter:1
+932.619
+pagevec:253754852
+
+Processors:64,[hacc-io]-Size:1000,iter:2
+1095.67
+pagevec:309952378
+
+Processors:64,[hacc-io]-Size:1000,iter:3
+931.824
+pagevec:288468337
+
+Processors:64,[hacc-io]-Size:1000,iter:4
+1080.42
+pagevec:236811537
+
+Processors:64,[hacc-io]-Size:1000,iter:5
+944.872
+pagevec:291495860
+
+Processors:64,[hacc-io]-Size:1000,iter:6
+1076.99
+pagevec:272735473
+
+Processors:64,[hacc-io]-Size:1000,iter:7
+951.329
+pagevec:255275413
+
+Processors:64,[hacc-io]-Size:1000,iter:8
+1069.71
+pagevec:286727159
+
+Processors:64,[hacc-io]-Size:1000,iter:9
+936.806
+pagevec:281257429
+
+Processors:64,[hacc-io]-Size:1000,iter:10
+1078.4
+pagevec:266426232
+
+Processors:64,[hacc-io]-Size:10000,iter:1
+1182.41
+pagevec:364045557
+
+Processors:64,[hacc-io]-Size:10000,iter:2
+1398.4
+pagevec:354466495
+
+Processors:64,[hacc-io]-Size:10000,iter:3
+1173.26
+pagevec:328802092
+
+Processors:64,[hacc-io]-Size:10000,iter:4
+1360.87
+pagevec:336423539
+
+Processors:64,[hacc-io]-Size:10000,iter:5
+1408.09
+pagevec:337074123
+
+Processors:64,[hacc-io]-Size:10000,iter:6
+1167.02
+pagevec:332743340
+
+Processors:64,[hacc-io]-Size:10000,iter:7
+1396.46
+pagevec:336331545
+
+Processors:64,[hacc-io]-Size:10000,iter:8
+1384.3
+pagevec:333212473
+
+Processors:64,[hacc-io]-Size:10000,iter:9
+1185.37
+pagevec:365516285
+
+Processors:64,[hacc-io]-Size:10000,iter:10
+1387.8
+pagevec:309337950
+
+Processors:64,[hacc-io]-Size:100000,iter:1
+1719.49
+pagevec:1070674242
+
+Processors:64,[hacc-io]-Size:100000,iter:2
+2158.03
+pagevec:955150205
+
+Processors:64,[hacc-io]-Size:100000,iter:3
+2138.93
+pagevec:963079250
+
+Processors:64,[hacc-io]-Size:100000,iter:4
+2129.14
+pagevec:1007467797
+
+Processors:64,[hacc-io]-Size:100000,iter:5
+1734.16
+pagevec:1138325699
+
+Processors:64,[hacc-io]-Size:100000,iter:6
+2172.76
+pagevec:983281155
+
+Processors:64,[hacc-io]-Size:100000,iter:7
+2144.7
+pagevec:971679176
+
+Processors:64,[hacc-io]-Size:100000,iter:8
+2167.11
+pagevec:1032029189
+
+Processors:64,[hacc-io]-Size:100000,iter:9
+1723.99
+pagevec:1152265295
+
+Processors:64,[hacc-io]-Size:100000,iter:10
+2182.67
+pagevec:916680488
+
+Processors:64,[hacc-io]-Size:1000000,iter:1
+1642.81
+pagevec:3005284215
+
+Processors:64,[hacc-io]-Size:1000000,iter:2
+2364.14
+pagevec:2424269890
+
+Processors:64,[hacc-io]-Size:1000000,iter:3
+2371.07
+pagevec:2520936198
+
+Processors:64,[hacc-io]-Size:1000000,iter:4
+2364.6
+pagevec:2469107500
+
+Processors:64,[hacc-io]-Size:1000000,iter:5
+1673.82
+pagevec:3119339932
+
+Processors:64,[hacc-io]-Size:1000000,iter:6
+1221.62
+pagevec:2863920463
+
+Processors:64,[hacc-io]-Size:1000000,iter:7
+2364.03
+pagevec:2408112071
+
+Processors:64,[hacc-io]-Size:1000000,iter:8
+2372.61
+pagevec:2318118412
+
+Processors:64,[hacc-io]-Size:1000000,iter:9
+2366.55
+pagevec:2407280686
+
+Processors:64,[hacc-io]-Size:1000000,iter:10
+1763.04
+pagevec:2944961771

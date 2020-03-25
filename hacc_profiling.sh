@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_mod1.txt'
+filepath='/home/kau/jwbang/200320/out_mod16.txt'
 
-annot="out_mod1"
+annot="out_mod16"
 #path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
@@ -32,9 +32,19 @@ for proc in 16 32 64
 do
   for b_size in 100 1000 10000 100000 1000000
   do
-    for iter in {1..10}
+    for iter in {0..10}
     do
       sleep 0.1
+
+      if [ $iter -eq 0 ]; then
+        sleep 0.1
+        mpirun -np ${proc} /home/kau/jwbang/HACC_IO_KERNEL/HACC_IO ${b_size} /mnt/pm963/testfile
+        sleep 1
+        sh /home/kau/jwbang/drop-cache.sh
+        sleep 5s
+        continue
+      fi
+
       echo '' >> $filepath
       insmod $path
       echo 'Processors:'${proc}',[hacc-io]-Size:'${b_size}',iter:'${iter}
