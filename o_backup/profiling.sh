@@ -30,17 +30,9 @@ echo ${annot} > ${filepath}
 sleep 0.1
 
 # ORIGINAL
-for proc in 8 16 32 64 128 256
+for proc in 8 16 32 64
 do
-  case $proc in
-    8) size_order="512m 1g 2g 4g";;
-    16) size_order="256m 512m 1g 2g";;
-    32) size_order="128m 256m 512m 1g";;
-    64) size_order="64m 128m 256m 512m";;
-    128) size_order="32m 64m 128m 256m";;
-    256) size_order="16m 32m 64m 128m";;
-  esac
-  for b_size in $size_order
+  for b_size in 128m 256m 512m 1024m
   do
     for iter in {1..3}
     do

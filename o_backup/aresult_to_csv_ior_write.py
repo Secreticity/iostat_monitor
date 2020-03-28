@@ -4,7 +4,7 @@ import pandas as pd
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "out_mod8p_hacc"
+save_name = "out_mod8p_ior_w"
 #save_name = "org_npb"
 
 # File name of the iostat/throughput result
@@ -26,9 +26,9 @@ linecount = 0
 
 iostat_df = pd.DataFrame(index=index)
 
-for i in [16,32,64]:
-    for j in ['100','1000','10000','100000','1000000']:
-        for k in range(1,11):
+for i in [8,16,32,64]:
+    for j in ['128m','256m','512m','1024m']:
+        for k in range(1,4):
             listname.append(str(i)+"t_"+str(j))
 
 f = open(out_file+"_iostat.txt", 'r')
@@ -84,10 +84,15 @@ linecount = 0
 #throughput & latency
 listname = []
 
-for i in [16,32,64]:
-    for j in ['100','1000','10000','100000','1000000']:
-        for k in range(1,11):
+for i in [8,16,32,64]:
+    for j in ['128m','256m','512m','1024m']:
+        for k in range(1,4):
             listname.append(str(i)+"t_"+str(j))
+"""
+for i in [9,16,36,64]:
+    for j in range(1,3):
+        listname.append(str(i)+"t")
+"""
 
 f = open(out_file+".txt", 'r')
 lines = f.readlines()
@@ -99,7 +104,7 @@ for line in lines:
         else:
             tmpdumpt = listname.pop(0)
             if (header != line.split("iter")[0]):
-                temp_df = pd.DataFrame({column_n:[round(p_speed/linecount,2),round(p_latency/linecount/1000000,2)]},index=index)
+                temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3000000,2)]},index=index)
                 data_df = pd.concat([data_df,temp_df],axis=1)
                 p_speed = 0.0
                 p_latency = 0
@@ -112,15 +117,12 @@ for line in lines:
     elif (line.find("data") != -1):
         linecount += 1
         p_speed += float(line.split()[5])
-    elif (line.find(".") != -1):
-        linecount += 1
-        p_speed += float(line)
     elif (line.find("pagevec") != -1):
         p_latency += int(line.split(":")[1])
 
 f.close()
 
-temp_df = pd.DataFrame({column_n:[round(p_speed/linecount,2),round(p_latency/linecount/1000000,2)]},index=index)
+temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3000000,2)]},index=index)
 data_df = pd.concat([data_df,temp_df],axis=1)
 
 #-------------------------------- Throughput & Latency DONE ---------
