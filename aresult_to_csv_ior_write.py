@@ -97,8 +97,22 @@ linecount = 0
 #throughput & latency
 listname = []
 
-for i in [8,16,32,64]:
-    for j in ['128m','256m','512m','1024m']:
+
+for i in [8,16,32,64,128,256]:
+    if i==8:
+        size_order=['512m','1g','2g','4g']
+    elif i==16:
+        size_order=['256m','512m','1g','2g']
+    elif i==32:
+        size_order=['128m','256m','512m','1g']
+    elif i==64:
+        size_order=['64m','128m','256m','512m']
+    elif i==128:
+        size_order=['32m','64m','128m','256m']
+    elif i==256:
+        size_order=['16m','32m','64m','128m']
+
+    for j in size_order:
         for k in range(1,4):
             listname.append(str(i)+"t_"+str(j))
 """
