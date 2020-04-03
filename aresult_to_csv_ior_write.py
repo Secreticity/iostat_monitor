@@ -4,11 +4,11 @@ import pandas as pd
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "out_org_ior_w"
+save_name = "out_mod8_ior_w"
 #save_name = "org_npb"
 
 # File name of the iostat/throughput result
-out_file = "out_org"
+out_file = "out_mod8"
 #-------------------------------------------------
 
 state = "INIT"
@@ -86,9 +86,10 @@ iostat_df = pd.concat([iostat_df,temp_df],axis=1)
 
 #-------------------------------- iostat reader DONE ----------
 
-index = ['throughput', 'latency(x1M)']
+index = ['throughput', 'latency(x1M)', 'm_count']
 p_speed = 0.0
 p_latency = 0
+p_count = 0
 header = ""
 column_n = ""
 data_df = pd.DataFrame(index=index)
@@ -131,10 +132,11 @@ for line in lines:
         else:
             tmpdumpt = listname.pop(0)
             if (header != line.split("iter")[0]):
-                temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3000000,2)]},index=index)
+                temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3000000,2),round(p_count/3,2)]},index=index)
                 data_df = pd.concat([data_df,temp_df],axis=1)
                 p_speed = 0.0
                 p_latency = 0
+                p_count = 0
                 linecount = 0
                 header = line.split("iter")[0]
                 column_n = tmpdumpt
@@ -145,14 +147,13 @@ for line in lines:
         linecount += 1
         p_speed += float(line.split()[5])
     elif (line.find("pagevec") != -1):
-        p_latency += int(line.split(":")[1])
+        p_latency += int(line.split(":")[1].split()[0])
+        p_count += int(line.split(":")[1].split()[1])
 
 f.close()
 
-temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3000000,2)]},index=index)
+temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3000000,2),round(p_count/3,2)]},index=index)
 data_df = pd.concat([data_df,temp_df],axis=1)
 
 #-------------------------------- Throughput & Latency DONE ---------
-#print(iostat_df)
-#print(data_df)
 r = pd.concat([iostat_df,data_df],axis=0,sort=False).to_csv("result/"+save_name+".csv", mode='w')

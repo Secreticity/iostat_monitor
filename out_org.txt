@@ -1,0 +1,290 @@
+out_org
+
+Processors:8,Block Size:512m,iter:1
+Max Write: 5672.46 MiB/sec (5948.01 MB/sec)
+pagevec:596653992 71896
+
+Processors:8,Block Size:512m,iter:2
+Max Write: 5837.97 MiB/sec (6121.56 MB/sec)
+pagevec:598942093 71914
+
+Processors:8,Block Size:512m,iter:3
+Max Write: 5829.97 MiB/sec (6113.16 MB/sec)
+pagevec:614037620 72145
+
+Processors:8,Block Size:1g,iter:1
+Max Write: 5731.91 MiB/sec (6010.34 MB/sec)
+pagevec:1155680411 142442
+
+Processors:8,Block Size:1g,iter:2
+Max Write: 5831.38 MiB/sec (6114.65 MB/sec)
+pagevec:1203785906 142420
+
+Processors:8,Block Size:1g,iter:3
+Max Write: 4895.59 MiB/sec (5133.39 MB/sec)
+pagevec:1212314993 142641
+
+Processors:8,Block Size:2g,iter:1
+Max Write: 5609.22 MiB/sec (5881.69 MB/sec)
+pagevec:2338604013 283297
+
+Processors:8,Block Size:2g,iter:2
+Max Write: 5717.22 MiB/sec (5994.94 MB/sec)
+pagevec:2344898094 283278
+
+Processors:8,Block Size:2g,iter:3
+Max Write: 5679.37 MiB/sec (5955.25 MB/sec)
+pagevec:2364999316 283119
+
+Processors:8,Block Size:4g,iter:1
+Max Write: 4909.34 MiB/sec (5147.82 MB/sec)
+pagevec:4641286657 565310
+
+Processors:8,Block Size:4g,iter:2
+Max Write: 4867.03 MiB/sec (5103.45 MB/sec)
+pagevec:4578648384 565334
+
+Processors:8,Block Size:4g,iter:3
+Max Write: 4985.18 MiB/sec (5227.34 MB/sec)
+pagevec:4610745616 565255
+
+Processors:16,Block Size:256m,iter:1
+Max Write: 9175.42 MiB/sec (9621.13 MB/sec)
+pagevec:1725574600 72960
+
+Processors:16,Block Size:256m,iter:2
+Max Write: 9199.14 MiB/sec (9646.00 MB/sec)
+pagevec:1843459599 72877
+
+Processors:16,Block Size:256m,iter:3
+Max Write: 9185.86 MiB/sec (9632.07 MB/sec)
+pagevec:1840201915 72974
+
+Processors:16,Block Size:512m,iter:1
+Max Write: 9152.22 MiB/sec (9596.80 MB/sec)
+pagevec:3515750114 143119
+
+Processors:16,Block Size:512m,iter:2
+Max Write: 9233.47 MiB/sec (9682.00 MB/sec)
+pagevec:3570479384 143087
+
+Processors:16,Block Size:512m,iter:3
+Max Write: 9145.43 MiB/sec (9589.68 MB/sec)
+pagevec:3673431880 143141
+
+Processors:16,Block Size:1g,iter:1
+Max Write: 9022.26 MiB/sec (9460.53 MB/sec)
+pagevec:7225859543 283470
+
+Processors:16,Block Size:1g,iter:2
+Max Write: 8228.40 MiB/sec (8628.10 MB/sec)
+pagevec:6972696349 284058
+
+Processors:16,Block Size:1g,iter:3
+Max Write: 9041.11 MiB/sec (9480.30 MB/sec)
+pagevec:7213379192 283848
+
+Processors:16,Block Size:2g,iter:1
+Max Write: 7143.91 MiB/sec (7490.94 MB/sec)
+pagevec:12273265422 565377
+
+Processors:16,Block Size:2g,iter:2
+Max Write: 7116.04 MiB/sec (7461.71 MB/sec)
+pagevec:11796298090 565528
+
+Processors:16,Block Size:2g,iter:3
+Max Write: 7212.16 MiB/sec (7562.49 MB/sec)
+pagevec:11823418943 565736
+
+Processors:32,Block Size:128m,iter:1
+Max Write: 9653.46 MiB/sec (10122.38 MB/sec)
+pagevec:8139469571 74958
+
+Processors:32,Block Size:128m,iter:2
+Max Write: 9663.22 MiB/sec (10132.62 MB/sec)
+pagevec:8167854951 74755
+
+Processors:32,Block Size:128m,iter:3
+Max Write: 9705.13 MiB/sec (10176.56 MB/sec)
+pagevec:8288750817 74796
+
+Processors:32,Block Size:256m,iter:1
+Max Write: 9641.23 MiB/sec (10109.56 MB/sec)
+pagevec:16465949989 145159
+
+Processors:32,Block Size:256m,iter:2
+Max Write: 9661.29 MiB/sec (10130.59 MB/sec)
+pagevec:16582376805 145087
+
+Processors:32,Block Size:256m,iter:3
+Max Write: 9648.89 MiB/sec (10117.59 MB/sec)
+pagevec:16517397173 145075
+
+Processors:32,Block Size:512m,iter:1
+Max Write: 9721.69 MiB/sec (10193.93 MB/sec)
+pagevec:33135675915 285588
+
+Processors:32,Block Size:512m,iter:2
+Max Write: 9543.68 MiB/sec (10007.27 MB/sec)
+pagevec:33152675959 285727
+
+Processors:32,Block Size:512m,iter:3
+Max Write: 9615.20 MiB/sec (10082.26 MB/sec)
+pagevec:33149892142 285767
+
+Processors:32,Block Size:1g,iter:1
+Max Write: 8968.03 MiB/sec (9403.66 MB/sec)
+pagevec:62757447183 567387
+
+Processors:32,Block Size:1g,iter:2
+Max Write: 8825.73 MiB/sec (9254.45 MB/sec)
+pagevec:61629202814 567216
+
+Processors:32,Block Size:1g,iter:3
+Max Write: 8938.70 MiB/sec (9372.90 MB/sec)
+pagevec:61776258744 566764
+
+Processors:64,Block Size:64m,iter:1
+Max Write: 9692.75 MiB/sec (10163.58 MB/sec)
+pagevec:21399264307 78755
+
+Processors:64,Block Size:64m,iter:2
+Max Write: 9669.27 MiB/sec (10138.97 MB/sec)
+pagevec:21422953123 78896
+
+Processors:64,Block Size:64m,iter:3
+Max Write: 9631.39 MiB/sec (10099.25 MB/sec)
+pagevec:21567936596 78968
+
+Processors:64,Block Size:128m,iter:1
+Max Write: 9878.40 MiB/sec (10358.25 MB/sec)
+pagevec:42451530490 149264
+
+Processors:64,Block Size:128m,iter:2
+Max Write: 9826.81 MiB/sec (10304.15 MB/sec)
+pagevec:42630425703 149143
+
+Processors:64,Block Size:128m,iter:3
+Max Write: 9759.78 MiB/sec (10233.87 MB/sec)
+pagevec:42809950002 149170
+
+Processors:64,Block Size:256m,iter:1
+Max Write: 9567.31 MiB/sec (10032.05 MB/sec)
+pagevec:85858332675 289792
+
+Processors:64,Block Size:256m,iter:2
+Max Write: 9790.51 MiB/sec (10266.10 MB/sec)
+pagevec:85490549115 289568
+
+Processors:64,Block Size:256m,iter:3
+Max Write: 9695.70 MiB/sec (10166.68 MB/sec)
+pagevec:85331326582 289673
+
+Processors:64,Block Size:512m,iter:1
+Max Write: 9410.88 MiB/sec (9868.02 MB/sec)
+pagevec:171238073441 570798
+
+Processors:64,Block Size:512m,iter:2
+Max Write: 9396.67 MiB/sec (9853.12 MB/sec)
+pagevec:171585606347 570859
+
+Processors:64,Block Size:512m,iter:3
+Max Write: 9778.79 MiB/sec (10253.80 MB/sec)
+pagevec:171449001275 570868
+
+Processors:128,Block Size:32m,iter:1
+Max Write: 7231.46 MiB/sec (7582.73 MB/sec)
+pagevec:66368837670 88246
+
+Processors:128,Block Size:32m,iter:2
+Max Write: 7341.51 MiB/sec (7698.14 MB/sec)
+pagevec:66555147640 87856
+
+Processors:128,Block Size:32m,iter:3
+Max Write: 7258.05 MiB/sec (7610.61 MB/sec)
+pagevec:66153948488 87252
+
+Processors:128,Block Size:64m,iter:1
+Max Write: 7567.78 MiB/sec (7935.39 MB/sec)
+pagevec:125908101383 158210
+
+Processors:128,Block Size:64m,iter:2
+Max Write: 7488.70 MiB/sec (7852.47 MB/sec)
+pagevec:126845965467 157965
+
+Processors:128,Block Size:64m,iter:3
+Max Write: 7547.64 MiB/sec (7914.27 MB/sec)
+pagevec:125889024971 157821
+
+Processors:128,Block Size:128m,iter:1
+Max Write: 7687.23 MiB/sec (8060.64 MB/sec)
+pagevec:244740237834 299006
+
+Processors:128,Block Size:128m,iter:2
+Max Write: 7592.84 MiB/sec (7961.67 MB/sec)
+pagevec:247527584536 298451
+
+Processors:128,Block Size:128m,iter:3
+Max Write: 7531.98 MiB/sec (7897.85 MB/sec)
+pagevec:249908099151 298403
+
+Processors:128,Block Size:256m,iter:1
+Max Write: 7554.99 MiB/sec (7921.98 MB/sec)
+pagevec:495420582113 580093
+
+Processors:128,Block Size:256m,iter:2
+Max Write: 7714.74 MiB/sec (8089.49 MB/sec)
+pagevec:484173723081 580319
+
+Processors:128,Block Size:256m,iter:3
+Max Write: 7637.56 MiB/sec (8008.56 MB/sec)
+pagevec:489865170800 580097
+
+Processors:256,Block Size:16m,iter:1
+Max Write: 4575.65 MiB/sec (4797.91 MB/sec)
+pagevec:235933283734 106801
+
+Processors:256,Block Size:16m,iter:2
+Max Write: 4573.84 MiB/sec (4796.02 MB/sec)
+pagevec:233393095187 106600
+
+Processors:256,Block Size:16m,iter:3
+Max Write: 4592.11 MiB/sec (4815.18 MB/sec)
+pagevec:235971826564 107438
+
+Processors:256,Block Size:32m,iter:1
+Max Write: 4850.95 MiB/sec (5086.59 MB/sec)
+pagevec:428334227211 177141
+
+Processors:256,Block Size:32m,iter:2
+Max Write: 4842.43 MiB/sec (5077.66 MB/sec)
+pagevec:432533773837 177262
+
+Processors:256,Block Size:32m,iter:3
+Max Write: 4871.63 MiB/sec (5108.27 MB/sec)
+pagevec:427017628897 176911
+
+Processors:256,Block Size:64m,iter:1
+Max Write: 4978.63 MiB/sec (5220.48 MB/sec)
+pagevec:821350665753 318171
+
+Processors:256,Block Size:64m,iter:2
+Max Write: 4950.13 MiB/sec (5190.58 MB/sec)
+pagevec:816613455872 317876
+
+Processors:256,Block Size:64m,iter:3
+Max Write: 4978.18 MiB/sec (5220.00 MB/sec)
+pagevec:815492558021 318344
+
+Processors:256,Block Size:128m,iter:1
+Max Write: 5042.77 MiB/sec (5287.73 MB/sec)
+pagevec:1599938534597 599032
+
+Processors:256,Block Size:128m,iter:2
+Max Write: 5035.38 MiB/sec (5279.98 MB/sec)
+pagevec:1594019351731 598734
+
+Processors:256,Block Size:128m,iter:3
+Max Write: 5056.38 MiB/sec (5302.00 MB/sec)
+pagevec:1593282061108 599522
+DONE
