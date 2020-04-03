@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_mod8test.txt'
+filepath='/home/kau/jwbang/200320/out_org.txt'
 
-annot="out_mod8test"
-#path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
+annot="out_org"
+path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 #annot="MODIFIED2"
-path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
+#path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
 
 logpath='/home/kau/jwbang/200320/log_folder/log'
 #------------------------------
