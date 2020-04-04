@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_mod16.txt'
+filepath='/home/kau/jwbang/200320/out_mod2s0.txt'
 
-annot="out_mod16"
+annot="out_mod2s0"
 #path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 #annot="MODIFIED2"
