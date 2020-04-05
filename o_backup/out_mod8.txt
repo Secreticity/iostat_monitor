@@ -1,602 +1,289 @@
 out_mod8
 
-Processors:16,[hacc-io]-Size:100,iter:1
-1031.86
-pagevec:24687235
-
-Processors:16,[hacc-io]-Size:100,iter:2
-1186.88
-pagevec:26244635
-
-Processors:16,[hacc-io]-Size:100,iter:3
-1175.29
-pagevec:25262454
-
-Processors:16,[hacc-io]-Size:100,iter:4
-1054.11
-pagevec:25330712
-
-Processors:16,[hacc-io]-Size:100,iter:5
-1216.83
-pagevec:26289335
-
-Processors:16,[hacc-io]-Size:100,iter:6
-1053.51
-pagevec:26038296
-
-Processors:16,[hacc-io]-Size:100,iter:7
-1182.39
-pagevec:25682629
-
-Processors:16,[hacc-io]-Size:100,iter:8
-1070.15
-pagevec:27574134
-
-Processors:16,[hacc-io]-Size:100,iter:9
-1172.99
-pagevec:30841318
-
-Processors:16,[hacc-io]-Size:100,iter:10
-1027.03
-pagevec:25311001
-
-Processors:16,[hacc-io]-Size:1000,iter:1
-1175.84
-pagevec:29045054
-
-Processors:16,[hacc-io]-Size:1000,iter:2
-1056.65
-pagevec:25710429
-
-Processors:16,[hacc-io]-Size:1000,iter:3
-1203.6
-pagevec:29716016
-
-Processors:16,[hacc-io]-Size:1000,iter:4
-1048.44
-pagevec:26529830
-
-Processors:16,[hacc-io]-Size:1000,iter:5
-1197.03
-pagevec:25829010
-
-Processors:16,[hacc-io]-Size:1000,iter:6
-1209.64
-pagevec:26668755
-
-Processors:16,[hacc-io]-Size:1000,iter:7
-1047.6
-pagevec:29844226
-
-Processors:16,[hacc-io]-Size:1000,iter:8
-1189.57
-pagevec:26914922
-
-Processors:16,[hacc-io]-Size:1000,iter:9
-1052.9
-pagevec:27512699
-
-Processors:16,[hacc-io]-Size:1000,iter:10
-1209.22
-pagevec:30877632
-
-Processors:16,[hacc-io]-Size:10000,iter:1
-1221.79
-pagevec:30539094
-
-Processors:16,[hacc-io]-Size:10000,iter:2
-1139.29
-pagevec:34227052
-
-Processors:16,[hacc-io]-Size:10000,iter:3
-1273.7
-pagevec:28707151
-
-Processors:16,[hacc-io]-Size:10000,iter:4
-1137.38
-pagevec:30255929
-
-Processors:16,[hacc-io]-Size:10000,iter:5
-1270.34
-pagevec:30523402
-
-Processors:16,[hacc-io]-Size:10000,iter:6
-1139.16
-pagevec:29240575
-
-Processors:16,[hacc-io]-Size:10000,iter:7
-1276.93
-pagevec:30885248
-
-Processors:16,[hacc-io]-Size:10000,iter:8
-1278.84
-pagevec:32125287
-
-Processors:16,[hacc-io]-Size:10000,iter:9
-1117.13
-pagevec:29281128
-
-Processors:16,[hacc-io]-Size:10000,iter:10
-1279.33
-pagevec:32128780
-
-Processors:16,[hacc-io]-Size:100000,iter:1
-1756.39
-pagevec:58760904
-
-Processors:16,[hacc-io]-Size:100000,iter:2
-1480.19
-pagevec:66687763
-
-Processors:16,[hacc-io]-Size:100000,iter:3
-1767.07
-pagevec:58802442
-
-Processors:16,[hacc-io]-Size:100000,iter:4
-1779
-pagevec:58737333
-
-Processors:16,[hacc-io]-Size:100000,iter:5
-1481.77
-pagevec:61793805
-
-Processors:16,[hacc-io]-Size:100000,iter:6
-1775.6
-pagevec:59229723
-
-Processors:16,[hacc-io]-Size:100000,iter:7
-1785.09
-pagevec:58955862
-
-Processors:16,[hacc-io]-Size:100000,iter:8
-1767.76
-pagevec:57882225
-
-Processors:16,[hacc-io]-Size:100000,iter:9
-1477.5
-pagevec:63707672
-
-Processors:16,[hacc-io]-Size:100000,iter:10
-1780.89
-pagevec:60048968
-
-Processors:16,[hacc-io]-Size:1000000,iter:1
-1943.06
-pagevec:190835691
-
-Processors:16,[hacc-io]-Size:1000000,iter:2
-2389.58
-pagevec:167586265
-
-Processors:16,[hacc-io]-Size:1000000,iter:3
-2424.09
-pagevec:179427201
-
-Processors:16,[hacc-io]-Size:1000000,iter:4
-2413.99
-pagevec:173322910
-
-Processors:16,[hacc-io]-Size:1000000,iter:5
-2408.49
-pagevec:172639250
-
-Processors:16,[hacc-io]-Size:1000000,iter:6
-1929.86
-pagevec:196704349
-
-Processors:16,[hacc-io]-Size:1000000,iter:7
-2401.18
-pagevec:182997309
-
-Processors:16,[hacc-io]-Size:1000000,iter:8
-2386.04
-pagevec:175389483
-
-Processors:16,[hacc-io]-Size:1000000,iter:9
-2420.34
-pagevec:173001111
-
-Processors:16,[hacc-io]-Size:1000000,iter:10
-1925.88
-pagevec:193841271
-
-Processors:32,[hacc-io]-Size:100,iter:1
-1090.48
-pagevec:66138404
-
-Processors:32,[hacc-io]-Size:100,iter:2
-1098.82
-pagevec:61677174
-
-Processors:32,[hacc-io]-Size:100,iter:3
-993.407
-pagevec:65854115
-
-Processors:32,[hacc-io]-Size:100,iter:4
-1078
-pagevec:68555461
-
-Processors:32,[hacc-io]-Size:100,iter:5
-996.441
-pagevec:65884593
-
-Processors:32,[hacc-io]-Size:100,iter:6
-1045.7
-pagevec:70021346
-
-Processors:32,[hacc-io]-Size:100,iter:7
-999.868
-pagevec:68211333
-
-Processors:32,[hacc-io]-Size:100,iter:8
-1115.91
-pagevec:62879848
-
-Processors:32,[hacc-io]-Size:100,iter:9
-1084.94
-pagevec:70666729
-
-Processors:32,[hacc-io]-Size:100,iter:10
-1006.54
-pagevec:65811285
-
-Processors:32,[hacc-io]-Size:1000,iter:1
-975.109
-pagevec:61718297
-
-Processors:32,[hacc-io]-Size:1000,iter:2
-1134.08
-pagevec:72737331
-
-Processors:32,[hacc-io]-Size:1000,iter:3
-998.517
-pagevec:62023487
-
-Processors:32,[hacc-io]-Size:1000,iter:4
-1138.13
-pagevec:73020169
-
-Processors:32,[hacc-io]-Size:1000,iter:5
-978.709
-pagevec:70060988
-
-Processors:32,[hacc-io]-Size:1000,iter:6
-1110.65
-pagevec:69299165
-
-Processors:32,[hacc-io]-Size:1000,iter:7
-975.939
-pagevec:68431835
-
-Processors:32,[hacc-io]-Size:1000,iter:8
-1131.99
-pagevec:59186021
-
-Processors:32,[hacc-io]-Size:1000,iter:9
-995.437
-pagevec:71735129
-
-Processors:32,[hacc-io]-Size:1000,iter:10
-1130.67
-pagevec:67461231
-
-Processors:32,[hacc-io]-Size:10000,iter:1
-1275.28
-pagevec:89807904
-
-Processors:32,[hacc-io]-Size:10000,iter:2
-1331.66
-pagevec:87892408
-
-Processors:32,[hacc-io]-Size:10000,iter:3
-1128.95
-pagevec:80162465
-
-Processors:32,[hacc-io]-Size:10000,iter:4
-1318.83
-pagevec:81883281
-
-Processors:32,[hacc-io]-Size:10000,iter:5
-1110.42
-pagevec:84947450
-
-Processors:32,[hacc-io]-Size:10000,iter:6
-1308.75
-pagevec:83957162
-
-Processors:32,[hacc-io]-Size:10000,iter:7
-1303.48
-pagevec:86196929
-
-Processors:32,[hacc-io]-Size:10000,iter:8
-1131.88
-pagevec:86528089
-
-Processors:32,[hacc-io]-Size:10000,iter:9
-1318.3
-pagevec:84205956
-
-Processors:32,[hacc-io]-Size:10000,iter:10
-1123.64
-pagevec:81615900
-
-Processors:32,[hacc-io]-Size:100000,iter:1
-1627.84
-pagevec:195360321
-
-Processors:32,[hacc-io]-Size:100000,iter:2
-1960.26
-pagevec:176345285
-
-Processors:32,[hacc-io]-Size:100000,iter:3
-1972.28
-pagevec:184317152
-
-Processors:32,[hacc-io]-Size:100000,iter:4
-1605.86
-pagevec:203467814
-
-Processors:32,[hacc-io]-Size:100000,iter:5
-1915.05
-pagevec:184672962
-
-Processors:32,[hacc-io]-Size:100000,iter:6
-1984.38
-pagevec:174248797
-
-Processors:32,[hacc-io]-Size:100000,iter:7
-1595.33
-pagevec:205546698
-
-Processors:32,[hacc-io]-Size:100000,iter:8
-1959.63
-pagevec:177292813
-
-Processors:32,[hacc-io]-Size:100000,iter:9
-2002.44
-pagevec:186735817
-
-Processors:32,[hacc-io]-Size:100000,iter:10
-1969.17
-pagevec:176138069
-
-Processors:32,[hacc-io]-Size:1000000,iter:1
-883.957
-pagevec:626988632
-
-Processors:32,[hacc-io]-Size:1000000,iter:2
-2355.13
-pagevec:507669178
-
-Processors:32,[hacc-io]-Size:1000000,iter:3
-2353.31
-pagevec:505070789
-
-Processors:32,[hacc-io]-Size:1000000,iter:4
-2356.89
-pagevec:524611429
-
-Processors:32,[hacc-io]-Size:1000000,iter:5
-1881.51
-pagevec:627586591
-
-Processors:32,[hacc-io]-Size:1000000,iter:6
-2351.11
-pagevec:513456645
-
-Processors:32,[hacc-io]-Size:1000000,iter:7
-2343.7
-pagevec:505112319
-
-Processors:32,[hacc-io]-Size:1000000,iter:8
-2374.42
-pagevec:515260202
-
-Processors:32,[hacc-io]-Size:1000000,iter:9
-1892.56
-pagevec:629252675
-
-Processors:32,[hacc-io]-Size:1000000,iter:10
-2342.93
-pagevec:518762005
-
-Processors:64,[hacc-io]-Size:100,iter:1
-1045.78
-pagevec:196915991
-
-Processors:64,[hacc-io]-Size:100,iter:2
-1027.43
-pagevec:197068311
-
-Processors:64,[hacc-io]-Size:100,iter:3
-938.061
-pagevec:197260930
-
-Processors:64,[hacc-io]-Size:100,iter:4
-1039.1
-pagevec:203411962
-
-Processors:64,[hacc-io]-Size:100,iter:5
-936.643
-pagevec:186593597
-
-Processors:64,[hacc-io]-Size:100,iter:6
-1058.02
-pagevec:197990722
-
-Processors:64,[hacc-io]-Size:100,iter:7
-918.155
-pagevec:196259843
-
-Processors:64,[hacc-io]-Size:100,iter:8
-1035.73
-pagevec:192428972
-
-Processors:64,[hacc-io]-Size:100,iter:9
-938.563
-pagevec:196451603
-
-Processors:64,[hacc-io]-Size:100,iter:10
-1043.89
-pagevec:187693500
-
-Processors:64,[hacc-io]-Size:1000,iter:1
-922.711
-pagevec:181346006
-
-Processors:64,[hacc-io]-Size:1000,iter:2
-1024.66
-pagevec:190479895
-
-Processors:64,[hacc-io]-Size:1000,iter:3
-947.215
-pagevec:171975993
-
-Processors:64,[hacc-io]-Size:1000,iter:4
-1090.54
-pagevec:227872120
-
-Processors:64,[hacc-io]-Size:1000,iter:5
-946.874
-pagevec:192748383
-
-Processors:64,[hacc-io]-Size:1000,iter:6
-1101.04
-pagevec:171343810
-
-Processors:64,[hacc-io]-Size:1000,iter:7
-1094.32
-pagevec:189591458
-
-Processors:64,[hacc-io]-Size:1000,iter:8
-952.635
-pagevec:197240087
-
-Processors:64,[hacc-io]-Size:1000,iter:9
-1043.01
-pagevec:170911958
-
-Processors:64,[hacc-io]-Size:1000,iter:10
-948.314
-pagevec:207295788
-
-Processors:64,[hacc-io]-Size:10000,iter:1
-1210.43
-pagevec:260404231
-
-Processors:64,[hacc-io]-Size:10000,iter:2
-1420.67
-pagevec:236228041
-
-Processors:64,[hacc-io]-Size:10000,iter:3
-1367.41
-pagevec:234910216
-
-Processors:64,[hacc-io]-Size:10000,iter:4
-1186.9
-pagevec:234326908
-
-Processors:64,[hacc-io]-Size:10000,iter:5
-1371.86
-pagevec:253789852
-
-Processors:64,[hacc-io]-Size:10000,iter:6
-1411.24
-pagevec:230752246
-
-Processors:64,[hacc-io]-Size:10000,iter:7
-1180.93
-pagevec:237928473
-
-Processors:64,[hacc-io]-Size:10000,iter:8
-1418.84
-pagevec:252519793
-
-Processors:64,[hacc-io]-Size:10000,iter:9
-1394.52
-pagevec:251793664
-
-Processors:64,[hacc-io]-Size:10000,iter:10
-1177.13
-pagevec:254418384
-
-Processors:64,[hacc-io]-Size:100000,iter:1
-890.111
-pagevec:730650360
-
-Processors:64,[hacc-io]-Size:100000,iter:2
-2149.67
-pagevec:733504234
-
-Processors:64,[hacc-io]-Size:100000,iter:3
-2146.18
-pagevec:662679088
-
-Processors:64,[hacc-io]-Size:100000,iter:4
-1678.26
-pagevec:767055568
-
-Processors:64,[hacc-io]-Size:100000,iter:5
-2159.03
-pagevec:617777586
-
-Processors:64,[hacc-io]-Size:100000,iter:6
-2140.93
-pagevec:651609660
-
-Processors:64,[hacc-io]-Size:100000,iter:7
-2155.74
-pagevec:680085044
-
-Processors:64,[hacc-io]-Size:100000,iter:8
-1755.84
-pagevec:747401289
-
-Processors:64,[hacc-io]-Size:100000,iter:9
-2137.91
-pagevec:656519457
-
-Processors:64,[hacc-io]-Size:100000,iter:10
-2157.66
-pagevec:685263680
-
-Processors:64,[hacc-io]-Size:1000000,iter:1
-1126.48
-pagevec:2180590923
-
-Processors:64,[hacc-io]-Size:1000000,iter:2
-1868.06
-pagevec:1991459541
-
-Processors:64,[hacc-io]-Size:1000000,iter:3
-2348.86
-pagevec:1679794467
-
-Processors:64,[hacc-io]-Size:1000000,iter:4
-2331.13
-pagevec:1803864202
-
-Processors:64,[hacc-io]-Size:1000000,iter:5
-2348.8
-pagevec:1763899553
-
-Processors:64,[hacc-io]-Size:1000000,iter:6
-1595.14
-pagevec:1982974052
-
-Processors:64,[hacc-io]-Size:1000000,iter:7
-1180.91
-pagevec:2203293405
-
-Processors:64,[hacc-io]-Size:1000000,iter:8
-2338.75
-pagevec:1775075733
-
-Processors:64,[hacc-io]-Size:1000000,iter:9
-2337.95
-pagevec:1752702092
-
-Processors:64,[hacc-io]-Size:1000000,iter:10
-2344.2
-pagevec:1739313479
+Processors:8,Block Size:512m,iter:1
+Max Write: 5350.16 MiB/sec (5610.05 MB/sec)
+
+Processors:8,Block Size:512m,iter:2
+Max Write: 5510.64 MiB/sec (5778.33 MB/sec)
+pagevec:1105693456 72116
+
+Processors:8,Block Size:512m,iter:3
+Max Write: 5532.17 MiB/sec (5800.91 MB/sec)
+pagevec:1094156684 72135
+
+Processors:8,Block Size:1g,iter:1
+Max Write: 5443.19 MiB/sec (5707.60 MB/sec)
+pagevec:1088685965 71885
+
+Processors:8,Block Size:1g,iter:2
+Max Write: 5538.38 MiB/sec (5807.41 MB/sec)
+pagevec:2110640996 142475
+
+Processors:8,Block Size:1g,iter:3
+Max Write: 5516.83 MiB/sec (5784.81 MB/sec)
+pagevec:2171668075 142491
+
+Processors:8,Block Size:2g,iter:1
+Max Write: 5367.99 MiB/sec (5628.74 MB/sec)
+pagevec:2186987667 142614
+
+Processors:8,Block Size:2g,iter:2
+Max Write: 5429.93 MiB/sec (5693.69 MB/sec)
+pagevec:4140917071 283361
+
+Processors:8,Block Size:2g,iter:3
+Max Write: 5338.88 MiB/sec (5598.22 MB/sec)
+pagevec:4106620923 283265
+
+Processors:8,Block Size:4g,iter:1
+Max Write: 4837.60 MiB/sec (5072.59 MB/sec)
+pagevec:4106691176 283404
+
+Processors:8,Block Size:4g,iter:2
+Max Write: 4766.99 MiB/sec (4998.55 MB/sec)
+pagevec:8097309178 565385
+
+Processors:8,Block Size:4g,iter:3
+Max Write: 4883.93 MiB/sec (5121.17 MB/sec)
+pagevec:8130265878 565455
+
+Processors:16,Block Size:256m,iter:1
+Max Write: 7371.64 MiB/sec (7729.73 MB/sec)
+pagevec:8045761853 565619
+
+Processors:16,Block Size:256m,iter:2
+Max Write: 9477.36 MiB/sec (9937.73 MB/sec)
+pagevec:1481988887 72851
+
+Processors:16,Block Size:256m,iter:3
+Max Write: 9464.43 MiB/sec (9924.18 MB/sec)
+pagevec:1508972691 72806
+
+Processors:16,Block Size:512m,iter:1
+Max Write: 9474.50 MiB/sec (9934.73 MB/sec)
+pagevec:1536189585 72902
+
+Processors:16,Block Size:512m,iter:2
+Max Write: 9537.54 MiB/sec (10000.83 MB/sec)
+pagevec:2988141813 143095
+
+Processors:16,Block Size:512m,iter:3
+Max Write: 9459.23 MiB/sec (9918.73 MB/sec)
+pagevec:2967527246 143061
+
+Processors:16,Block Size:1g,iter:1
+Max Write: 9261.76 MiB/sec (9711.66 MB/sec)
+pagevec:2990417207 142972
+
+Processors:16,Block Size:1g,iter:2
+Max Write: 9094.29 MiB/sec (9536.05 MB/sec)
+pagevec:5922366160 283777
+
+Processors:16,Block Size:1g,iter:3
+Max Write: 9226.80 MiB/sec (9675.01 MB/sec)
+pagevec:5920291392 283760
+
+Processors:16,Block Size:2g,iter:1
+Max Write: 6972.36 MiB/sec (7311.05 MB/sec)
+pagevec:5887358885 283862
+
+Processors:16,Block Size:2g,iter:2
+Max Write: 5947.55 MiB/sec (6236.46 MB/sec)
+pagevec:11065020630 565555
+
+Processors:16,Block Size:2g,iter:3
+Max Write: 7606.98 MiB/sec (7976.50 MB/sec)
+pagevec:10860396957 565707
+
+Processors:32,Block Size:128m,iter:1
+Max Write: 12577.81 MiB/sec (13188.79 MB/sec)
+pagevec:11139694027 565276
+
+Processors:32,Block Size:128m,iter:2
+Max Write: 12646.88 MiB/sec (13261.22 MB/sec)
+pagevec:3380745591 74482
+
+Processors:32,Block Size:128m,iter:3
+Max Write: 12358.84 MiB/sec (12959.18 MB/sec)
+pagevec:3603169712 75006
+
+Processors:32,Block Size:256m,iter:1
+Max Write: 12437.28 MiB/sec (13041.43 MB/sec)
+pagevec:3586379218 74817
+
+Processors:32,Block Size:256m,iter:2
+Max Write: 12823.38 MiB/sec (13446.29 MB/sec)
+pagevec:6919667209 145186
+
+Processors:32,Block Size:256m,iter:3
+Max Write: 12684.31 MiB/sec (13300.47 MB/sec)
+pagevec:7062866898 145035
+
+Processors:32,Block Size:512m,iter:1
+Max Write: 12398.53 MiB/sec (13000.80 MB/sec)
+pagevec:7018343489 145004
+
+Processors:32,Block Size:512m,iter:2
+Max Write: 12382.96 MiB/sec (12984.48 MB/sec)
+pagevec:13257177644 285593
+
+Processors:32,Block Size:512m,iter:3
+Max Write: 12515.32 MiB/sec (13123.27 MB/sec)
+pagevec:13246722651 285632
+
+Processors:32,Block Size:1g,iter:1
+Max Write: 11454.38 MiB/sec (12010.78 MB/sec)
+pagevec:13413377700 285531
+
+Processors:32,Block Size:1g,iter:2
+Max Write: 10792.93 MiB/sec (11317.21 MB/sec)
+pagevec:24381944133 566636
+
+Processors:32,Block Size:1g,iter:3
+Max Write: 10953.73 MiB/sec (11485.82 MB/sec)
+pagevec:24804489877 566623
+
+Processors:64,Block Size:64m,iter:1
+Max Write: 12993.48 MiB/sec (13624.65 MB/sec)
+pagevec:25135023222 566813
+
+Processors:64,Block Size:64m,iter:2
+Max Write: 13061.57 MiB/sec (13696.05 MB/sec)
+pagevec:6740293542 78839
+
+Processors:64,Block Size:64m,iter:3
+Max Write: 12833.80 MiB/sec (13457.22 MB/sec)
+pagevec:7597591391 78862
+
+Processors:64,Block Size:128m,iter:1
+Max Write: 13191.41 MiB/sec (13832.20 MB/sec)
+pagevec:5687495205 79824
+
+Processors:64,Block Size:128m,iter:2
+Max Write: 13278.91 MiB/sec (13923.95 MB/sec)
+pagevec:14247768975 150277
+
+Processors:64,Block Size:128m,iter:3
+Max Write: 13348.35 MiB/sec (13996.76 MB/sec)
+pagevec:14387213039 149284
+
+Processors:64,Block Size:256m,iter:1
+Max Write: 13232.65 MiB/sec (13875.44 MB/sec)
+pagevec:14491453939 149387
+
+Processors:64,Block Size:256m,iter:2
+Max Write: 13231.90 MiB/sec (13874.65 MB/sec)
+pagevec:26923854369 289844
+
+Processors:64,Block Size:256m,iter:3
+Max Write: 13047.86 MiB/sec (13681.68 MB/sec)
+pagevec:26413395215 289761
+
+Processors:64,Block Size:512m,iter:1
+Max Write: 12508.95 MiB/sec (13116.58 MB/sec)
+pagevec:27249528938 289574
+
+Processors:64,Block Size:512m,iter:2
+Max Write: 12523.67 MiB/sec (13132.02 MB/sec)
+pagevec:45357889658 570736
+
+Processors:64,Block Size:512m,iter:3
+Max Write: 12533.99 MiB/sec (13142.85 MB/sec)
+pagevec:45491334767 570560
+
+Processors:128,Block Size:32m,iter:1
+Max Write: 10685.39 MiB/sec (11204.45 MB/sec)
+pagevec:46100415215 570753
+
+Processors:128,Block Size:32m,iter:2
+Max Write: 10763.12 MiB/sec (11285.94 MB/sec)
+pagevec:2591079396 87646
+
+Processors:128,Block Size:32m,iter:3
+Max Write: 10724.67 MiB/sec (11245.63 MB/sec)
+pagevec:2544614154 87230
+
+Processors:128,Block Size:64m,iter:1
+Max Write: 10965.52 MiB/sec (11498.18 MB/sec)
+pagevec:2556089460 87661
+
+Processors:128,Block Size:64m,iter:2
+Max Write: 10960.02 MiB/sec (11492.41 MB/sec)
+pagevec:4692427786 157650
+
+Processors:128,Block Size:64m,iter:3
+Max Write: 10970.00 MiB/sec (11502.88 MB/sec)
+pagevec:4636323072 157635
+
+Processors:128,Block Size:128m,iter:1
+Max Write: 10915.45 MiB/sec (11445.68 MB/sec)
+pagevec:4613080574 157669
+
+Processors:128,Block Size:128m,iter:2
+Max Write: 10918.42 MiB/sec (11448.79 MB/sec)
+pagevec:8887847261 298963
+
+Processors:128,Block Size:128m,iter:3
+Max Write: 10974.51 MiB/sec (11507.60 MB/sec)
+pagevec:8836407344 298476
+
+Processors:128,Block Size:256m,iter:1
+Max Write: 10826.07 MiB/sec (11351.95 MB/sec)
+pagevec:8834754352 298351
+
+Processors:128,Block Size:256m,iter:2
+Max Write: 10942.13 MiB/sec (11473.66 MB/sec)
+pagevec:17298714550 579752
+
+Processors:128,Block Size:256m,iter:3
+Max Write: 10906.69 MiB/sec (11436.49 MB/sec)
+pagevec:17101076814 579750
+
+Processors:256,Block Size:16m,iter:1
+Max Write: 7162.79 MiB/sec (7510.73 MB/sec)
+pagevec:16981081769 579585
+
+Processors:256,Block Size:16m,iter:2
+Max Write: 7151.91 MiB/sec (7499.32 MB/sec)
+pagevec:3406155562 106902
+
+Processors:256,Block Size:16m,iter:3
+Max Write: 7212.91 MiB/sec (7563.28 MB/sec)
+pagevec:3398288506 106809
+
+Processors:256,Block Size:32m,iter:1
+Max Write: 7547.92 MiB/sec (7914.57 MB/sec)
+pagevec:3343293967 106529
+
+Processors:256,Block Size:32m,iter:2
+Max Write: 7596.04 MiB/sec (7965.02 MB/sec)
+pagevec:5391920795 177474
+
+Processors:256,Block Size:32m,iter:3
+Max Write: 7562.48 MiB/sec (7929.83 MB/sec)
+pagevec:5503127118 177324
+
+Processors:256,Block Size:64m,iter:1
+Max Write: 7759.39 MiB/sec (8136.31 MB/sec)
+pagevec:5540457839 177567
+
+Processors:256,Block Size:64m,iter:2
+Max Write: 7719.37 MiB/sec (8094.35 MB/sec)
+pagevec:9733794157 317895
+
+Processors:256,Block Size:64m,iter:3
+Max Write: 7753.85 MiB/sec (8130.50 MB/sec)
+pagevec:9716994635 319625
+
+Processors:256,Block Size:128m,iter:1
+Max Write: 7791.00 MiB/sec (8169.45 MB/sec)
+pagevec:9655268779 318134
+
+Processors:256,Block Size:128m,iter:2
+Max Write: 7806.92 MiB/sec (8186.14 MB/sec)
+pagevec:18146841057 599092
+
+Processors:256,Block Size:128m,iter:3
+Max Write: 7824.24 MiB/sec (8204.31 MB/sec)
+pagevec:18283312582 599783
 DONE
