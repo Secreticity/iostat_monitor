@@ -4,7 +4,7 @@ import pandas as pd
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "out_mod16v_hacc"
+save_name = "out_mod16v_vfs_ior_w"
 #save_name = "org_npb"
 
 # File name of the iostat/throughput result
@@ -26,9 +26,22 @@ linecount = 0
 
 iostat_df = pd.DataFrame(index=index)
 
-for i in [16,32,64]:
-    for j in ['100','1000','10000','100000','1000000']:
-        for k in range(1,11):
+for i in [8,16,32,64,128,256]:
+    if i==8:
+        size_order=['512m','1g','2g','4g']
+    elif i==16:
+        size_order=['256m','512m','1g','2g']
+    elif i==32:
+        size_order=['128m','256m','512m','1g']
+    elif i==64:
+        size_order=['64m','128m','256m','512m']
+    elif i==128:
+        size_order=['32m','64m','128m','256m']
+    elif i==256:
+        size_order=['16m','32m','64m','128m']
+
+    for j in size_order:
+        for k in range(1,4):
             listname.append(str(i)+"t_"+str(j))
 
 f = open(out_file+"_iostat.txt", 'r')
@@ -57,12 +70,12 @@ for line in lines:
         if(line.find("end---") != -1):
             state = "END"
         else:
-            p_usr += float(line.split()[1])
-            p_nice += float(line.split()[2])
-            p_system += float(line.split()[3])
-            p_iowait += float(line.split()[4])
-            p_steal += float(line.split()[5])
-            p_idle += float(line.split()[6])
+            p_usr += float(line.split()[3])
+            p_nice += float(line.split()[4])
+            p_system += float(line.split()[5])
+            p_iowait += float(line.split()[6])
+            p_steal += float(line.split()[7])
+            p_idle += float(line.split()[8])
             linecount += 1
     else:
         print("exception error")
@@ -73,9 +86,14 @@ iostat_df = pd.concat([iostat_df,temp_df],axis=1)
 
 #-------------------------------- iostat reader DONE ----------
 
-index = ['throughput', 'latency(x1M)']
+index = ['throughput', 'latency(x1M)', 'm_count', 'n_time', 'n_count', 'o_time', 'o_count']
 p_speed = 0.0
 p_latency = 0
+p_count = 0
+p_ntime = 0
+p_ncount = 0
+p_otime = 0
+p_ocount = 0
 header = ""
 column_n = ""
 data_df = pd.DataFrame(index=index)
@@ -84,10 +102,29 @@ linecount = 0
 #throughput & latency
 listname = []
 
-for i in [16,32,64]:
-    for j in ['100','1000','10000','100000','1000000']:
-        for k in range(1,11):
+
+for i in [8,16,32,64,128,256]:
+    if i==8:
+        size_order=['512m','1g','2g','4g']
+    elif i==16:
+        size_order=['256m','512m','1g','2g']
+    elif i==32:
+        size_order=['128m','256m','512m','1g']
+    elif i==64:
+        size_order=['64m','128m','256m','512m']
+    elif i==128:
+        size_order=['32m','64m','128m','256m']
+    elif i==256:
+        size_order=['16m','32m','64m','128m']
+
+    for j in size_order:
+        for k in range(1,4):
             listname.append(str(i)+"t_"+str(j))
+"""
+for i in [9,16,36,64]:
+    for j in range(1,3):
+        listname.append(str(i)+"t")
+"""
 
 f = open(out_file+".txt", 'r')
 lines = f.readlines()
@@ -99,10 +136,15 @@ for line in lines:
         else:
             tmpdumpt = listname.pop(0)
             if (header != line.split("iter")[0]):
-                temp_df = pd.DataFrame({column_n:[round(p_speed/linecount,2),round(p_latency/linecount/1000000,2)]},index=index)
+                temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3000000,2),round(p_count/3,2),round(p_ntime/3000000,2),round(p_ncount/3,2),round(p_otime/3000000,2),round(p_ocount/3,2)]},index=index)
                 data_df = pd.concat([data_df,temp_df],axis=1)
                 p_speed = 0.0
                 p_latency = 0
+                p_count = 0
+                p_ntime = 0
+                p_ncount = 0
+                p_otime = 0
+                p_ocount = 0
                 linecount = 0
                 header = line.split("iter")[0]
                 column_n = tmpdumpt
@@ -112,18 +154,18 @@ for line in lines:
     elif (line.find("data") != -1):
         linecount += 1
         p_speed += float(line.split()[5])
-    elif (line.find(".") != -1):
-        linecount += 1
-        p_speed += float(line)
     elif (line.find("pagevec") != -1):
-        p_latency += int(line.split(":")[1])
+        p_latency += int(line.split(":")[1].split()[0])
+        p_count += int(line.split(":")[1].split()[1])
+        p_ntime += int(line.split(":")[1].split()[2])
+        p_ncount += int(line.split(":")[1].split()[3])
+        p_otime += int(line.split(":")[1].split()[4])
+        p_ocount += int(line.split(":")[1].split()[5])
 
 f.close()
 
-temp_df = pd.DataFrame({column_n:[round(p_speed/linecount,2),round(p_latency/linecount/1000000,2)]},index=index)
+temp_df = pd.DataFrame({column_n:[round(p_speed/3,2),round(p_latency/3000000,2),round(p_count/3,2),round(p_ntime/3000000,2),round(p_ncount/3,2),round(p_otime/3000000,2),round(p_ocount/3,2)]},index=index)
 data_df = pd.concat([data_df,temp_df],axis=1)
 
 #-------------------------------- Throughput & Latency DONE ---------
-#print(iostat_df)
-#print(data_df)
 r = pd.concat([iostat_df,data_df],axis=0,sort=False).to_csv("result/"+save_name+".csv", mode='w')

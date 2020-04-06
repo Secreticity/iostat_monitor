@@ -6,12 +6,12 @@ filepath='/home/kau/jwbang/200320/out_mod16v.txt'
 annot="out_mod16v"
 #path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
-#annot="MODIFIED2"
-path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
+path="/home/kau/jwbang/linux-5.2.8_vfs/mymodule/mymodule.ko"
 
 logpath='/home/kau/jwbang/200320/log_folder/log'
 #------------------------------
 
+echo "VFS"
 echo "Saved File will be recorded as : "$filepath
 echo "Read/Write: WRITE"
 echo "mymodule path: "$path

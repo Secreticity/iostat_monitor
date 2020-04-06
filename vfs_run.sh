@@ -13,8 +13,8 @@ sar 1 -o /tmp/data >> /home/kau/jwbang/200320/out_mod16v_iostat.txt 2>&1 &
 echo "sar (iostat) running..."
 sleep 0.5
 
-sh ./profiling.sh &
-echo "profiling.sh running..."
+sh ./vfs_profiling.sh &
+echo "vfs_profiling.sh running..."
 sleep 0.5
 
 exit 0
