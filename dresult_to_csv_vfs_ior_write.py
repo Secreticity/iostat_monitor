@@ -4,11 +4,11 @@ import pandas as pd
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "out_orgv_vfs_ior_w"
+save_name = "out_mod2ss3_vfs_ior_w"
 #save_name = "org_npb"
 
 # File name of the iostat/throughput result
-out_file = "out_orgv"
+out_file = "out_mod2ss3"
 #-------------------------------------------------
 
 state = "INIT"
@@ -70,12 +70,20 @@ for line in lines:
         if(line.find("end---") != -1):
             state = "END"
         else:
+            p_usr += float(line.split()[1])
+            p_nice += float(line.split()[2])
+            p_system += float(line.split()[3])
+            p_iowait += float(line.split()[4])
+            p_steal += float(line.split()[5])
+            p_idle += float(line.split()[6])
+            '''
             p_usr += float(line.split()[3])
             p_nice += float(line.split()[4])
             p_system += float(line.split()[5])
             p_iowait += float(line.split()[6])
             p_steal += float(line.split()[7])
             p_idle += float(line.split()[8])
+            '''
             linecount += 1
     else:
         print("exception error")
@@ -157,10 +165,10 @@ for line in lines:
     elif (line.find("pagevec") != -1):
         p_latency += int(line.split(":")[1].split()[0])
         p_count += int(line.split(":")[1].split()[1])
-        p_ntime += int(line.split(":")[1].split()[2])
-        p_ncount += int(line.split(":")[1].split()[3])
-        p_otime += int(line.split(":")[1].split()[4])
-        p_ocount += int(line.split(":")[1].split()[5])
+        #p_ntime += int(line.split(":")[1].split()[2])
+        #p_ncount += int(line.split(":")[1].split()[3])
+        #p_otime += int(line.split(":")[1].split()[4])
+        #p_ocount += int(line.split(":")[1].split()[5])
 
 f.close()
 
