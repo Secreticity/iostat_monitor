@@ -9,7 +9,7 @@ sh ./iostat.sh &
 echo "iostat.sh running..."
 sleep 0.5
 
-sar 1 -o /tmp/data >> /home/kau/jwbang/200320/out_mod2ss3_iostat.txt 2>&1 &
+sar 1 -o /tmp/data >> /home/kau/jwbang/200320/out_org410_iostat.txt 2>&1 &
 echo "sar (iostat) running..."
 sleep 0.5
 

@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_mod2ss3.txt'
+filepath='/home/kau/jwbang/200320/out_org410.txt'
 
-annot="out_mod2ss3"
-#path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
+annot="out_org410"
+path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 #annot="MODIFIED2"
-path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
+#path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
 
 logpath='/home/kau/jwbang/200320/log_folder/log'
 #------------------------------
@@ -32,15 +32,15 @@ sleep 0.1
 # ORIGINAL
 for proc in 8 16 32 64 128 256
 do
-  case $proc in
-    8) size_order="512m 1g 2g 4g";;
-    16) size_order="256m 512m 1g 2g";;
-    32) size_order="128m 256m 512m 1g";;
-    64) size_order="64m 128m 256m 512m";;
-    128) size_order="32m 64m 128m 256m";;
-    256) size_order="16m 32m 64m 128m";;
-  esac
-  for b_size in $size_order
+#  case $proc in
+#    8) size_order="512m 1g 2g 4g";;
+#    16) size_order="256m 512m 1g 2g";;
+#    32) size_order="128m 256m 512m 1g";;
+#    64) size_order="64m 128m 256m 512m";;
+#    128) size_order="32m 64m 128m 256m";;
+#    256) size_order="16m 32m 64m 128m";;
+#  esac
+  for b_size in "64m 128m 256m 512m 1024m"  #$size_order
   do
     for iter in {1..3}
     do
