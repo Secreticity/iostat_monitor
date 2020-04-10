@@ -40,7 +40,7 @@ do
 #    128) size_order="32m 64m 128m 256m";;
 #    256) size_order="16m 32m 64m 128m";;
 #  esac
-  for b_size in "64m 128m 256m 512m 1024m"  #$size_order
+  for b_size in 64m 128m 256m 512m 1024m  #$size_order
   do
     for iter in {1..3}
     do
