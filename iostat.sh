@@ -1,17 +1,17 @@
 #!/bin/bash
 
-filepath='/home/kau/jwbang/200320/out_org410_iostat.txt'
+filepath='/home/kau/jwbang/200320/out_mod16z_iostat.txt'
 logpath='/home/kau/jwbang/200320/log_folder/log.iostat'
 
 write=0
 
-echo '' > /home/kau/jwbang/200320/out_org410.txt
+echo '' > /home/kau/jwbang/200320/out_mod16z.txt
 echo '' > $filepath
 echo ${filepath} >> $logpath
 
 while true
 do
-  str=`echo $(cat /home/kau/jwbang/200320/out_org410.txt | tail -1)`
+  str=`echo $(cat /home/kau/jwbang/200320/out_mod16z.txt | tail -1)`
   if [[ $str =~ ^P ]]; then
     if [ $write -eq 0 ]; then
       write=1
