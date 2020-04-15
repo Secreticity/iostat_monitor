@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_mod16z.txt'
+filepath='/home/kau/jwbang/200320/out_orgz.txt'
 
-annot="out_mod16z"
+annot="out_orgz"
 #path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
