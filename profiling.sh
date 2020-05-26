@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_mod16q.txt'
+filepath='/home/kau/jwbang/200320/out_mod8q.txt'
 
-annot="out_mod16q"
+annot="out_mod8q"
 #path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 #annot="MODIFIED2"
@@ -50,7 +50,7 @@ do
       echo 'Processors:'${proc}',Block Size:'${b_size}',iter:'${iter}
       echo 'Processors:'${proc}',Block Size:'${b_size}',iter:'${iter} >> ${filepath}
       sleep 0.1
-      mpirun -np ${proc} ior -w -t 1m -b ${b_size} -z -F -o /mnt/pm963/testfile | grep 'Max Write' >> ${filepath}
+      mpirun -np ${proc} ior -w -r -t 1m -b ${b_size} -F -o /mnt/pm963/testfile | grep 'Max Read' >> ${filepath}
       rmmod mymodule 
       dmesg | grep 'add_pagevec' | tail -1 | cut -d_ -f2 >> $filepath
       sh /home/kau/jwbang/drop-cache.sh
