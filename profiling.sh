@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_mod4q.txt'
+filepath='/home/kau/jwbang/200320/out_orgq.txt'
 
-annot="out_mod4q"
-#path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
+annot="out_orgq"
+path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 #annot="MODIFIED2"
-path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
+#path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
 
 logpath='/home/kau/jwbang/200320/log_folder/log'
 #------------------------------
