@@ -5,10 +5,10 @@ import pandas as pd
 
 # File name to save DataFrame into csv
 #save_name = "mod8_ior_w"
-save_name = "out_orgq_npb"
+save_name = "out_orgmix90_npb"
 
 # File name of the iostat/throughput result
-out_file = "out_orgq"
+out_file = "out_orgmix90"
 #-------------------------------------------------
 
 state = "INIT"

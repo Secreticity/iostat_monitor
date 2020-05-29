@@ -19289,3 +19289,774 @@ pagevec:1605436272273 603856
 Processors:256,Block Size:128m,iter:3
 Max Read:  48179.80 MiB/sec (50520.18 MB/sec)
 pagevec:1610446242445 604259 
+Saved File will be recorded as : /home/kau/jwbang/200320/out_orgmix10.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Saved File will be recorded as : /home/kau/jwbang/200320/out_orgmix10.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_orgmix10
+
+Processors:32,Block Size:128m,iter:1
+   READ: io=3648.0MB, aggrb=2531.6MB/s, minb=2531.6MB/s, maxb=2531.6MB/s, mint=1441msec, maxt=1441msec
+  WRITE: io=458752KB, aggrb=318356KB/s, minb=318356KB/s, maxb=318356KB/s, mint=1441msec, maxt=1441msec
+pagevec:8028793304 1084920 
+
+Processors:32,Block Size:128m,iter:2
+   READ: io=3648.0MB, aggrb=2406.4MB/s, minb=2406.4MB/s, maxb=2406.4MB/s, mint=1516msec, maxt=1516msec
+  WRITE: io=458752KB, aggrb=302606KB/s, minb=302606KB/s, maxb=302606KB/s, mint=1516msec, maxt=1516msec
+pagevec:544622333 62652 
+
+Processors:32,Block Size:128m,iter:3
+   READ: io=3648.0MB, aggrb=2381.3MB/s, minb=2381.3MB/s, maxb=2381.3MB/s, mint=1532msec, maxt=1532msec
+  WRITE: io=458752KB, aggrb=299446KB/s, minb=299446KB/s, maxb=299446KB/s, mint=1532msec, maxt=1532msec
+pagevec:522561196 63368 
+
+Processors:32,Block Size:256m,iter:1
+   READ: io=7424.0MB, aggrb=2305.7MB/s, minb=2305.7MB/s, maxb=2305.7MB/s, mint=3220msec, maxt=3220msec
+  WRITE: io=786432KB, aggrb=244233KB/s, minb=244233KB/s, maxb=244233KB/s, mint=3220msec, maxt=3220msec
+pagevec:1597819726 285292 
+
+Processors:32,Block Size:256m,iter:2
+   READ: io=7424.0MB, aggrb=2473.9MB/s, minb=2473.9MB/s, maxb=2473.9MB/s, mint=3001msec, maxt=3001msec
+  WRITE: io=786432KB, aggrb=262056KB/s, minb=262056KB/s, maxb=262056KB/s, mint=3001msec, maxt=3001msec
+pagevec:897300700 121900 
+
+Processors:32,Block Size:256m,iter:3
+   READ: io=7424.0MB, aggrb=2466.5MB/s, minb=2466.5MB/s, maxb=2466.5MB/s, mint=3010msec, maxt=3010msec
+  WRITE: io=786432KB, aggrb=261273KB/s, minb=261273KB/s, maxb=261273KB/s, mint=3010msec, maxt=3010msec
+pagevec:900975845 125054 
+
+Processors:32,Block Size:512m,iter:1
+   READ: io=14720MB, aggrb=2285.4MB/s, minb=2285.4MB/s, maxb=2285.4MB/s, mint=6442msec, maxt=6442msec
+  WRITE: io=1664.0MB, aggrb=264504KB/s, minb=264504KB/s, maxb=264504KB/s, mint=6442msec, maxt=6442msec
+pagevec:3056026511 562755 
+
+Processors:32,Block Size:512m,iter:2
+   READ: io=14720MB, aggrb=2200.7MB/s, minb=2200.7MB/s, maxb=2200.7MB/s, mint=6689msec, maxt=6689msec
+  WRITE: io=1664.0MB, aggrb=254737KB/s, minb=254737KB/s, maxb=254737KB/s, mint=6689msec, maxt=6689msec
+pagevec:1595874029 239024 
+
+Processors:32,Block Size:512m,iter:3
+   READ: io=14720MB, aggrb=2454.2MB/s, minb=2454.2MB/s, maxb=2454.2MB/s, mint=5998msec, maxt=5998msec
+  WRITE: io=1664.0MB, aggrb=284084KB/s, minb=284084KB/s, maxb=284084KB/s, mint=5998msec, maxt=5998msec
+pagevec:1612380521 247715 
+
+Processors:32,Block Size:1g,iter:1
+   READ: io=29824MB, aggrb=2281.6MB/s, minb=2281.6MB/s, maxb=2281.6MB/s, mint=13072msec, maxt=13072msec
+  WRITE: io=2944.0MB, aggrb=230619KB/s, minb=230619KB/s, maxb=230619KB/s, mint=13072msec, maxt=13072msec
+pagevec:5742011070 1121728 
+
+Processors:32,Block Size:1g,iter:2
+   READ: io=29824MB, aggrb=2508.6MB/s, minb=2508.6MB/s, maxb=2508.6MB/s, mint=11889msec, maxt=11889msec
+  WRITE: io=2944.0MB, aggrb=253566KB/s, minb=253566KB/s, maxb=253566KB/s, mint=11889msec, maxt=11889msec
+pagevec:3250090430 522087 
+
+Processors:32,Block Size:1g,iter:3
+   READ: io=29824MB, aggrb=2505.9MB/s, minb=2505.9MB/s, maxb=2505.9MB/s, mint=11902msec, maxt=11902msec
+  WRITE: io=2944.0MB, aggrb=253289KB/s, minb=253289KB/s, maxb=253289KB/s, mint=11902msec, maxt=11902msec
+pagevec:3234825709 521907 
+
+Processors:64,Block Size:64m,iter:1
+   READ: io=3584.0MB, aggrb=2390.1MB/s, minb=2390.1MB/s, maxb=2390.1MB/s, mint=1499msec, maxt=1499msec
+  WRITE: io=524288KB, aggrb=349758KB/s, minb=349758KB/s, maxb=349758KB/s, mint=1499msec, maxt=1499msec
+pagevec:936816459 107889 
+
+Processors:64,Block Size:64m,iter:2
+   READ: io=3584.0MB, aggrb=2176.8MB/s, minb=2176.8MB/s, maxb=2176.8MB/s, mint=1647msec, maxt=1647msec
+  WRITE: io=524288KB, aggrb=318329KB/s, minb=318329KB/s, maxb=318329KB/s, mint=1647msec, maxt=1647msec
+pagevec:606959819 62776 
+
+Processors:64,Block Size:64m,iter:3
+   READ: io=3584.0MB, aggrb=2279.1MB/s, minb=2279.1MB/s, maxb=2279.1MB/s, mint=1572msec, maxt=1572msec
+  WRITE: io=524288KB, aggrb=333516KB/s, minb=333516KB/s, maxb=333516KB/s, mint=1572msec, maxt=1572msec
+pagevec:624877226 67471 
+
+Processors:64,Block Size:128m,iter:1
+   READ: io=7296.0MB, aggrb=2344.5MB/s, minb=2344.5MB/s, maxb=2344.5MB/s, mint=3112msec, maxt=3112msec
+  WRITE: io=917504KB, aggrb=294827KB/s, minb=294827KB/s, maxb=294827KB/s, mint=3112msec, maxt=3112msec
+pagevec:1610471927 209447 
+
+Processors:64,Block Size:128m,iter:2
+   READ: io=7296.0MB, aggrb=2273.7MB/s, minb=2273.7MB/s, maxb=2273.7MB/s, mint=3209msec, maxt=3209msec
+  WRITE: io=917504KB, aggrb=285915KB/s, minb=285915KB/s, maxb=285915KB/s, mint=3209msec, maxt=3209msec
+pagevec:962946700 120480 
+
+Processors:64,Block Size:128m,iter:3
+   READ: io=7296.0MB, aggrb=2293.7MB/s, minb=2293.7MB/s, maxb=2293.7MB/s, mint=3181msec, maxt=3181msec
+  WRITE: io=917504KB, aggrb=288432KB/s, minb=288432KB/s, maxb=288432KB/s, mint=3181msec, maxt=3181msec
+pagevec:1049939218 128542 
+
+Processors:64,Block Size:256m,iter:1
+   READ: io=14848MB, aggrb=2359.5MB/s, minb=2359.5MB/s, maxb=2359.5MB/s, mint=6293msec, maxt=6293msec
+  WRITE: io=1536.0MB, aggrb=249938KB/s, minb=249938KB/s, maxb=249938KB/s, mint=6293msec, maxt=6293msec
+pagevec:2822957427 415400 
+
+Processors:64,Block Size:256m,iter:2
+   READ: io=14848MB, aggrb=2274.6MB/s, minb=2274.6MB/s, maxb=2274.6MB/s, mint=6528msec, maxt=6528msec
+  WRITE: io=1536.0MB, aggrb=240941KB/s, minb=240941KB/s, maxb=240941KB/s, mint=6528msec, maxt=6528msec
+pagevec:1711356656 240449 
+
+Processors:64,Block Size:256m,iter:3
+   READ: io=14848MB, aggrb=2016.6MB/s, minb=2016.6MB/s, maxb=2016.6MB/s, mint=7363msec, maxt=7363msec
+  WRITE: io=1536.0MB, aggrb=213617KB/s, minb=213617KB/s, maxb=213617KB/s, mint=7363msec, maxt=7363msec
+pagevec:1700944418 241561 
+
+Processors:64,Block Size:512m,iter:1
+   READ: io=29440MB, aggrb=2387.1MB/s, minb=2387.1MB/s, maxb=2387.1MB/s, mint=12333msec, maxt=12333msec
+  WRITE: io=3328.0MB, aggrb=276321KB/s, minb=276321KB/s, maxb=276321KB/s, mint=12333msec, maxt=12333msec
+pagevec:5240448522 818952 
+
+Processors:64,Block Size:512m,iter:2
+   READ: io=29440MB, aggrb=2329.2MB/s, minb=2329.2MB/s, maxb=2329.2MB/s, mint=12640msec, maxt=12640msec
+  WRITE: io=3328.0MB, aggrb=269610KB/s, minb=269610KB/s, maxb=269610KB/s, mint=12640msec, maxt=12640msec
+pagevec:3456665940 516513 
+
+Processors:64,Block Size:512m,iter:3
+   READ: io=29440MB, aggrb=2349.1MB/s, minb=2349.1MB/s, maxb=2349.1MB/s, mint=12528msec, maxt=12528msec
+  WRITE: io=3328.0MB, aggrb=272020KB/s, minb=272020KB/s, maxb=272020KB/s, mint=12528msec, maxt=12528msec
+pagevec:3444712796 516994 
+
+Processors:128,Block Size:32m,iter:1
+   READ: io=3584.0MB, aggrb=2322.8MB/s, minb=2322.8MB/s, maxb=2322.8MB/s, mint=1543msec, maxt=1543msec
+  WRITE: io=524288KB, aggrb=339784KB/s, minb=339784KB/s, maxb=339784KB/s, mint=1543msec, maxt=1543msec
+pagevec:2214257566 110306 
+
+Processors:128,Block Size:32m,iter:2
+   READ: io=3584.0MB, aggrb=2124.5MB/s, minb=2124.5MB/s, maxb=2124.5MB/s, mint=1687msec, maxt=1687msec
+  WRITE: io=524288KB, aggrb=310781KB/s, minb=310781KB/s, maxb=310781KB/s, mint=1687msec, maxt=1687msec
+pagevec:1999851693 69357 
+
+Processors:128,Block Size:32m,iter:3
+   READ: io=3584.0MB, aggrb=2216.5MB/s, minb=2216.5MB/s, maxb=2216.5MB/s, mint=1617msec, maxt=1617msec
+  WRITE: io=524288KB, aggrb=324235KB/s, minb=324235KB/s, maxb=324235KB/s, mint=1617msec, maxt=1617msec
+pagevec:2140222038 71627 
+
+Processors:128,Block Size:64m,iter:1
+   READ: io=7168.0MB, aggrb=2254.9MB/s, minb=2254.9MB/s, maxb=2254.9MB/s, mint=3180msec, maxt=3180msec
+  WRITE: io=1024.0MB, aggrb=329740KB/s, minb=329740KB/s, maxb=329740KB/s, mint=3180msec, maxt=3180msec
+pagevec:3029866638 209384 
+
+Processors:128,Block Size:64m,iter:2
+   READ: io=7168.0MB, aggrb=1915.6MB/s, minb=1915.6MB/s, maxb=1915.6MB/s, mint=3742msec, maxt=3742msec
+  WRITE: io=1024.0MB, aggrb=280218KB/s, minb=280218KB/s, maxb=280218KB/s, mint=3742msec, maxt=3742msec
+pagevec:2263719780 123060 
+
+Processors:128,Block Size:64m,iter:3
+   READ: io=7168.0MB, aggrb=2251.1MB/s, minb=2251.1MB/s, maxb=2251.1MB/s, mint=3183msec, maxt=3183msec
+  WRITE: io=1024.0MB, aggrb=329430KB/s, minb=329430KB/s, maxb=329430KB/s, mint=3183msec, maxt=3183msec
+pagevec:2356678958 130761 
+
+Processors:128,Block Size:128m,iter:1
+   READ: io=14592MB, aggrb=2342.1MB/s, minb=2342.1MB/s, maxb=2342.1MB/s, mint=6228msec, maxt=6228msec
+  WRITE: io=1792.0MB, aggrb=294638KB/s, minb=294638KB/s, maxb=294638KB/s, mint=6228msec, maxt=6228msec
+pagevec:4510744220 413163 
+
+Processors:128,Block Size:128m,iter:2
+   READ: io=14592MB, aggrb=2245.7MB/s, minb=2245.7MB/s, maxb=2245.7MB/s, mint=6498msec, maxt=6498msec
+  WRITE: io=1792.0MB, aggrb=282395KB/s, minb=282395KB/s, maxb=282395KB/s, mint=6498msec, maxt=6498msec
+pagevec:3171161713 262335 
+
+Processors:128,Block Size:128m,iter:3
+   READ: io=14592MB, aggrb=2205.1MB/s, minb=2205.1MB/s, maxb=2205.1MB/s, mint=6615msec, maxt=6615msec
+  WRITE: io=1792.0MB, aggrb=277401KB/s, minb=277401KB/s, maxb=277401KB/s, mint=6615msec, maxt=6615msec
+pagevec:3125414260 246238 
+
+Processors:128,Block Size:256m,iter:1
+   READ: io=29696MB, aggrb=2318.6MB/s, minb=2318.6MB/s, maxb=2318.6MB/s, mint=12808msec, maxt=12808msec
+  WRITE: io=3072.0MB, aggrb=245606KB/s, minb=245606KB/s, maxb=245606KB/s, mint=12808msec, maxt=12808msec
+pagevec:6884369805 825442 
+
+Processors:128,Block Size:256m,iter:2
+   READ: io=29696MB, aggrb=2283.1MB/s, minb=2283.1MB/s, maxb=2283.1MB/s, mint=13002msec, maxt=13002msec
+  WRITE: io=3072.0MB, aggrb=241941KB/s, minb=241941KB/s, maxb=241941KB/s, mint=13002msec, maxt=13002msec
+pagevec:4790606354 523644 
+
+Processors:128,Block Size:256m,iter:3
+   READ: io=29696MB, aggrb=2336.7MB/s, minb=2336.7MB/s, maxb=2336.7MB/s, mint=12709msec, maxt=12709msec
+  WRITE: io=3072.0MB, aggrb=247519KB/s, minb=247519KB/s, maxb=247519KB/s, mint=12709msec, maxt=12709msec
+pagevec:4868080822 523638 
+
+Processors:256,Block Size:16m,iter:1
+   READ: io=3584.0MB, aggrb=2287.2MB/s, minb=2287.2MB/s, maxb=2287.2MB/s, mint=1567msec, maxt=1567msec
+  WRITE: io=524288KB, aggrb=334580KB/s, minb=334580KB/s, maxb=334580KB/s, mint=1567msec, maxt=1567msec
+pagevec:10810167254 114675 
+
+Processors:256,Block Size:16m,iter:2
+   READ: io=3584.0MB, aggrb=1967.7MB/s, minb=1967.7MB/s, maxb=1967.7MB/s, mint=1822msec, maxt=1822msec
+  WRITE: io=524288KB, aggrb=287754KB/s, minb=287754KB/s, maxb=287754KB/s, mint=1822msec, maxt=1822msec
+pagevec:11259878490 74271 
+
+Processors:256,Block Size:16m,iter:3
+   READ: io=3584.0MB, aggrb=2180.5MB/s, minb=2180.5MB/s, maxb=2180.5MB/s, mint=1644msec, maxt=1644msec
+  WRITE: io=524288KB, aggrb=318909KB/s, minb=318909KB/s, maxb=318909KB/s, mint=1644msec, maxt=1644msec
+pagevec:10919509796 75158 
+
+Processors:256,Block Size:32m,iter:1
+   READ: io=7168.0MB, aggrb=2210.4MB/s, minb=2210.4MB/s, maxb=2210.4MB/s, mint=3243msec, maxt=3243msec
+  WRITE: io=1024.0MB, aggrb=323335KB/s, minb=323335KB/s, maxb=323335KB/s, mint=3243msec, maxt=3243msec
+pagevec:12897056608 213444 
+
+Processors:256,Block Size:32m,iter:2
+   READ: io=7168.0MB, aggrb=2064.6MB/s, minb=2064.6MB/s, maxb=2064.6MB/s, mint=3472msec, maxt=3472msec
+  WRITE: io=1024.0MB, aggrb=302009KB/s, minb=302009KB/s, maxb=302009KB/s, mint=3472msec, maxt=3472msec
+pagevec:11737010817 135211 
+
+Processors:256,Block Size:32m,iter:3
+   READ: io=7168.0MB, aggrb=2248.5MB/s, minb=2248.5MB/s, maxb=2248.5MB/s, mint=3188msec, maxt=3188msec
+  WRITE: io=1024.0MB, aggrb=328913KB/s, minb=328913KB/s, maxb=328913KB/s, mint=3188msec, maxt=3188msec
+pagevec:10649267347 136581 
+
+Processors:256,Block Size:64m,iter:1
+   READ: io=14336MB, aggrb=2233.8MB/s, minb=2233.8MB/s, maxb=2233.8MB/s, mint=6418msec, maxt=6418msec
+  WRITE: io=2048.0MB, aggrb=326760KB/s, minb=326760KB/s, maxb=326760KB/s, mint=6418msec, maxt=6418msec
+pagevec:15023659777 413925 
+
+Processors:256,Block Size:64m,iter:2
+   READ: io=14336MB, aggrb=2226.8MB/s, minb=2226.8MB/s, maxb=2226.8MB/s, mint=6438msec, maxt=6438msec
+  WRITE: io=2048.0MB, aggrb=325745KB/s, minb=325745KB/s, maxb=325745KB/s, mint=6438msec, maxt=6438msec
+pagevec:11066341519 261832 
+
+Processors:256,Block Size:64m,iter:3
+   READ: io=14336MB, aggrb=2072.9MB/s, minb=2072.9MB/s, maxb=2072.9MB/s, mint=6916msec, maxt=6916msec
+  WRITE: io=2048.0MB, aggrb=303231KB/s, minb=303231KB/s, maxb=303231KB/s, mint=6916msec, maxt=6916msec
+pagevec:12407209529 250101 
+
+Processors:256,Block Size:128m,iter:1
+   READ: io=29184MB, aggrb=2274.2MB/s, minb=2274.2MB/s, maxb=2274.2MB/s, mint=12833msec, maxt=12833msec
+  WRITE: io=3584.0MB, aggrb=285982KB/s, minb=285982KB/s, maxb=285982KB/s, mint=12833msec, maxt=12833msec
+pagevec:79346908198 824601 
+
+Processors:256,Block Size:128m,iter:2
+   READ: io=29184MB, aggrb=2227.1MB/s, minb=2227.1MB/s, maxb=2227.1MB/s, mint=13099msec, maxt=13099msec
+  WRITE: io=3584.0MB, aggrb=280175KB/s, minb=280175KB/s, maxb=280175KB/s, mint=13099msec, maxt=13099msec
+pagevec:13692568296 518704 
+
+Processors:256,Block Size:128m,iter:3
+   READ: io=29184MB, aggrb=2274.6MB/s, minb=2274.6MB/s, maxb=2274.6MB/s, mint=12831msec, maxt=12831msec
+  WRITE: io=3584.0MB, aggrb=286027KB/s, minb=286027KB/s, maxb=286027KB/s, mint=12831msec, maxt=12831msec
+pagevec:13396389517 520555 
+Saved File will be recorded as : /home/kau/jwbang/200320/out_orgmix50.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_orgmix50
+
+Processors:32,Block Size:128m,iter:1
+   READ: io=2048.0MB, aggrb=4171.9MB/s, minb=4171.9MB/s, maxb=4171.9MB/s, mint=491msec, maxt=491msec
+  WRITE: io=2048.0MB, aggrb=4171.9MB/s, minb=4171.9MB/s, maxb=4171.9MB/s, mint=491msec, maxt=491msec
+pagevec:1362306596 117192 
+
+Processors:32,Block Size:128m,iter:2
+   READ: io=2048.0MB, aggrb=2275.6MB/s, minb=2275.6MB/s, maxb=2275.6MB/s, mint=900msec, maxt=900msec
+  WRITE: io=2048.0MB, aggrb=2275.6MB/s, minb=2275.6MB/s, maxb=2275.6MB/s, mint=900msec, maxt=900msec
+pagevec:280976137 7852 
+
+Processors:32,Block Size:128m,iter:3
+   READ: io=2048.0MB, aggrb=3215.8MB/s, minb=3215.8MB/s, maxb=3215.8MB/s, mint=637msec, maxt=637msec
+  WRITE: io=2048.0MB, aggrb=3215.8MB/s, minb=3215.8MB/s, maxb=3215.8MB/s, mint=637msec, maxt=637msec
+pagevec:234101023 6920 
+
+Processors:32,Block Size:256m,iter:1
+   READ: io=4608.0MB, aggrb=2582.1MB/s, minb=2582.1MB/s, maxb=2582.1MB/s, mint=1784msec, maxt=1784msec
+  WRITE: io=3584.0MB, aggrb=2008.1MB/s, minb=2008.1MB/s, maxb=2008.1MB/s, mint=1784msec, maxt=1784msec
+pagevec:1610516737 236542 
+
+Processors:32,Block Size:256m,iter:2
+   READ: io=4608.0MB, aggrb=1887.8MB/s, minb=1887.8MB/s, maxb=1887.8MB/s, mint=2441msec, maxt=2441msec
+  WRITE: io=3584.0MB, aggrb=1468.3MB/s, minb=1468.3MB/s, maxb=1468.3MB/s, mint=2441msec, maxt=2441msec
+pagevec:300378253 25834 
+
+Processors:32,Block Size:256m,iter:3
+   READ: io=4608.0MB, aggrb=2083.2MB/s, minb=2083.2MB/s, maxb=2083.2MB/s, mint=2212msec, maxt=2212msec
+  WRITE: io=3584.0MB, aggrb=1620.3MB/s, minb=1620.3MB/s, maxb=1620.3MB/s, mint=2212msec, maxt=2212msec
+pagevec:488879457 38988 
+
+Processors:32,Block Size:512m,iter:1
+   READ: io=8672.0MB, aggrb=2302.1MB/s, minb=2302.1MB/s, maxb=2302.1MB/s, mint=3767msec, maxt=3767msec
+  WRITE: io=7712.0MB, aggrb=2047.3MB/s, minb=2047.3MB/s, maxb=2047.3MB/s, mint=3767msec, maxt=3767msec
+pagevec:3021144789 457525 
+
+Processors:32,Block Size:512m,iter:2
+   READ: io=8672.0MB, aggrb=1784.4MB/s, minb=1784.4MB/s, maxb=1784.4MB/s, mint=4860msec, maxt=4860msec
+  WRITE: io=7712.0MB, aggrb=1586.9MB/s, minb=1586.9MB/s, maxb=1586.9MB/s, mint=4860msec, maxt=4860msec
+pagevec:431741950 26189 
+
+Processors:32,Block Size:512m,iter:3
+   READ: io=8672.0MB, aggrb=2477.8MB/s, minb=2477.8MB/s, maxb=2477.8MB/s, mint=3500msec, maxt=3500msec
+  WRITE: io=7712.0MB, aggrb=2203.5MB/s, minb=2203.5MB/s, maxb=2203.5MB/s, mint=3500msec, maxt=3500msec
+pagevec:1351722897 148915 
+
+Processors:32,Block Size:1g,iter:1
+   READ: io=17472MB, aggrb=1160.9MB/s, minb=1160.9MB/s, maxb=1160.9MB/s, mint=15051msec, maxt=15051msec
+  WRITE: io=15296MB, aggrb=1016.3MB/s, minb=1016.3MB/s, maxb=1016.3MB/s, mint=15051msec, maxt=15051msec
+pagevec:5001718049 914322 
+
+Processors:32,Block Size:1g,iter:2
+   READ: io=17472MB, aggrb=1431.2MB/s, minb=1431.2MB/s, maxb=1431.2MB/s, mint=12208msec, maxt=12208msec
+  WRITE: io=15296MB, aggrb=1252.1MB/s, minb=1252.1MB/s, maxb=1252.1MB/s, mint=12208msec, maxt=12208msec
+pagevec:2029349766 299821 
+
+Processors:32,Block Size:1g,iter:3
+   READ: io=17472MB, aggrb=1183.1MB/s, minb=1183.1MB/s, maxb=1183.1MB/s, mint=14758msec, maxt=14758msec
+  WRITE: io=15296MB, aggrb=1036.5MB/s, minb=1036.5MB/s, maxb=1036.5MB/s, mint=14758msec, maxt=14758msec
+pagevec:1903956228 284145 
+
+Processors:64,Block Size:64m,iter:1
+   READ: io=2112.0MB, aggrb=2816.0MB/s, minb=2816.0MB/s, maxb=2816.0MB/s, mint=750msec, maxt=750msec
+  WRITE: io=1984.0MB, aggrb=2645.4MB/s, minb=2645.4MB/s, maxb=2645.4MB/s, mint=750msec, maxt=750msec
+pagevec:719593176 82647 
+
+Processors:64,Block Size:64m,iter:2
+   READ: io=2112.0MB, aggrb=1760.0MB/s, minb=1760.0MB/s, maxb=1760.0MB/s, mint=1200msec, maxt=1200msec
+  WRITE: io=1984.0MB, aggrb=1653.4MB/s, minb=1653.4MB/s, maxb=1653.4MB/s, mint=1200msec, maxt=1200msec
+pagevec:253089415 11091 
+
+Processors:64,Block Size:64m,iter:3
+   READ: io=2112.0MB, aggrb=2193.2MB/s, minb=2193.2MB/s, maxb=2193.2MB/s, mint=963msec, maxt=963msec
+  WRITE: io=1984.0MB, aggrb=2060.3MB/s, minb=2060.3MB/s, maxb=2060.3MB/s, mint=963msec, maxt=963msec
+pagevec:371417651 27975 
+
+Processors:64,Block Size:128m,iter:1
+   READ: io=4096.0MB, aggrb=3313.1MB/s, minb=3313.1MB/s, maxb=3313.1MB/s, mint=1236msec, maxt=1236msec
+  WRITE: io=4096.0MB, aggrb=3313.1MB/s, minb=3313.1MB/s, maxb=3313.1MB/s, mint=1236msec, maxt=1236msec
+pagevec:1658040779 137052 
+
+Processors:64,Block Size:128m,iter:2
+   READ: io=4096.0MB, aggrb=2917.4MB/s, minb=2917.4MB/s, maxb=2917.4MB/s, mint=1404msec, maxt=1404msec
+  WRITE: io=4096.0MB, aggrb=2917.4MB/s, minb=2917.4MB/s, maxb=2917.4MB/s, mint=1404msec, maxt=1404msec
+pagevec:458166558 8955 
+
+Processors:64,Block Size:128m,iter:3
+   READ: io=4096.0MB, aggrb=2461.6MB/s, minb=2461.6MB/s, maxb=2461.6MB/s, mint=1664msec, maxt=1664msec
+  WRITE: io=4096.0MB, aggrb=2461.6MB/s, minb=2461.6MB/s, maxb=2461.6MB/s, mint=1664msec, maxt=1664msec
+pagevec:907555085 44056 
+
+Processors:64,Block Size:256m,iter:1
+   READ: io=9216.0MB, aggrb=2716.2MB/s, minb=2716.2MB/s, maxb=2716.2MB/s, mint=3393msec, maxt=3393msec
+  WRITE: io=7168.0MB, aggrb=2112.6MB/s, minb=2112.6MB/s, maxb=2112.6MB/s, mint=3393msec, maxt=3393msec
+pagevec:2322000668 319256 
+
+Processors:64,Block Size:256m,iter:2
+   READ: io=9216.0MB, aggrb=1455.1MB/s, minb=1455.1MB/s, maxb=1455.1MB/s, mint=6330msec, maxt=6330msec
+  WRITE: io=7168.0MB, aggrb=1132.4MB/s, minb=1132.4MB/s, maxb=1132.4MB/s, mint=6330msec, maxt=6330msec
+pagevec:605809648 53909 
+
+Processors:64,Block Size:256m,iter:3
+   READ: io=9216.0MB, aggrb=2870.2MB/s, minb=2870.2MB/s, maxb=2870.2MB/s, mint=3211msec, maxt=3211msec
+  WRITE: io=7168.0MB, aggrb=2232.4MB/s, minb=2232.4MB/s, maxb=2232.4MB/s, mint=3211msec, maxt=3211msec
+pagevec:2059697463 160526 
+
+Processors:64,Block Size:512m,iter:1
+   READ: io=17344MB, aggrb=1574.8MB/s, minb=1574.8MB/s, maxb=1574.8MB/s, mint=11014msec, maxt=11014msec
+  WRITE: io=15424MB, aggrb=1400.5MB/s, minb=1400.5MB/s, maxb=1400.5MB/s, mint=11014msec, maxt=11014msec
+pagevec:4104346835 612958 
+
+Processors:64,Block Size:512m,iter:2
+   READ: io=17344MB, aggrb=1643.5MB/s, minb=1643.5MB/s, maxb=1643.5MB/s, mint=10556msec, maxt=10556msec
+  WRITE: io=15424MB, aggrb=1461.2MB/s, minb=1461.2MB/s, maxb=1461.2MB/s, mint=10556msec, maxt=10556msec
+pagevec:2496237224 310038 
+
+Processors:64,Block Size:512m,iter:3
+   READ: io=17344MB, aggrb=1623.3MB/s, minb=1623.3MB/s, maxb=1623.3MB/s, mint=10685msec, maxt=10685msec
+  WRITE: io=15424MB, aggrb=1443.6MB/s, minb=1443.6MB/s, maxb=1443.6MB/s, mint=10685msec, maxt=10685msec
+pagevec:2451530207 308881 
+
+Processors:128,Block Size:32m,iter:1
+   READ: io=2048.0MB, aggrb=3107.8MB/s, minb=3107.8MB/s, maxb=3107.8MB/s, mint=659msec, maxt=659msec
+  WRITE: io=2048.0MB, aggrb=3107.8MB/s, minb=3107.8MB/s, maxb=3107.8MB/s, mint=659msec, maxt=659msec
+pagevec:2135096285 83675 
+
+Processors:128,Block Size:32m,iter:2
+   READ: io=2048.0MB, aggrb=1740.2MB/s, minb=1740.2MB/s, maxb=1740.2MB/s, mint=1177msec, maxt=1177msec
+  WRITE: io=2048.0MB, aggrb=1740.2MB/s, minb=1740.2MB/s, maxb=1740.2MB/s, mint=1177msec, maxt=1177msec
+pagevec:1592767003 16693 
+
+Processors:128,Block Size:32m,iter:3
+   READ: io=2048.0MB, aggrb=3165.4MB/s, minb=3165.4MB/s, maxb=3165.4MB/s, mint=647msec, maxt=647msec
+  WRITE: io=2048.0MB, aggrb=3165.4MB/s, minb=3165.4MB/s, maxb=3165.4MB/s, mint=647msec, maxt=647msec
+pagevec:1967754669 47032 
+
+Processors:128,Block Size:64m,iter:1
+   READ: io=4224.0MB, aggrb=2231.4MB/s, minb=2231.4MB/s, maxb=2231.4MB/s, mint=1893msec, maxt=1893msec
+  WRITE: io=3968.0MB, aggrb=2096.2MB/s, minb=2096.2MB/s, maxb=2096.2MB/s, mint=1893msec, maxt=1893msec
+pagevec:2763913273 151993 
+
+Processors:128,Block Size:64m,iter:2
+   READ: io=4224.0MB, aggrb=1574.1MB/s, minb=1574.1MB/s, maxb=1574.1MB/s, mint=2682msec, maxt=2682msec
+  WRITE: io=3968.0MB, aggrb=1479.6MB/s, minb=1479.6MB/s, maxb=1479.6MB/s, mint=2682msec, maxt=2682msec
+pagevec:1744211355 30937 
+
+Processors:128,Block Size:64m,iter:3
+   READ: io=4224.0MB, aggrb=2092.2MB/s, minb=2092.2MB/s, maxb=2092.2MB/s, mint=2019msec, maxt=2019msec
+  WRITE: io=3968.0MB, aggrb=1965.4MB/s, minb=1965.4MB/s, maxb=1965.4MB/s, mint=2019msec, maxt=2019msec
+pagevec:1913569934 52106 
+
+Processors:128,Block Size:128m,iter:1
+   READ: io=8192.0MB, aggrb=3215.8MB/s, minb=3215.8MB/s, maxb=3215.8MB/s, mint=2548msec, maxt=2548msec
+  WRITE: io=8192.0MB, aggrb=3215.8MB/s, minb=3215.8MB/s, maxb=3215.8MB/s, mint=2548msec, maxt=2548msec
+pagevec:5914818579 302543 
+
+Processors:128,Block Size:128m,iter:2
+   READ: io=8192.0MB, aggrb=1374.4MB/s, minb=1374.4MB/s, maxb=1374.4MB/s, mint=5962msec, maxt=5962msec
+  WRITE: io=8192.0MB, aggrb=1374.4MB/s, minb=1374.4MB/s, maxb=1374.4MB/s, mint=5962msec, maxt=5962msec
+pagevec:2011722021 21980 
+
+Processors:128,Block Size:128m,iter:3
+   READ: io=8192.0MB, aggrb=3217.7MB/s, minb=3217.7MB/s, maxb=3217.7MB/s, mint=2546msec, maxt=2546msec
+  WRITE: io=8192.0MB, aggrb=3217.7MB/s, minb=3217.7MB/s, maxb=3217.7MB/s, mint=2546msec, maxt=2546msec
+pagevec:4517006572 131583 
+
+Processors:128,Block Size:256m,iter:1
+   READ: io=18432MB, aggrb=1761.5MB/s, minb=1761.5MB/s, maxb=1761.5MB/s, mint=10464msec, maxt=10464msec
+  WRITE: io=14336MB, aggrb=1370.4MB/s, minb=1370.4MB/s, maxb=1370.4MB/s, mint=10464msec, maxt=10464msec
+pagevec:8414066157 633878 
+
+Processors:128,Block Size:256m,iter:2
+   READ: io=18432MB, aggrb=1922.7MB/s, minb=1922.7MB/s, maxb=1922.7MB/s, mint=9587msec, maxt=9587msec
+  WRITE: io=14336MB, aggrb=1495.4MB/s, minb=1495.4MB/s, maxb=1495.4MB/s, mint=9587msec, maxt=9587msec
+pagevec:7460254447 327872 
+
+Processors:128,Block Size:256m,iter:3
+   READ: io=18432MB, aggrb=1893.1MB/s, minb=1893.1MB/s, maxb=1893.1MB/s, mint=9732msec, maxt=9732msec
+  WRITE: io=14336MB, aggrb=1473.8MB/s, minb=1473.8MB/s, maxb=1473.8MB/s, mint=9732msec, maxt=9732msec
+pagevec:4946430371 331708 
+
+Processors:256,Block Size:16m,iter:1
+   READ: io=1792.0MB, aggrb=2386.2MB/s, minb=2386.2MB/s, maxb=2386.2MB/s, mint=751msec, maxt=751msec
+  WRITE: io=2304.0MB, aggrb=3067.1MB/s, minb=3067.1MB/s, maxb=3067.1MB/s, mint=751msec, maxt=751msec
+pagevec:11136692460 90918 
+
+Processors:256,Block Size:16m,iter:2
+   READ: io=1792.0MB, aggrb=1074.2MB/s, minb=1074.2MB/s, maxb=1074.2MB/s, mint=1667msec, maxt=1667msec
+  WRITE: io=2304.0MB, aggrb=1382.2MB/s, minb=1382.2MB/s, maxb=1382.2MB/s, mint=1667msec, maxt=1667msec
+pagevec:11311524265 41297 
+
+Processors:256,Block Size:16m,iter:3
+   READ: io=1792.0MB, aggrb=1567.9MB/s, minb=1567.9MB/s, maxb=1567.9MB/s, mint=1143msec, maxt=1143msec
+  WRITE: io=2304.0MB, aggrb=2015.8MB/s, minb=2015.8MB/s, maxb=2015.8MB/s, mint=1143msec, maxt=1143msec
+pagevec:11453373003 52545 
+
+Processors:256,Block Size:32m,iter:1
+   READ: io=4096.0MB, aggrb=2533.9MB/s, minb=2533.9MB/s, maxb=2533.9MB/s, mint=1617msec, maxt=1617msec
+  WRITE: io=4096.0MB, aggrb=2533.9MB/s, minb=2533.9MB/s, maxb=2533.9MB/s, mint=1617msec, maxt=1617msec
+pagevec:12020462183 160731 
+
+Processors:256,Block Size:32m,iter:2
+   READ: io=4096.0MB, aggrb=1401.8MB/s, minb=1401.8MB/s, maxb=1401.8MB/s, mint=2922msec, maxt=2922msec
+  WRITE: io=4096.0MB, aggrb=1401.8MB/s, minb=1401.8MB/s, maxb=1401.8MB/s, mint=2922msec, maxt=2922msec
+pagevec:11604126064 53104 
+
+Processors:256,Block Size:32m,iter:3
+   READ: io=4096.0MB, aggrb=1991.3MB/s, minb=1991.3MB/s, maxb=1991.3MB/s, mint=2057msec, maxt=2057msec
+  WRITE: io=4096.0MB, aggrb=1991.3MB/s, minb=1991.3MB/s, maxb=1991.3MB/s, mint=2057msec, maxt=2057msec
+pagevec:11292112887 69699 
+
+Processors:256,Block Size:64m,iter:1
+   READ: io=8448.0MB, aggrb=2163.4MB/s, minb=2163.4MB/s, maxb=2163.4MB/s, mint=3905msec, maxt=3905msec
+  WRITE: io=7936.0MB, aggrb=2032.3MB/s, minb=2032.3MB/s, maxb=2032.3MB/s, mint=3905msec, maxt=3905msec
+pagevec:13674800071 312513 
+
+Processors:256,Block Size:64m,iter:2
+   READ: io=8448.0MB, aggrb=1153.4MB/s, minb=1153.4MB/s, maxb=1153.4MB/s, mint=7325msec, maxt=7325msec
+  WRITE: io=7936.0MB, aggrb=1083.5MB/s, minb=1083.5MB/s, maxb=1083.5MB/s, mint=7325msec, maxt=7325msec
+pagevec:11497893875 74794 
+
+Processors:256,Block Size:64m,iter:3
+   READ: io=8448.0MB, aggrb=2333.6MB/s, minb=2333.6MB/s, maxb=2333.6MB/s, mint=3621msec, maxt=3621msec
+  WRITE: io=7936.0MB, aggrb=2191.7MB/s, minb=2191.7MB/s, maxb=2191.7MB/s, mint=3621msec, maxt=3621msec
+pagevec:12134322130 162142 
+
+Processors:256,Block Size:128m,iter:1
+   READ: io=16384MB, aggrb=2182.6MB/s, minb=2182.6MB/s, maxb=2182.6MB/s, mint=7507msec, maxt=7507msec
+  WRITE: io=16384MB, aggrb=2182.6MB/s, minb=2182.6MB/s, maxb=2182.6MB/s, mint=7507msec, maxt=7507msec
+pagevec:33475402981 599733 
+
+Processors:256,Block Size:128m,iter:2
+   READ: io=16384MB, aggrb=2852.4MB/s, minb=2852.4MB/s, maxb=2852.4MB/s, mint=5744msec, maxt=5744msec
+  WRITE: io=16384MB, aggrb=2852.4MB/s, minb=2852.4MB/s, maxb=2852.4MB/s, mint=5744msec, maxt=5744msec
+pagevec:143511652738 299987 
+
+Processors:256,Block Size:128m,iter:3
+   READ: io=16384MB, aggrb=2183.1MB/s, minb=2183.1MB/s, maxb=2183.1MB/s, mint=7502msec, maxt=7502msec
+  WRITE: io=16384MB, aggrb=2183.1MB/s, minb=2183.1MB/s, maxb=2183.1MB/s, mint=7502msec, maxt=7502msec
+pagevec:154293672610 301268 
+Saved File will be recorded as : /home/kau/jwbang/200320/out_orgmix90.txt
+Read/Write: WRITE
+mymodule path: /home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko
+meta-data=/dev/nvme0n1           isize=512    agcount=4, agsize=48838262 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=195353046, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=95387, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+out_orgmix90
+
+Processors:32,Block Size:128m,iter:1
+   READ: io=2048.0MB, aggrb=4179.7MB/s, minb=4179.7MB/s, maxb=4179.7MB/s, mint=490msec, maxt=490msec
+  WRITE: io=2048.0MB, aggrb=4179.7MB/s, minb=4179.7MB/s, maxb=4179.7MB/s, mint=490msec, maxt=490msec
+pagevec:1482285640 118125 
+
+Processors:32,Block Size:128m,iter:2
+   READ: io=2048.0MB, aggrb=2056.3MB/s, minb=2056.3MB/s, maxb=2056.3MB/s, mint=996msec, maxt=996msec
+  WRITE: io=2048.0MB, aggrb=2056.3MB/s, minb=2056.3MB/s, maxb=2056.3MB/s, mint=996msec, maxt=996msec
+pagevec:238963455 7230 
+
+Processors:32,Block Size:128m,iter:3
+   READ: io=2048.0MB, aggrb=1851.8MB/s, minb=1851.8MB/s, maxb=1851.8MB/s, mint=1106msec, maxt=1106msec
+  WRITE: io=2048.0MB, aggrb=1851.8MB/s, minb=1851.8MB/s, maxb=1851.8MB/s, mint=1106msec, maxt=1106msec
+pagevec:208577286 7866 
+
+Processors:32,Block Size:256m,iter:1
+   READ: io=4608.0MB, aggrb=2588.8MB/s, minb=2588.8MB/s, maxb=2588.8MB/s, mint=1780msec, maxt=1780msec
+  WRITE: io=3584.0MB, aggrb=2013.5MB/s, minb=2013.5MB/s, maxb=2013.5MB/s, mint=1780msec, maxt=1780msec
+pagevec:2066738635 236806 
+
+Processors:32,Block Size:256m,iter:2
+   READ: io=4608.0MB, aggrb=1824.3MB/s, minb=1824.3MB/s, maxb=1824.3MB/s, mint=2526msec, maxt=2526msec
+  WRITE: io=3584.0MB, aggrb=1418.9MB/s, minb=1418.9MB/s, maxb=1418.9MB/s, mint=2526msec, maxt=2526msec
+pagevec:372837165 31428 
+
+Processors:32,Block Size:256m,iter:3
+   READ: io=4608.0MB, aggrb=2883.7MB/s, minb=2883.7MB/s, maxb=2883.7MB/s, mint=1598msec, maxt=1598msec
+  WRITE: io=3584.0MB, aggrb=2242.9MB/s, minb=2242.9MB/s, maxb=2242.9MB/s, mint=1598msec, maxt=1598msec
+pagevec:692888940 80774 
+
+Processors:32,Block Size:512m,iter:1
+   READ: io=8672.0MB, aggrb=2312.6MB/s, minb=2312.6MB/s, maxb=2312.6MB/s, mint=3750msec, maxt=3750msec
+  WRITE: io=7712.0MB, aggrb=2056.6MB/s, minb=2056.6MB/s, maxb=2056.6MB/s, mint=3750msec, maxt=3750msec
+pagevec:3068116418 457047 
+
+Processors:32,Block Size:512m,iter:2
+   READ: io=8672.0MB, aggrb=1725.5MB/s, minb=1725.5MB/s, maxb=1725.5MB/s, mint=5026msec, maxt=5026msec
+  WRITE: io=7712.0MB, aggrb=1534.5MB/s, minb=1534.5MB/s, maxb=1534.5MB/s, mint=5026msec, maxt=5026msec
+pagevec:877916031 33970 
+
+Processors:32,Block Size:512m,iter:3
+   READ: io=8672.0MB, aggrb=2728.8MB/s, minb=2728.8MB/s, maxb=2728.8MB/s, mint=3178msec, maxt=3178msec
+  WRITE: io=7712.0MB, aggrb=2426.7MB/s, minb=2426.7MB/s, maxb=2426.7MB/s, mint=3178msec, maxt=3178msec
+pagevec:1167587827 148366 
+
+Processors:32,Block Size:1g,iter:1
+   READ: io=17472MB, aggrb=1132.2MB/s, minb=1132.2MB/s, maxb=1132.2MB/s, mint=15432msec, maxt=15432msec
+  WRITE: io=15296MB, aggrb=991.20MB/s, minb=991.20MB/s, maxb=991.20MB/s, mint=15432msec, maxt=15432msec
+pagevec:5066511348 913793 
+
+Processors:32,Block Size:1g,iter:2
+   READ: io=17472MB, aggrb=1484.1MB/s, minb=1484.1MB/s, maxb=1484.1MB/s, mint=11766msec, maxt=11766msec
+  WRITE: io=15296MB, aggrb=1300.2MB/s, minb=1300.2MB/s, maxb=1300.2MB/s, mint=11766msec, maxt=11766msec
+pagevec:2107138180 303450 
+
+Processors:32,Block Size:1g,iter:3
+   READ: io=17472MB, aggrb=1305.5MB/s, minb=1305.5MB/s, maxb=1305.5MB/s, mint=13388msec, maxt=13388msec
+  WRITE: io=15296MB, aggrb=1142.6MB/s, minb=1142.6MB/s, maxb=1142.6MB/s, mint=13388msec, maxt=13388msec
+pagevec:1913207289 286492 
+
+Processors:64,Block Size:64m,iter:1
+   READ: io=2112.0MB, aggrb=2838.8MB/s, minb=2838.8MB/s, maxb=2838.8MB/s, mint=744msec, maxt=744msec
+  WRITE: io=1984.0MB, aggrb=2666.7MB/s, minb=2666.7MB/s, maxb=2666.7MB/s, mint=744msec, maxt=744msec
+pagevec:703020784 82530 
+
+Processors:64,Block Size:64m,iter:2
+   READ: io=2112.0MB, aggrb=1771.9MB/s, minb=1771.9MB/s, maxb=1771.9MB/s, mint=1192msec, maxt=1192msec
+  WRITE: io=1984.0MB, aggrb=1664.5MB/s, minb=1664.5MB/s, maxb=1664.5MB/s, mint=1192msec, maxt=1192msec
+pagevec:285198202 13811 
+
+Processors:64,Block Size:64m,iter:3
+   READ: io=2112.0MB, aggrb=2046.6MB/s, minb=2046.6MB/s, maxb=2046.6MB/s, mint=1032msec, maxt=1032msec
+  WRITE: io=1984.0MB, aggrb=1922.5MB/s, minb=1922.5MB/s, maxb=1922.5MB/s, mint=1032msec, maxt=1032msec
+pagevec:436692168 27276 
+
+Processors:64,Block Size:128m,iter:1
+   READ: io=4096.0MB, aggrb=3424.8MB/s, minb=3424.8MB/s, maxb=3424.8MB/s, mint=1196msec, maxt=1196msec
+  WRITE: io=4096.0MB, aggrb=3424.8MB/s, minb=3424.8MB/s, maxb=3424.8MB/s, mint=1196msec, maxt=1196msec
+pagevec:1701512750 139215 
+
+Processors:64,Block Size:128m,iter:2
+   READ: io=4096.0MB, aggrb=2351.4MB/s, minb=2351.4MB/s, maxb=2351.4MB/s, mint=1742msec, maxt=1742msec
+  WRITE: io=4096.0MB, aggrb=2351.4MB/s, minb=2351.4MB/s, maxb=2351.4MB/s, mint=1742msec, maxt=1742msec
+pagevec:701291959 39379 
+
+Processors:64,Block Size:128m,iter:3
+   READ: io=4096.0MB, aggrb=1782.5MB/s, minb=1782.5MB/s, maxb=1782.5MB/s, mint=2298msec, maxt=2298msec
+  WRITE: io=4096.0MB, aggrb=1782.5MB/s, minb=1782.5MB/s, maxb=1782.5MB/s, mint=2298msec, maxt=2298msec
+pagevec:556661454 14080 
+
+Processors:64,Block Size:256m,iter:1
+   READ: io=9216.0MB, aggrb=2729.9MB/s, minb=2729.9MB/s, maxb=2729.9MB/s, mint=3376msec, maxt=3376msec
+  WRITE: io=7168.0MB, aggrb=2123.3MB/s, minb=2123.3MB/s, maxb=2123.3MB/s, mint=3376msec, maxt=3376msec
+pagevec:2313946495 319105 
+
+Processors:64,Block Size:256m,iter:2
+   READ: io=9216.0MB, aggrb=1075.1MB/s, minb=1075.1MB/s, maxb=1075.1MB/s, mint=8566msec, maxt=8566msec
+  WRITE: io=7168.0MB, aggrb=856879KB/s, minb=856879KB/s, maxb=856879KB/s, mint=8566msec, maxt=8566msec
+pagevec:599638573 54754 
+
+Processors:64,Block Size:256m,iter:3
+   READ: io=9216.0MB, aggrb=2886.4MB/s, minb=2886.4MB/s, maxb=2886.4MB/s, mint=3193msec, maxt=3193msec
+  WRITE: io=7168.0MB, aggrb=2244.1MB/s, minb=2244.1MB/s, maxb=2244.1MB/s, mint=3193msec, maxt=3193msec
+pagevec:3201958508 162727 
+
+Processors:64,Block Size:512m,iter:1
+   READ: io=17344MB, aggrb=1207.5MB/s, minb=1207.5MB/s, maxb=1207.5MB/s, mint=14364msec, maxt=14364msec
+  WRITE: io=15424MB, aggrb=1073.9MB/s, minb=1073.9MB/s, maxb=1073.9MB/s, mint=14364msec, maxt=14364msec
+pagevec:4057222445 613796 
+
+Processors:64,Block Size:512m,iter:2
+   READ: io=17344MB, aggrb=1572.8MB/s, minb=1572.8MB/s, maxb=1572.8MB/s, mint=11028msec, maxt=11028msec
+  WRITE: io=15424MB, aggrb=1398.7MB/s, minb=1398.7MB/s, maxb=1398.7MB/s, mint=11028msec, maxt=11028msec
+pagevec:2739663980 308711 
+
+Processors:64,Block Size:512m,iter:3
+   READ: io=17344MB, aggrb=1218.7MB/s, minb=1218.7MB/s, maxb=1218.7MB/s, mint=14232msec, maxt=14232msec
+  WRITE: io=15424MB, aggrb=1083.8MB/s, minb=1083.8MB/s, maxb=1083.8MB/s, mint=14232msec, maxt=14232msec
+pagevec:3343409700 309696 
+
+Processors:128,Block Size:32m,iter:1
+   READ: io=2048.0MB, aggrb=3561.8MB/s, minb=3561.8MB/s, maxb=3561.8MB/s, mint=575msec, maxt=575msec
+  WRITE: io=2048.0MB, aggrb=3561.8MB/s, minb=3561.8MB/s, maxb=3561.8MB/s, mint=575msec, maxt=575msec
+pagevec:2020786929 83112 
+
+Processors:128,Block Size:32m,iter:2
+   READ: io=2048.0MB, aggrb=1646.4MB/s, minb=1646.4MB/s, maxb=1646.4MB/s, mint=1244msec, maxt=1244msec
+  WRITE: io=2048.0MB, aggrb=1646.4MB/s, minb=1646.4MB/s, maxb=1646.4MB/s, mint=1244msec, maxt=1244msec
+pagevec:1643052236 15723 
+
+Processors:128,Block Size:32m,iter:3
+   READ: io=2048.0MB, aggrb=2109.2MB/s, minb=2109.2MB/s, maxb=2109.2MB/s, mint=971msec, maxt=971msec
+  WRITE: io=2048.0MB, aggrb=2109.2MB/s, minb=2109.2MB/s, maxb=2109.2MB/s, mint=971msec, maxt=971msec
+pagevec:1882395002 32450 
+
+Processors:128,Block Size:64m,iter:1
+   READ: io=4224.0MB, aggrb=1378.7MB/s, minb=1378.7MB/s, maxb=1378.7MB/s, mint=3064msec, maxt=3064msec
+  WRITE: io=3968.0MB, aggrb=1295.4MB/s, minb=1295.4MB/s, maxb=1295.4MB/s, mint=3064msec, maxt=3064msec
+pagevec:2735961170 148366 
+
+Processors:128,Block Size:64m,iter:2
+   READ: io=4224.0MB, aggrb=2132.3MB/s, minb=2132.3MB/s, maxb=2132.3MB/s, mint=1981msec, maxt=1981msec
+  WRITE: io=3968.0MB, aggrb=2003.3MB/s, minb=2003.3MB/s, maxb=2003.3MB/s, mint=1981msec, maxt=1981msec
+pagevec:1914442937 49649 
+
+Processors:128,Block Size:64m,iter:3
+   READ: io=4224.0MB, aggrb=1763.7MB/s, minb=1763.7MB/s, maxb=1763.7MB/s, mint=2395msec, maxt=2395msec
+  WRITE: io=3968.0MB, aggrb=1656.9MB/s, minb=1656.9MB/s, maxb=1656.9MB/s, mint=2395msec, maxt=2395msec
+pagevec:1706993548 18922 
+
+Processors:128,Block Size:128m,iter:1
+   READ: io=8192.0MB, aggrb=3212.6MB/s, minb=3212.6MB/s, maxb=3212.6MB/s, mint=2550msec, maxt=2550msec
+  WRITE: io=8192.0MB, aggrb=3212.6MB/s, minb=3212.6MB/s, maxb=3212.6MB/s, mint=2550msec, maxt=2550msec
+pagevec:8602259891 302410 
+
+Processors:128,Block Size:128m,iter:2
+   READ: io=8192.0MB, aggrb=1412.2MB/s, minb=1412.2MB/s, maxb=1412.2MB/s, mint=5801msec, maxt=5801msec
+  WRITE: io=8192.0MB, aggrb=1412.2MB/s, minb=1412.2MB/s, maxb=1412.2MB/s, mint=5801msec, maxt=5801msec
+pagevec:4318824505 96070 
+
+Processors:128,Block Size:128m,iter:3
+   READ: io=8192.0MB, aggrb=2684.2MB/s, minb=2684.2MB/s, maxb=2684.2MB/s, mint=3052msec, maxt=3052msec
+  WRITE: io=8192.0MB, aggrb=2684.2MB/s, minb=2684.2MB/s, maxb=2684.2MB/s, mint=3052msec, maxt=3052msec
+pagevec:16853715561 151077 
+
+Processors:128,Block Size:256m,iter:1
+   READ: io=18432MB, aggrb=1490.4MB/s, minb=1490.4MB/s, maxb=1490.4MB/s, mint=12368msec, maxt=12368msec
+  WRITE: io=14336MB, aggrb=1159.2MB/s, minb=1159.2MB/s, maxb=1159.2MB/s, mint=12368msec, maxt=12368msec
+pagevec:6903618986 635040 
+
+Processors:128,Block Size:256m,iter:2
+   READ: io=18432MB, aggrb=1969.7MB/s, minb=1969.7MB/s, maxb=1969.7MB/s, mint=9358msec, maxt=9358msec
+  WRITE: io=14336MB, aggrb=1531.1MB/s, minb=1531.1MB/s, maxb=1531.1MB/s, mint=9358msec, maxt=9358msec
+pagevec:4259496288 329249 
+
+Processors:128,Block Size:256m,iter:3
+   READ: io=18432MB, aggrb=2187.6MB/s, minb=2187.6MB/s, maxb=2187.6MB/s, mint=8426msec, maxt=8426msec
+  WRITE: io=14336MB, aggrb=1701.5MB/s, minb=1701.5MB/s, maxb=1701.5MB/s, mint=8426msec, maxt=8426msec
+pagevec:17649268873 327641 
+
+Processors:256,Block Size:16m,iter:1
+   READ: io=1792.0MB, aggrb=2234.5MB/s, minb=2234.5MB/s, maxb=2234.5MB/s, mint=802msec, maxt=802msec
+  WRITE: io=2304.0MB, aggrb=2872.9MB/s, minb=2872.9MB/s, maxb=2872.9MB/s, mint=802msec, maxt=802msec
+pagevec:11290188687 90671 
+
+Processors:256,Block Size:16m,iter:2
+   READ: io=1792.0MB, aggrb=1086.7MB/s, minb=1086.7MB/s, maxb=1086.7MB/s, mint=1650msec, maxt=1650msec
+  WRITE: io=2304.0MB, aggrb=1396.4MB/s, minb=1396.4MB/s, maxb=1396.4MB/s, mint=1650msec, maxt=1650msec
+pagevec:10342684115 39353 
+
+Processors:256,Block Size:16m,iter:3
+   READ: io=1792.0MB, aggrb=1538.3MB/s, minb=1538.3MB/s, maxb=1538.3MB/s, mint=1165msec, maxt=1165msec
+  WRITE: io=2304.0MB, aggrb=1977.7MB/s, minb=1977.7MB/s, maxb=1977.7MB/s, mint=1165msec, maxt=1165msec
+pagevec:10817984604 52438 
+
+Processors:256,Block Size:32m,iter:1
+   READ: io=4096.0MB, aggrb=1970.2MB/s, minb=1970.2MB/s, maxb=1970.2MB/s, mint=2079msec, maxt=2079msec
+  WRITE: io=4096.0MB, aggrb=1970.2MB/s, minb=1970.2MB/s, maxb=1970.2MB/s, mint=2079msec, maxt=2079msec
+pagevec:12118042501 160316 
+
+Processors:256,Block Size:32m,iter:2
+   READ: io=4096.0MB, aggrb=1200.9MB/s, minb=1200.9MB/s, maxb=1200.9MB/s, mint=3411msec, maxt=3411msec
+  WRITE: io=4096.0MB, aggrb=1200.9MB/s, minb=1200.9MB/s, maxb=1200.9MB/s, mint=3411msec, maxt=3411msec
+pagevec:13029408433 83749 
+
+Processors:256,Block Size:32m,iter:3
+   READ: io=4096.0MB, aggrb=2008.9MB/s, minb=2008.9MB/s, maxb=2008.9MB/s, mint=2039msec, maxt=2039msec
+  WRITE: io=4096.0MB, aggrb=2008.9MB/s, minb=2008.9MB/s, maxb=2008.9MB/s, mint=2039msec, maxt=2039msec
+pagevec:11444625394 67778 
+
+Processors:256,Block Size:64m,iter:1
+   READ: io=8448.0MB, aggrb=2152.1MB/s, minb=2152.1MB/s, maxb=2152.1MB/s, mint=3924msec, maxt=3924msec
+  WRITE: io=7936.0MB, aggrb=2022.5MB/s, minb=2022.5MB/s, maxb=2022.5MB/s, mint=3924msec, maxt=3924msec
+pagevec:13682773455 312392 
+
+Processors:256,Block Size:64m,iter:2
+   READ: io=8448.0MB, aggrb=1126.5MB/s, minb=1126.5MB/s, maxb=1126.5MB/s, mint=7500msec, maxt=7500msec
+  WRITE: io=7936.0MB, aggrb=1058.2MB/s, minb=1058.2MB/s, maxb=1058.2MB/s, mint=7500msec, maxt=7500msec
+pagevec:17779567865 161198 
+
+Processors:256,Block Size:64m,iter:3
+   READ: io=8448.0MB, aggrb=1005.2MB/s, minb=1005.2MB/s, maxb=1005.2MB/s, mint=8405msec, maxt=8405msec
+  WRITE: io=7936.0MB, aggrb=966860KB/s, minb=966860KB/s, maxb=966860KB/s, mint=8405msec, maxt=8405msec
+pagevec:11896366479 149349 
+
+Processors:256,Block Size:128m,iter:1
+   READ: io=16384MB, aggrb=2609.4MB/s, minb=2609.4MB/s, maxb=2609.4MB/s, mint=6279msec, maxt=6279msec
+  WRITE: io=16384MB, aggrb=2609.4MB/s, minb=2609.4MB/s, maxb=2609.4MB/s, mint=6279msec, maxt=6279msec
+pagevec:111351926969 600828 
+
+Processors:256,Block Size:128m,iter:2
+   READ: io=16384MB, aggrb=2730.7MB/s, minb=2730.7MB/s, maxb=2730.7MB/s, mint=6000msec, maxt=6000msec
+  WRITE: io=16384MB, aggrb=2730.7MB/s, minb=2730.7MB/s, maxb=2730.7MB/s, mint=6000msec, maxt=6000msec
+pagevec:33043610364 295859 
+
+Processors:256,Block Size:128m,iter:3
+   READ: io=16384MB, aggrb=2736.7MB/s, minb=2736.7MB/s, maxb=2736.7MB/s, mint=5987msec, maxt=5987msec
+  WRITE: io=16384MB, aggrb=2736.7MB/s, minb=2736.7MB/s, maxb=2736.7MB/s, mint=5987msec, maxt=5987msec
+pagevec:154697551211 300450 
