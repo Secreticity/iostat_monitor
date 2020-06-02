@@ -1,30 +1,30 @@
 IOR-3.0.1: MPI Coordinated Test of Parallel I/O
 
-Began: Tue Jun  2 16:53:25 2020
-Command line used: ior -w -t 1m -b 128m -F -k -o /mnt/pm963/readfile
+Began: Tue Jun  2 19:13:10 2020
+Command line used: ior -w -t 1m -b 64m -F -k -o /mnt/pm963/readfile
 Machine: Linux knl03.kisti.re.kr
 
-Test 0 started: Tue Jun  2 16:53:25 2020
+Test 0 started: Tue Jun  2 19:13:10 2020
 Summary:
 	api                = POSIX
 	test filename      = /mnt/pm963/readfile
 	access             = file-per-process
 	ordering in a file = sequential offsets
 	ordering inter file= no tasks offsets
-	clients            = 128 (128 per node)
+	clients            = 224 (224 per node)
 	repetitions        = 1
 	xfersize           = 1 MiB
-	blocksize          = 128 MiB
-	aggregate filesize = 16 GiB
+	blocksize          = 64 MiB
+	aggregate filesize = 14 GiB
 
 access    bw(MiB/s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
 ------    ---------  ---------- ---------  --------   --------   --------   --------   ----
-write     8692       131072     1024.00    0.027807   1.88       0.078059   1.88       0   
+write     8181       65536      1024.00    0.051943   1.75       0.164124   1.75       0   
 
-Max Write: 8692.15 MiB/sec (9114.38 MB/sec)
+Max Write: 8181.31 MiB/sec (8578.73 MB/sec)
 
 Summary of all tests:
 Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev    Mean(s) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt blksiz xsize aggsize API RefNum
-write        8692.15    8692.15    8692.15       0.00    1.88492 0 128 128 1 1 0 1 0 0 1 134217728 1048576 17179869184 POSIX 0
+write        8181.31    8181.31    8181.31       0.00    1.75229 0 224 224 1 1 0 1 0 0 1 67108864 1048576 15032385536 POSIX 0
 
-Finished: Tue Jun  2 16:53:27 2020
+Finished: Tue Jun  2 19:13:12 2020
