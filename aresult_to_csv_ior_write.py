@@ -5,11 +5,11 @@ import re
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "out_orgmix_ior_w"
+save_name = "out_mod16mix_ior_w"
 #save_name = "org_npb"
 
 # File name of the iostat/throughput result
-out_file = "out_orgmix"
+out_file = "out_mod16mix"
 #-------------------------------------------------
 '''
 state = "INIT"

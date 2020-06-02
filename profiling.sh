@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_orgmix.txt'
+filepath='/home/kau/jwbang/200320/out_mod16mix.txt'
 
-annot="out_orgmix"
+annot="out_mod16mix"
 path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 #annot="MODIFIED2"
