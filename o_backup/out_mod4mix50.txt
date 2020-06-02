@@ -1,0 +1,73 @@
+out_mod4mix50
+
+Processors:32,Block Size:128m,iter:1
+   READ: io=2048.0MB, aggrb=4154.2MB/s, minb=4154.2MB/s, maxb=4154.2MB/s, mint=493msec, maxt=493msec
+  WRITE: io=2048.0MB, aggrb=4154.2MB/s, minb=4154.2MB/s, maxb=4154.2MB/s, mint=493msec, maxt=493msec
+
+Processors:32,Block Size:128m,iter:2
+   READ: io=2048.0MB, aggrb=908251KB/s, minb=908251KB/s, maxb=908251KB/s, mint=2309msec, maxt=2309msec
+  WRITE: io=2048.0MB, aggrb=908251KB/s, minb=908251KB/s, maxb=908251KB/s, mint=2309msec, maxt=2309msec
+
+Processors:32,Block Size:128m,iter:3
+   READ: io=2048.0MB, aggrb=1060.5MB/s, minb=1060.5MB/s, maxb=1060.5MB/s, mint=1932msec, maxt=1932msec
+  WRITE: io=2048.0MB, aggrb=1060.5MB/s, minb=1060.5MB/s, maxb=1060.5MB/s, mint=1932msec, maxt=1932msec
+
+Processors:32,Block Size:256m,iter:1
+   READ: io=4608.0MB, aggrb=2540.3MB/s, minb=2540.3MB/s, maxb=2540.3MB/s, mint=1814msec, maxt=1814msec
+  WRITE: io=3584.0MB, aggrb=1975.8MB/s, minb=1975.8MB/s, maxb=1975.8MB/s, mint=1814msec, maxt=1814msec
+pagevec:2401167432 44800
+
+Processors:32,Block Size:256m,iter:2
+   READ: io=4608.0MB, aggrb=983040KB/s, minb=983040KB/s, maxb=983040KB/s, mint=4800msec, maxt=4800msec
+  WRITE: io=3584.0MB, aggrb=764586KB/s, minb=764586KB/s, maxb=764586KB/s, mint=4800msec, maxt=4800msec
+
+Processors:32,Block Size:256m,iter:3
+   READ: io=4608.0MB, aggrb=307500KB/s, minb=307500KB/s, maxb=307500KB/s, mint=15345msec, maxt=15345msec
+  WRITE: io=3584.0MB, aggrb=239166KB/s, minb=239166KB/s, maxb=239166KB/s, mint=15345msec, maxt=15345msec
+
+Processors:32,Block Size:512m,iter:1
+   READ: io=8672.0MB, aggrb=2320.6MB/s, minb=2320.6MB/s, maxb=2320.6MB/s, mint=3737msec, maxt=3737msec
+  WRITE: io=7712.0MB, aggrb=2063.8MB/s, minb=2063.8MB/s, maxb=2063.8MB/s, mint=3737msec, maxt=3737msec
+
+Processors:32,Block Size:512m,iter:2
+   READ: io=8672.0MB, aggrb=27327KB/s, minb=27327KB/s, maxb=27327KB/s, mint=324954msec, maxt=324954msec
+  WRITE: io=7712.0MB, aggrb=24302KB/s, minb=24302KB/s, maxb=24302KB/s, mint=324954msec, maxt=324954msec
+
+Processors:32,Block Size:512m,iter:3
+   READ: io=8672.0MB, aggrb=96194KB/s, minb=96194KB/s, maxb=96194KB/s, mint=92314msec, maxt=92314msec
+  WRITE: io=7712.0MB, aggrb=85545KB/s, minb=85545KB/s, maxb=85545KB/s, mint=92314msec, maxt=92314msec
+
+Processors:32,Block Size:1g,iter:1
+   READ: io=17472MB, aggrb=1326.6MB/s, minb=1326.6MB/s, maxb=1326.6MB/s, mint=13171msec, maxt=13171msec
+  WRITE: io=15296MB, aggrb=1161.4MB/s, minb=1161.4MB/s, maxb=1161.4MB/s, mint=13171msec, maxt=13171msec
+
+Processors:32,Block Size:1g,iter:2
+   READ: io=17472MB, aggrb=1562.1MB/s, minb=1562.1MB/s, maxb=1562.1MB/s, mint=11185msec, maxt=11185msec
+  WRITE: io=15296MB, aggrb=1367.6MB/s, minb=1367.6MB/s, maxb=1367.6MB/s, mint=11185msec, maxt=11185msec
+
+Processors:32,Block Size:1g,iter:3
+   READ: io=17472MB, aggrb=72557KB/s, minb=72557KB/s, maxb=72557KB/s, mint=246582msec, maxt=246582msec
+  WRITE: io=15296MB, aggrb=63520KB/s, minb=63520KB/s, maxb=63520KB/s, mint=246582msec, maxt=246582msec
+
+Processors:64,Block Size:64m,iter:1
+   READ: io=2112.0MB, aggrb=2827.4MB/s, minb=2827.4MB/s, maxb=2827.4MB/s, mint=747msec, maxt=747msec
+  WRITE: io=1984.0MB, aggrb=2655.1MB/s, minb=2655.1MB/s, maxb=2655.1MB/s, mint=747msec, maxt=747msec
+
+Processors:64,Block Size:64m,iter:2
+   READ: io=2112.0MB, aggrb=23188KB/s, minb=23188KB/s, maxb=23188KB/s, mint=93266msec, maxt=93266msec
+  WRITE: io=1984.0MB, aggrb=21783KB/s, minb=21783KB/s, maxb=21783KB/s, mint=93266msec, maxt=93266msec
+pagevec:148764896431 256195
+
+Processors:64,Block Size:64m,iter:3
+   READ: io=2112.0MB, aggrb=22523KB/s, minb=22523KB/s, maxb=22523KB/s, mint=96020msec, maxt=96020msec
+  WRITE: io=1984.0MB, aggrb=21158KB/s, minb=21158KB/s, maxb=21158KB/s, mint=96020msec, maxt=96020msec
+
+Processors:64,Block Size:128m,iter:1
+   READ: io=4096.0MB, aggrb=162532KB/s, minb=162532KB/s, maxb=162532KB/s, mint=25806msec, maxt=25806msec
+  WRITE: io=4096.0MB, aggrb=162532KB/s, minb=162532KB/s, maxb=162532KB/s, mint=25806msec, maxt=25806msec
+
+Processors:64,Block Size:128m,iter:2
+   READ: io=4096.0MB, aggrb=39441KB/s, minb=39441KB/s, maxb=39441KB/s, mint=106343msec, maxt=106343msec
+  WRITE: io=4096.0MB, aggrb=39441KB/s, minb=39441KB/s, maxb=39441KB/s, mint=106343msec, maxt=106343msec
+
+Processors:64,Block Size:128m,iter:3

@@ -1,13 +1,14 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_orgmix90.txt'
+filepath='/home/kau/jwbang/200320/out_mod4mix256.txt'
+mixrw=50
 
-annot="out_orgmix90"
-path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
+annot="out_mod4mix256"
+#path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 #annot="MODIFIED2"
-#path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
+path="/home/kau/jwbang/linux-5.2.8_final/mymodule/mymodule.ko"
 
 logpath='/home/kau/jwbang/200320/log_folder/log'
 #------------------------------
@@ -55,7 +56,7 @@ do
       echo 'Processors:'${proc}',Block Size:'${b_size}',iter:'${iter} >> ${filepath}
       sleep 0.1
 #      mpirun -np ${proc} ior -w -r -t 1m -b ${b_size} -F -o /mnt/pm963/testfile | grep 'Max Read' >> ${filepath}
-      fio --directory=/mnt/pm963 --name=testfile --direct=0 --rw=readwrite --bs=1m --size=${b_size} --numjobs=${proc} --group_reporting --rwmixwrite 50 | grep '[DE]: io' >> ${filepath}
+      fio --directory=/mnt/pm963 --name=testfile --direct=0 --rw=readwrite --bs=1m --size=${b_size} --numjobs=${proc} --group_reporting --rwmixwrite ${mixrw} | grep '[DE]: io' >> ${filepath}
       rmmod mymodule 
       dmesg | grep 'add_pagevec' | tail -1 | cut -d_ -f2 >> $filepath
       sh /home/kau/jwbang/drop-cache.sh

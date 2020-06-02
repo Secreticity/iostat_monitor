@@ -4,11 +4,11 @@ import pandas as pd
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "out_orgmix90_hacc"
+save_name = "out_mod4mix256_hacc"
 #save_name = "org_npb"
 
 # File name of the iostat/throughput result
-out_file = "out_orgmix90"
+out_file = "out_mod4mix256"
 #-------------------------------------------------
 
 state = "INIT"

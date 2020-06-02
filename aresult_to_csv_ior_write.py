@@ -5,13 +5,13 @@ import re
 #---------------- Save Settings ------------------
 
 # File name to save DataFrame into csv
-save_name = "out_orgmix90_ior_w"
+save_name = "out_mod4mix256_ior_w"
 #save_name = "org_npb"
 
 # File name of the iostat/throughput result
-out_file = "out_orgmix90"
+out_file = "out_mod4mix256"
 #-------------------------------------------------
-
+'''
 state = "INIT"
 listname = []
 header = ""
@@ -72,12 +72,18 @@ for line in lines:
         if(line.find("end---") != -1):
             state = "END"
         else:
-            p_usr += float(line.split()[1])
-            p_nice += float(line.split()[2])
-            p_system += float(line.split()[3])
-            p_iowait += float(line.split()[4])
-            p_steal += float(line.split()[5])
-            p_idle += float(line.split()[6])
+            #p_usr += float(line.split()[1])
+            #p_nice += float(line.split()[2])
+            #p_system += float(line.split()[3])
+            #p_iowait += float(line.split()[4])
+            #p_steal += float(line.split()[5])
+            #p_idle += float(line.split()[6])
+            p_usr += float(line.split()[3])
+            p_nice += float(line.split()[4])
+            p_system += float(line.split()[5])
+            p_iowait += float(line.split()[6])
+            p_steal += float(line.split()[7])
+            p_idle += float(line.split()[8])
             linecount += 1
     else:
         print("exception error")
@@ -85,7 +91,7 @@ f.close()
 
 temp_df = pd.DataFrame({header:[round(p_usr/linecount,2),round(p_nice/linecount,2),round(p_system/linecount,2),round(p_iowait/linecount,2),round(p_steal/linecount,2),round(p_idle/linecount,2)]},index=index)
 iostat_df = pd.concat([iostat_df,temp_df],axis=1)
-
+'''
 #-------------------------------- iostat reader DONE ----------
 
 index = ['throughputR', 'throughputW', 'latency(x1M)', 'm_count']
@@ -166,4 +172,6 @@ temp_df = pd.DataFrame({column_n:[round(p_speedr/3,2),round(p_speedw/3,2),round(
 data_df = pd.concat([data_df,temp_df],axis=1)
 
 #-------------------------------- Throughput & Latency DONE ---------
-r = pd.concat([iostat_df,data_df],axis=0,sort=False).to_csv("result/"+save_name+".csv", mode='w')
+#r = pd.concat([iostat_df,data_df],axis=0,sort=False).to_csv("result/"+save_name+".csv", mode='w')
+r = data_df.to_csv("result/"+save_name+".csv", mode='w')
+
