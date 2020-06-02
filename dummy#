@@ -1,10 +1,10 @@
 IOR-3.0.1: MPI Coordinated Test of Parallel I/O
 
-Began: Tue Jun  2 19:13:10 2020
+Began: Tue Jun  2 21:52:42 2020
 Command line used: ior -w -t 1m -b 64m -F -k -o /mnt/pm963/readfile
 Machine: Linux knl03.kisti.re.kr
 
-Test 0 started: Tue Jun  2 19:13:10 2020
+Test 0 started: Tue Jun  2 21:52:42 2020
 Summary:
 	api                = POSIX
 	test filename      = /mnt/pm963/readfile
@@ -19,12 +19,12 @@ Summary:
 
 access    bw(MiB/s)  block(KiB) xfer(KiB)  open(s)    wr/rd(s)   close(s)   total(s)   iter
 ------    ---------  ---------- ---------  --------   --------   --------   --------   ----
-write     8181       65536      1024.00    0.051943   1.75       0.164124   1.75       0   
+write     5336       65536      1024.00    0.051265   2.69       0.216207   2.69       0   
 
-Max Write: 8181.31 MiB/sec (8578.73 MB/sec)
+Max Write: 5336.03 MiB/sec (5595.23 MB/sec)
 
 Summary of all tests:
 Operation   Max(MiB)   Min(MiB)  Mean(MiB)     StdDev    Mean(s) Test# #Tasks tPN reps fPP reord reordoff reordrand seed segcnt blksiz xsize aggsize API RefNum
-write        8181.31    8181.31    8181.31       0.00    1.75229 0 224 224 1 1 0 1 0 0 1 67108864 1048576 15032385536 POSIX 0
+write        5336.03    5336.03    5336.03       0.00    2.68664 0 224 224 1 1 0 1 0 0 1 67108864 1048576 15032385536 POSIX 0
 
-Finished: Tue Jun  2 19:13:12 2020
+Finished: Tue Jun  2 21:52:45 2020
