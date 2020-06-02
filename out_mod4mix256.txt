@@ -1,0 +1,133 @@
+out_mod4mix256
+
+Processors:256,Block Size:16m,iter:1
+Max Read:  21373.31 MiB/sec (22411.54 MB/sec)
+Max Write: 6090.68 MiB/sec (6386.54 MB/sec)
+
+Processors:256,Block Size:16m,iter:2
+Max Read:  28194.04 MiB/sec (29563.59 MB/sec)
+Max Write: 6179.55 MiB/sec (6479.73 MB/sec)
+
+Processors:256,Block Size:16m,iter:3
+Max Read:  23834.98 MiB/sec (24992.78 MB/sec)
+Max Write: 6186.23 MiB/sec (6486.74 MB/sec)
+
+Processors:256,Block Size:16m,iter:1
+Max Read:  23654.93 MiB/sec (24804.00 MB/sec)
+Max Write: 4315.64 MiB/sec (4525.28 MB/sec)
+
+Processors:256,Block Size:16m,iter:2
+Max Read:  22574.20 MiB/sec (23670.76 MB/sec)
+Max Write: 4202.77 MiB/sec (4406.92 MB/sec)
+
+Processors:256,Block Size:16m,iter:3
+Max Read:  24321.00 MiB/sec (25502.42 MB/sec)
+Max Write: 4329.55 MiB/sec (4539.86 MB/sec)
+
+Processors:256,Block Size:16m,iter:1
+Max Write: 7078.67 MiB/sec (7422.52 MB/sec)
+Max Read:  36943.78 MiB/sec (38738.36 MB/sec)
+
+Processors:256,Block Size:16m,iter:2
+Max Write: 6508.77 MiB/sec (6824.94 MB/sec)
+Max Read:  36663.82 MiB/sec (38444.80 MB/sec)
+
+Processors:256,Block Size:16m,iter:3
+Max Write: 7078.74 MiB/sec (7422.59 MB/sec)
+Max Read:  36612.92 MiB/sec (38391.43 MB/sec)
+
+Processors:256,Block Size:32m,iter:1
+Max Read:  44777.49 MiB/sec (46952.60 MB/sec)
+Max Write: 6712.11 MiB/sec (7038.15 MB/sec)
+
+Processors:256,Block Size:32m,iter:2
+Max Read:  30628.24 MiB/sec (32116.04 MB/sec)
+Max Write: 6753.61 MiB/sec (7081.68 MB/sec)
+
+Processors:256,Block Size:32m,iter:3
+Max Read:  34231.58 MiB/sec (35894.41 MB/sec)
+Max Write: 6732.51 MiB/sec (7059.55 MB/sec)
+
+Processors:256,Block Size:32m,iter:1
+Max Read:  40802.83 MiB/sec (42784.87 MB/sec)
+Max Write: 5796.67 MiB/sec (6078.25 MB/sec)
+
+Processors:256,Block Size:32m,iter:2
+Max Read:  37206.56 MiB/sec (39013.91 MB/sec)
+Max Write: 5675.01 MiB/sec (5950.68 MB/sec)
+
+Processors:256,Block Size:32m,iter:3
+Max Read:  38534.57 MiB/sec (40406.43 MB/sec)
+Max Write: 5711.60 MiB/sec (5989.05 MB/sec)
+
+Processors:256,Block Size:32m,iter:1
+Max Write: 7679.22 MiB/sec (8052.25 MB/sec)
+Max Read:  56028.48 MiB/sec (58750.12 MB/sec)
+
+Processors:256,Block Size:32m,iter:2
+Max Write: 7723.16 MiB/sec (8098.32 MB/sec)
+Max Read:  55452.46 MiB/sec (58146.12 MB/sec)
+
+Processors:256,Block Size:32m,iter:3
+Max Write: 8097.92 MiB/sec (8491.29 MB/sec)
+Max Read:  55428.74 MiB/sec (58121.25 MB/sec)
+
+Processors:256,Block Size:64m,iter:1
+Max Read:  41498.87 MiB/sec (43514.72 MB/sec)
+Max Write: 7079.24 MiB/sec (7423.12 MB/sec)
+
+Processors:256,Block Size:64m,iter:2
+Max Read:  47915.38 MiB/sec (50242.92 MB/sec)
+Max Write: 7064.97 MiB/sec (7408.16 MB/sec)
+
+Processors:256,Block Size:64m,iter:3
+Max Read:  47107.63 MiB/sec (49395.93 MB/sec)
+Max Write: 7092.63 MiB/sec (7437.16 MB/sec)
+
+Processors:256,Block Size:64m,iter:1
+Max Read:  54781.26 MiB/sec (57442.32 MB/sec)
+Max Write: 6974.53 MiB/sec (7313.33 MB/sec)
+
+Processors:256,Block Size:64m,iter:2
+Max Read:  53353.05 MiB/sec (55944.73 MB/sec)
+Max Write: 6680.48 MiB/sec (7004.99 MB/sec)
+
+Processors:256,Block Size:64m,iter:3
+Max Read:  56608.16 MiB/sec (59357.96 MB/sec)
+Max Write: 7047.77 MiB/sec (7390.13 MB/sec)
+
+Processors:256,Block Size:64m,iter:1
+Max Write: 8940.61 MiB/sec (9374.91 MB/sec)
+Max Read:  66068.80 MiB/sec (69278.15 MB/sec)
+
+Processors:256,Block Size:64m,iter:2
+Max Write: 8193.64 MiB/sec (8591.66 MB/sec)
+Max Read:  66313.33 MiB/sec (69534.56 MB/sec)
+
+Processors:256,Block Size:64m,iter:3
+Max Write: 8237.94 MiB/sec (8638.10 MB/sec)
+Max Read:  66998.20 MiB/sec (70252.70 MB/sec)
+
+Processors:256,Block Size:128m,iter:1
+Max Read:  53452.24 MiB/sec (56048.73 MB/sec)
+Max Write: 7478.34 MiB/sec (7841.61 MB/sec)
+
+Processors:256,Block Size:128m,iter:2
+Max Read:  54782.05 MiB/sec (57443.14 MB/sec)
+Max Write: 7300.88 MiB/sec (7655.52 MB/sec)
+
+Processors:256,Block Size:128m,iter:3
+Max Read:  48880.60 MiB/sec (51255.02 MB/sec)
+Max Write: 7249.30 MiB/sec (7601.45 MB/sec)
+
+Processors:256,Block Size:128m,iter:1
+Max Read:  59078.26 MiB/sec (61948.04 MB/sec)
+Max Write: 7533.87 MiB/sec (7899.84 MB/sec)
+
+Processors:256,Block Size:128m,iter:2
+Max Read:  31381.75 MiB/sec (32906.15 MB/sec)
+Max Write: 7465.76 MiB/sec (7828.42 MB/sec)
+
+Processors:256,Block Size:128m,iter:3
+Max Read:  49872.72 MiB/sec (52295.34 MB/sec)
+Max Write: 7323.92 MiB/sec (7679.68 MB/sec)

@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #------------ SETTING VARIABLES
-filepath='/home/kau/jwbang/200320/out_mod4mix256.txt'
+filepath='/home/kau/jwbang/200320/out_mod16mix.txt'
 
-annot="out_mod4mix256"
+annot="out_mod16mix"
 #path="/home/kau/jwbang/linux-5.2.8_org/mymodule/mymodule.ko"
 
 #annot="MODIFIED2"
@@ -30,7 +30,7 @@ echo ${annot} > ${filepath}
 sleep 0.1
 
 # ORIGINAL
-for proc in 256
+for proc in 128 256
 do
   case $proc in
 #    8) size_order="512m 1g 2g 4g";;
@@ -40,7 +40,7 @@ do
 #    128) size_order="32m 64m 128m 256m";;
 #    256) size_order="16m 32m 64m 128m";;
     128) size_order="32m 64m 128m 256m";;
-    256) size_order="16m 32m 64m 128m";;
+    256) size_order="16m 32m 64m";; # 128m";;
   esac
   for b_size in $size_order
   do
